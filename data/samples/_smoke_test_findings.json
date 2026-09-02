@@ -1,0 +1,204 @@
+{
+  "fx": {
+    "BRL": {
+      "ok": true,
+      "returned": 470,
+      "missing": 199,
+      "longest_gap": 4
+    },
+    "ZAR": {
+      "ok": true,
+      "returned": 470,
+      "missing": 199,
+      "longest_gap": 4
+    }
+  },
+  "holidays": {
+    "BR2017": 14,
+    "BR2018": 14,
+    "ZA2017": 12,
+    "ZA2018": 12
+  },
+  "weather": {
+    "BR-AC": {
+      "days": 669,
+      "nulls": 0,
+      "tz": "America/Rio_Branco"
+    },
+    "BR-AL": {
+      "days": 669,
+      "nulls": 0,
+      "tz": "America/Maceio"
+    },
+    "BR-AP": {
+      "days": 669,
+      "nulls": 0,
+      "tz": "America/Belem"
+    },
+    "BR-AM": {
+      "days": 669,
+      "nulls": 0,
+      "tz": "America/Manaus"
+    },
+    "BR-BA": {
+      "days": 669,
+      "nulls": 0,
+      "tz": "America/Bahia"
+    },
+    "BR-CE": {
+      "days": 669,
+      "nulls": 0,
+      "tz": "America/Fortaleza"
+    },
+    "BR-DF": {
+      "days": 669,
+      "nulls": 0,
+      "tz": "America/Sao_Paulo"
+    },
+    "BR-ES": {
+      "days": 669,
+      "nulls": 0,
+      "tz": "America/Sao_Paulo"
+    },
+    "BR-GO": {
+      "days": 669,
+      "nulls": 0,
+      "tz": "America/Sao_Paulo"
+    },
+    "BR-MA": {
+      "days": 669,
+      "nulls": 0,
+      "tz": "America/Fortaleza"
+    },
+    "BR-MT": {
+      "days": 669,
+      "nulls": 0,
+      "tz": "America/Cuiaba"
+    },
+    "BR-MS": {
+      "days": 669,
+      "nulls": 0,
+      "tz": "America/Campo_Grande"
+    },
+    "BR-MG": {
+      "days": 669,
+      "nulls": 0,
+      "tz": "America/Sao_Paulo"
+    },
+    "BR-PA": {
+      "days": 669,
+      "nulls": 0,
+      "tz": "America/Belem"
+    },
+    "BR-PB": {
+      "days": 669,
+      "nulls": 0,
+      "tz": "America/Fortaleza"
+    },
+    "BR-PR": {
+      "days": 669,
+      "nulls": 0,
+      "tz": "America/Sao_Paulo"
+    },
+    "BR-PE": {
+      "days": 669,
+      "nulls": 0,
+      "tz": "America/Recife"
+    },
+    "BR-PI": {
+      "days": 669,
+      "nulls": 0,
+      "tz": "America/Fortaleza"
+    },
+    "BR-RJ": {
+      "days": 669,
+      "nulls": 0,
+      "tz": "America/Sao_Paulo"
+    },
+    "BR-RN": {
+      "days": 669,
+      "nulls": 0,
+      "tz": "America/Fortaleza"
+    },
+    "BR-RS": {
+      "days": 669,
+      "nulls": 0,
+      "tz": "America/Sao_Paulo"
+    },
+    "BR-RO": {
+      "days": 669,
+      "nulls": 0,
+      "tz": "America/Porto_Velho"
+    },
+    "BR-RR": {
+      "days": 669,
+      "nulls": 0,
+      "tz": "America/Boa_Vista"
+    },
+    "BR-SC": {
+      "days": 669,
+      "nulls": 0,
+      "tz": "America/Sao_Paulo"
+    },
+    "BR-SP": {
+      "days": 669,
+      "nulls": 0,
+      "tz": "America/Sao_Paulo"
+    },
+    "BR-SE": {
+      "days": 669,
+      "nulls": 0,
+      "tz": "America/Maceio"
+    },
+    "BR-TO": {
+      "days": 669,
+      "nulls": 0,
+      "tz": "America/Araguaina"
+    },
+    "ZA-GP": {
+      "days": 669,
+      "nulls": 0,
+      "tz": "Africa/Johannesburg"
+    },
+    "ZA-WC": {
+      "days": 669,
+      "nulls": 0,
+      "tz": "Africa/Johannesburg"
+    },
+    "ZA-KZN": {
+      "days": 669,
+      "nulls": 0,
+      "tz": "Africa/Johannesburg"
+    },
+    "ZA-EC": {
+      "days": 669,
+      "nulls": 0,
+      "tz": "Africa/Johannesburg"
+    },
+    "ZA-FS": {
+      "days": 669,
+      "nulls": 0,
+      "tz": "Africa/Johannesburg"
+    },
+    "ZA-LP": {
+      "days": 669,
+      "nulls": 0,
+      "tz": "Africa/Johannesburg"
+    },
+    "ZA-MP": {
+      "days": 669,
+      "nulls": 0,
+      "tz": "Africa/Johannesburg"
+    },
+    "ZA-NW": {
+      "days": 669,
+      "nulls": 0,
+      "tz": "Africa/Johannesburg"
+    },
+    "ZA-NC": {
+      "days": 669,
+      "nulls": 0,
+      "tz": "Africa/Johannesburg"
+    }
+  }
+}

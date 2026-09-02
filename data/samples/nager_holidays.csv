@@ -1,0 +1,53 @@
+country_code,holiday_date,local_name,name,is_global,counties,types
+BR,2017-01-01,Confraternização Universal,New Year's Day,True,,Public
+BR,2017-02-27,Carnaval,Carnival,True,,"Bank,Optional"
+BR,2017-02-28,Carnaval,Carnival,True,,"Bank,Optional"
+BR,2017-04-14,Sexta-feira Santa,Good Friday,True,,Public
+BR,2017-04-16,Domingo de Páscoa,Easter Sunday,True,,Public
+BR,2017-04-21,Dia de Tiradentes,Tiradentes,True,,Public
+BR,2017-05-01,Dia do Trabalhador,Labour Day,True,,Public
+BR,2017-06-15,Corpus Christi,Corpus Christi,True,,Public
+BR,2017-07-09,Revolução Constitucionalista de 1932,Constitutionalist Revolution of 1932,False,BR-SP,Public
+BR,2017-09-07,Dia da Independência,Independence Day,True,,Public
+BR,2017-10-12,Nossa Senhora Aparecida,Our Lady of Aparecida,True,,Public
+BR,2017-11-02,Dia de Finados,All Souls' Day,True,,Public
+BR,2017-11-15,Proclamação da República,Republic Proclamation Day,True,,Public
+BR,2017-12-25,Natal,Christmas Day,True,,Public
+BR,2018-01-01,Confraternização Universal,New Year's Day,True,,Public
+BR,2018-02-12,Carnaval,Carnival,True,,"Bank,Optional"
+BR,2018-02-13,Carnaval,Carnival,True,,"Bank,Optional"
+BR,2018-03-30,Sexta-feira Santa,Good Friday,True,,Public
+BR,2018-04-01,Domingo de Páscoa,Easter Sunday,True,,Public
+BR,2018-04-21,Dia de Tiradentes,Tiradentes,True,,Public
+BR,2018-05-01,Dia do Trabalhador,Labour Day,True,,Public
+BR,2018-05-31,Corpus Christi,Corpus Christi,True,,Public
+BR,2018-07-09,Revolução Constitucionalista de 1932,Constitutionalist Revolution of 1932,False,BR-SP,Public
+BR,2018-09-07,Dia da Independência,Independence Day,True,,Public
+BR,2018-10-12,Nossa Senhora Aparecida,Our Lady of Aparecida,True,,Public
+BR,2018-11-02,Dia de Finados,All Souls' Day,True,,Public
+BR,2018-11-15,Proclamação da República,Republic Proclamation Day,True,,Public
+BR,2018-12-25,Natal,Christmas Day,True,,Public
+ZA,2017-01-02,New Year's Day,New Year's Day,True,,Public
+ZA,2017-03-21,Human Rights Day,Human Rights Day,True,,Public
+ZA,2017-04-14,Good Friday,Good Friday,True,,Public
+ZA,2017-04-17,Family Day,Family Day,True,,Public
+ZA,2017-04-27,Freedom Day,Freedom Day,True,,Public
+ZA,2017-05-01,Workers' Day,Workers' Day,True,,Public
+ZA,2017-06-16,Youth Day,Youth Day,True,,Public
+ZA,2017-08-09,National Women's Day,National Women's Day,True,,Public
+ZA,2017-09-25,Heritage Day,Heritage Day,True,,Public
+ZA,2017-12-16,Day of Reconciliation,Day of Reconciliation,True,,Public
+ZA,2017-12-25,Christmas Day,Christmas Day,True,,Public
+ZA,2017-12-26,St. Stephen's Day,Day of Goodwill,True,,Public
+ZA,2018-01-01,New Year's Day,New Year's Day,True,,Public
+ZA,2018-03-21,Human Rights Day,Human Rights Day,True,,Public
+ZA,2018-03-30,Good Friday,Good Friday,True,,Public
+ZA,2018-04-02,Family Day,Family Day,True,,Public
+ZA,2018-04-27,Freedom Day,Freedom Day,True,,Public
+ZA,2018-05-01,Workers' Day,Workers' Day,True,,Public
+ZA,2018-06-16,Youth Day,Youth Day,True,,Public
+ZA,2018-08-09,National Women's Day,National Women's Day,True,,Public
+ZA,2018-09-24,Heritage Day,Heritage Day,True,,Public
+ZA,2018-12-17,Day of Reconciliation,Day of Reconciliation,True,,Public
+ZA,2018-12-25,Christmas Day,Christmas Day,True,,Public
+ZA,2018-12-26,St. Stephen's Day,Day of Goodwill,True,,Public

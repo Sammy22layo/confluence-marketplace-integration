@@ -1,0 +1,801 @@
+snapshot_date;vendor_code;vendor_name;vendor_grade;town;province;postcode;comm_pct;active_flag
+01/03/2018;ZAV00001;Jacarandá Shop.;BRONZE;Bloemfontein;Free State;9300;18.0;Y
+01/03/2018;ZAV00002;Verde Bras.;SILVER;Polokwane;Limpopo;700;15.0;Y
+01/03/2018;ZAV00003;GrupoVitória;SILVER;Pietermaritzburg;KwaZulu-Natal;3201;15.0;Y
+01/03/2018;ZAV00004;Horizonte Brasil (Pty) Ltd;BRONZE;Nelspruit;Mpumalanga;1200;18.0;Y
+01/03/2018;ZAV00005;Arte Vitóra;BRONZE;Pretoria;Gauteng;1;18.0;Y
+01/03/2018;ZAV00006;Marfim Expres;BRONZE;Centurion;Gauteng;157;18.0;Y
+01/03/2018;ZAV00007;Empóri Pampa;SILVER;Sandton;Gauteng;2196;15.0;Y
+01/03/2018;ZAV00008;Ipaema Brasil;BRONZE;Stellenbosch;Western Cape;7600;18.0;Y
+01/03/2018;ZAV00009;House Lírio Shop;BRONZE;Port Elizabeth;Eastern Cape;6000;18.0;Y
+01/03/2018;ZAV00010;Solar Ltda.;GOLD;Soweto;Gauteng;1804;12.0;Y
+01/03/2018;ZAV00011;Ponto Tucao Shop;PLATINUM;East London;Eastern Cape;5200;9.5;Y
+01/03/2018;ZAV00012;BELLAPITANGASTORE;GOLD;Polokwane;Limpopo;700;12.0;Y
+01/03/2018;ZAV00013;Distribution Onda;BRONZE;Polokwane;Limpopo;700;18.0;Y
+01/03/2018;ZAV00014;ÂMBARIMPORTADORA;BRONZE;Soweto;Gauteng;1804;18.0;Y
+01/03/2018;ZAV00015;Grupo Horizonte Retail;SILVER;Cape Town;Western Cape;8000;15.0;Y
+01/03/2018;ZAV00016;Cedro Lta;BRONZE;East London;Eastern Cape;5200;18.0;Y
+01/03/2018;ZAV00017;MUNDOGIRASSOLBRASIL;PLATINUM;Rustenburg;North West;300;9.5;N
+01/03/2018;ZAV00018;Nova Verd.;GOLD;Cape Town;Western Cape;8000;12.0;Y
+01/03/2018;ZAV00019;Rubi Expr.;GOLD;Cape Town;Western Cape;8000;12.0;Y
+01/03/2018;ZAV00020;Prime Horizonte Imports;BRONZE;Bloemfontein;Free State;9300;18.0;Y
+01/03/2018;ZAV00021;Empório Pampa Comé.;SILVER;Kimberley;Northern Cape;8300;15.0;Y
+01/03/2018;ZAV00022;Comercial Atlântico Lda;BRONZE;Durban;KwaZulu-Natal;4000;18.0;N
+01/03/2018;ZAV00023;Arte Vitória Commerce;GOLD;Johannesburg;Gauteng;2000;12.0;Y
+01/03/2018;ZAV00024;CENTRALLÍRIOCOMÉRCIO;SILVER;Johannesburg;Gauteng;2000;15.0;Y
+01/03/2018;ZAV00025;Rubi Retail;BRONZE;Kimberley;Northern Cape;8300;18.0;Y
+01/03/2018;ZAV00026;Espaço Rubi.;SILVER;Cape Town;Western Cape;8000;15.0;Y
+01/03/2018;ZAV00027;Bella Gira.;SILVER;East London;Eastern Cape;5200;15.0;Y
+01/03/2018;ZAV00028;House Sabiá Store;BRONZE;Pietermaritzburg;KwaZulu-Natal;3201;18.0;Y
+01/03/2018;ZAV00029;Mundo Âmbar Shop (Pty) Ltd;BRONZE;Johannesburg;Gauteng;2000;18.0;Y
+01/03/2018;ZAV00030;Mundo Serra Comé.;SILVER;Cape Town;Western Cape;8000;15.0;Y
+01/03/2018;ZAV00031;Ponto Cedro (Pty) Ltd;GOLD;Sandton;Gauteng;2196;12.0;Y
+01/03/2018;ZAV00032;Empóri Verde Varejo;GOLD;Durban;KwaZulu-Natal;4000;12.0;Y
+01/03/2018;ZAV00033;Atlântico Stor.;GOLD;Kimberley;Mpumalanga;1200;12.0;Y
+01/03/2018;ZAV00034;MUNDOPITANGA;BRONZE;Pretoria;Gauteng;1;18.0;Y
+01/03/2018;ZAV00035;NOVAMANGUE;BRONZE;Bloemfontein;Free State;9300;18.0;Y
+01/03/2018;ZAV00036;Central urora;BRONZE;Pietermaritzburg;KwaZulu-Natal;3201;18.0;Y
+01/03/2018;ZAV00037;Central Atântico;BRONZE;East London;Eastern Cape;5200;18.0;Y
+01/03/2018;ZAV00038;Distribution Vitória;GOLD;Bloemfontein;Free State;9300;12.0;Y
+01/03/2018;ZAV00039;Nova Girassol Express (Pty) Ltd;SILVER;Durban;KwaZulu-Natal;4000;15.0;Y
+01/03/2018;ZAV00040;Loja Cora.;BRONZE;Centurion;Gauteng;157;18.0;Y
+01/03/2018;ZAV00041;Bella Pita.;BRONZE;Nelspruit;Mpumalanga;1200;18.0;Y
+01/03/2018;ZAV00042;Onda Ltda.;BRONZE;Sandton;Mpumalanga;1200;18.0;Y
+01/03/2018;ZAV00043;Nova Mrfim;BRONZE;Polokwane;Limpopo;700;18.0;Y
+01/03/2018;ZAV00044;CENTRALATLÂNTICODISTRIBUIDORA;BRONZE;Pietermaritzburg;KwaZulu-Natal;3201;18.0;Y
+01/03/2018;ZAV00045;Pont Pitanga Express;GOLD;Stellenbosch;Western Cape;7600;12.0;N
+01/03/2018;ZAV00046;Prime Pampa Store (Pty) Ltd;GOLD;Bloemfontein;Free State;9300;12.0;Y
+01/03/2018;ZAV00047;GIRASSOLLTDA;GOLD;Nelspruit;Mpumalanga;1200;12.0;Y
+01/03/2018;ZAV00048;Emporio Atlantico (Pty) Ltd;BRONZE;Durban;KwaZulu-Natal;4000;18.0;Y
+01/03/2018;ZAV00049;Cristal Brasil (Pty) Ltd;SILVER;Port Elizabeth;Eastern Cape;6000;15.0;Y
+01/03/2018;ZAV00050;Ponto Onda (Pty) Ltd;PLATINUM;Nelspruit;Mpumalanga;1200;9.5;Y
+01/03/2018;ZAV00051;ÂMBARCOMÉRCIO;BRONZE;Johannesburg;Free State;9300;18.0;Y
+01/03/2018;ZAV00052;Grupo arfim Ltda;GOLD;Rustenburg;North West;300;12.0;Y
+01/03/2018;ZAV00053;Grupo Ipanema Shop.;SILVER;Pretoria;Gauteng;1;15.0;Y
+01/03/2018;ZAV00054;EMPÓRIOONDA;PLATINUM;Sandton;Gauteng;2196;9.5;Y
+01/03/2018;ZAV00055;MangueImportadora;BRONZE;Nelspruit;Mpumalanga;1200;18.0;Y
+01/03/2018;ZAV00056;Emporio Atlantico (Pty) Ltd;SILVER;Johannesburg;Gauteng;2000;15.0;N
+01/03/2018;ZAV00057;Mundo Solar Expr.;BRONZE;Soweto;Gauteng;1804;18.0;Y
+01/03/2018;ZAV00058;LOJAIPANEMA;BRONZE;East London;Eastern Cape;5200;18.0;Y
+01/03/2018;ZAV00059;Cedo Atacado;BRONZE;Kimberley;Northern Cape;8300;18.0;Y
+01/03/2018;ZAV00060;DISTRIBUIDORAAURORASHOP;BRONZE;Bloemfontein;Free State;9300;18.0;Y
+01/03/2018;ZAV00061;MUNDOORQUÍDEA;BRONZE;Pietermaritzburg;KwaZulu-Natal;3201;18.0;Y
+01/03/2018;ZAV00062;Horizonte Vare.;GOLD;Nelspruit;Mpumalanga;1200;12.0;Y
+01/03/2018;ZAV00063;Central Âmbar Shop.;BRONZE;Stellenbosch;Western Cape;7600;18.0;Y
+01/03/2018;ZAV00064;Pono Cristal Atacado;SILVER;Stellenbosch;Western Cape;7600;15.0;Y
+01/03/2018;ZAV00065;LOJACRISTALIMPORTADORA;SILVER;Sandton;Gauteng;2196;15.0;Y
+01/03/2018;ZAV00066;Marfim Impo.;BRONZE;Bloemfontein;Free State;9300;18.0;Y
+01/03/2018;ZAV00067;Âmbar Ditribuidora;SILVER;Bloemfontein;Free State;9300;15.0;Y
+01/03/2018;ZAV00068;Ponto Orquídea Distribution;SILVER;Stellenbosch;Western Cape;7600;15.0;Y
+01/03/2018;ZAV00069;Estilo Ipaema Brasil;SILVER;Polokwane;Limpopo;700;15.0;Y
+01/03/2018;ZAV00070;Arte Solar Store (Pty) Ltd;BRONZE;Sandton;Gauteng;2196;18.0;Y
+01/03/2018;ZAV00071;Bella Girassol (Pty) Ltd;SILVER;Bloemfontein;Free State;9300;15.0;N
+01/03/2018;ZAV00072;ESTILOAURORA;BRONZE;Polokwane;Limpopo;700;18.0;Y
+01/03/2018;ZAV00073;Grupo Pamp.;BRONZE;Soweto;Gauteng;1804;18.0;Y
+01/03/2018;ZAV00074;Prime Solar Expr.;BRONZE;Cape Town;Western Cape;8000;18.0;Y
+01/03/2018;ZAV00075;Orquíea Atacado;GOLD;Nelspruit;Mpumalanga;1200;12.0;Y
+01/03/2018;ZAV00076;VERDEATACADO;SILVER;Nelspruit;Mpumalanga;1200;15.0;Y
+01/03/2018;ZAV00077;CASAORQUÍDEA;SILVER;Soweto;Gauteng;1804;15.0;Y
+01/03/2018;ZAV00078;Lírio Shop.;SILVER;Kimberley;Gauteng;1804;15.0;Y
+01/03/2018;ZAV00079;Distribuidora Verd.;BRONZE;Kimberley;Northern Cape;8300;18.0;Y
+01/03/2018;ZAV00080;ATLÂNTICOSHOP;BRONZE;Cape Town;Western Cape;8000;18.0;Y
+01/03/2018;ZAV00081;Nova Ipanea Comércio;SILVER;Port Elizabeth;Eastern Cape;6000;15.0;N
+01/03/2018;ZAV00082;Sabiá Distribuidora (Pty) Ltd;BRONZE;Rustenburg;North West;300;18.0;Y
+01/03/2018;ZAV00083;Bella Coral (Pty) Ltd;BRONZE;Nelspruit;Mpumalanga;1200;18.0;Y
+01/03/2018;ZAV00084;SABIÁATACADO;GOLD;Cape Town;Western Cape;8000;12.0;Y
+01/03/2018;ZAV00085;Grupo Atlântico Expr.;GOLD;Sandton;Gauteng;2196;12.0;Y
+01/03/2018;ZAV00086;Nova Vede Express;BRONZE;Rustenburg;North West;300;18.0;Y
+01/03/2018;ZAV00087;Grupo Pitanga (Pty) Ltd;BRONZE;Centurion;Gauteng;157;18.0;Y
+01/03/2018;ZAV00088;Estilo Sert.;GOLD;Bloemfontein;Free State;9300;12.0;Y
+01/03/2018;ZAV00089;CENTRALÂMBARSHOP;SILVER;Nelspruit;Mpumalanga;1200;15.0;Y
+01/03/2018;ZAV00090;Epório Cedro Comércio;BRONZE;Pretoria;Gauteng;1;18.0;Y
+01/03/2018;ZAV00091;Cedro Shop (Pty) Ltd;BRONZE;Pretoria;KwaZulu-Natal;3201;18.0;Y
+01/03/2018;ZAV00092;Pampa Epress;BRONZE;Polokwane;Limpopo;700;18.0;Y
+01/03/2018;ZAV00093;Distribuidora Palmeira Ltda (Pty) Ltd;BRONZE;Port Elizabeth;Eastern Cape;6000;18.0;Y
+01/03/2018;ZAV00094;Bella Solar Comercio (Pty) Ltd;BRONZE;Rustenburg;North West;300;18.0;Y
+01/03/2018;ZAV00095;CASAMARFIMBRASIL;BRONZE;Rustenburg;North West;300;18.0;Y
+01/03/2018;ZAV00096;Distribuidora Quar.;BRONZE;Stellenbosch;Western Cape;7600;18.0;Y
+01/03/2018;ZAV00097;DISTRIBUIDORAPITANGACOMÉRCIO;BRONZE;Pretoria;Gauteng;1;18.0;Y
+01/03/2018;ZAV00098;Distribution Sertão;BRONZE;Soweto;Gauteng;1804;18.0;Y
+01/03/2018;ZAV00099;Cristal Vare.;BRONZE;Johannesburg;Gauteng;2000;18.0;Y
+01/03/2018;ZAV00100;CASACRISTALIMPORTADORA;SILVER;Pietermaritzburg;KwaZulu-Natal;3201;15.0;Y
+01/03/2018;ZAV00101;PONTOVERDEATACADO;SILVER;Polokwane;Limpopo;700;15.0;Y
+01/03/2018;ZAV00102;Nova Rubi Comé.;BRONZE;Sandton;Gauteng;2196;18.0;Y
+01/03/2018;ZAV00103;Comercil Onda Comércio;SILVER;Sandton;Gauteng;2196;15.0;Y
+01/03/2018;ZAV00104;ESTILOQUARTZODISTRIBUIDORA;BRONZE;Polokwane;Limpopo;700;18.0;N
+01/03/2018;ZAV00105;Grupo Onda (Pty) Ltd;SILVER;Cape Town;Western Cape;8000;15.0;N
+01/03/2018;ZAV00106;Arte Tucano (Pty) Ltd;SILVER;Bloemfontein;Free State;9300;15.0;Y
+01/03/2018;ZAV00107;MUNDOORQUÍDEAATACADO;BRONZE;Durban;KwaZulu-Natal;4000;18.0;Y
+01/03/2018;ZAV00108;Central Girassol Wholesale;GOLD;Sandton;Gauteng;2196;12.0;Y
+01/03/2018;ZAV00109;Ponto Coral Brasil (Pty) Ltd;SILVER;Pietermaritzburg;KwaZulu-Natal;3201;15.0;Y
+01/03/2018;ZAV00110;Comercial Onda Ltda.;PLATINUM;Cape Town;Western Cape;8000;9.5;Y
+01/03/2018;ZAV00111;Muno Pampa;SILVER;Soweto;Gauteng;1804;15.0;Y
+01/03/2018;ZAV00112;Casa Solar Importdora;SILVER;Polokwane;Limpopo;700;15.0;Y
+01/03/2018;ZAV00113;Horizonte Expr.;BRONZE;Sandton;Gauteng;2196;18.0;Y
+01/03/2018;ZAV00114;TUCANODISTRIBUIDORA;SILVER;Pietermaritzburg;KwaZulu-Natal;3201;15.0;Y
+01/03/2018;ZAV00115;Loja Gira.;BRONZE;Polokwane;Limpopo;700;18.0;Y
+01/03/2018;ZAV00116;Ipanema Impo.;BRONZE;Durban;KwaZulu-Natal;4000;18.0;Y
+01/03/2018;ZAV00117;Cristal Expr.;BRONZE;Johannesburg;Gauteng;2000;18.0;Y
+01/03/2018;ZAV00118;ESPAÇOIPANEMAEXPRESS;BRONZE;Pretoria;Gauteng;1;18.0;Y
+01/03/2018;ZAV00119;Emporio Cedro (Pty) Ltd;BRONZE;Cape Town;Western Cape;8000;18.0;Y
+01/03/2018;ZAV00120;Central Marf.;SILVER;Johannesburg;Gauteng;2000;15.0;Y
+01/03/2018;ZAV00121;Protea Point Trading;SILVER;Durban;KwaZulu-Natal;4000;15.0;Y
+01/03/2018;ZAV00122;Silver Bay (Pty) Ltd;GOLD;Rustenburg;North West;300;12.0;Y
+01/03/2018;ZAV00123;Zulu Junction Group;SILVER;Johannesburg;Mpumalanga;1200;15.0;Y
+01/03/2018;ZAV00124;Karoo Peak;BRONZE;Sandton;Gauteng;2196;18.0;Y
+01/03/2018;ZAV00125;Table Bay;SILVER;Kimberley;Northern Cape;8300;15.0;Y
+01/03/2018;ZAV00126;Silver Trading;BRONZE;Centurion;Gauteng;157;18.0;Y
+01/03/2018;ZAV00127;Zulu Reef Distribution;GOLD;Port Elizabeth;Eastern Cape;6000;12.0;Y
+01/03/2018;ZAV00128;Protea Peak;SILVER;Bloemfontein;Free State;9300;15.0;Y
+01/03/2018;ZAV00129;Amber Grove;GOLD;Pretoria;Gauteng;1;12.0;Y
+01/03/2018;ZAV00130;Highveld Springs Enterprises;BRONZE;Durban;KwaZulu-Natal;4000;18.0;N
+01/03/2018;ZAV00131;Amber Hollow;SILVER;Johannesburg;Gauteng;2000;15.0;Y
+01/03/2018;ZAV00132;Table Trading Wholesale;BRONZE;Nelspruit;Mpumalanga;1200;18.0;Y
+01/03/2018;ZAV00133;Protea Fields Wholesale;BRONZE;Pietermaritzburg;KwaZulu-Natal;3201;18.0;Y
+01/03/2018;ZAV00134;Highveld Ridge;SILVER;Pietermaritzburg;KwaZulu-Natal;3201;15.0;Y
+01/03/2018;ZAV00135;Tugela Hollow;BRONZE;Rustenburg;North West;300;18.0;Y
+01/03/2018;ZAV00136;Amber Peak;PLATINUM;Pietermaritzburg;KwaZulu-Natal;3201;9.5;Y
+01/03/2018;ZAV00137;Zulu Fields;BRONZE;Durban;KwaZulu-Natal;4000;18.0;Y
+01/03/2018;ZAV00138;Cape Fields;SILVER;Stellenbosch;Western Cape;7600;15.0;N
+01/03/2018;ZAV00139;Boland Wharf;BRONZE;Port Elizabeth;Eastern Cape;6000;18.0;Y
+01/03/2018;ZAV00140;Protea Wharf Supplies;SILVER;Bloemfontein;Free State;9300;15.0;Y
+01/03/2018;ZAV00141;Tugela Wharf;BRONZE;Rustenburg;North West;300;18.0;Y
+01/03/2018;ZAV00142;Amber Junction;GOLD;Port Elizabeth;Eastern Cape;6000;12.0;Y
+01/03/2018;ZAV00143;Boland Wharf CC;BRONZE;Kimberley;Northern Cape;8300;18.0;Y
+01/03/2018;ZAV00144;Vaal Hollow Retail;BRONZE;Port Elizabeth;Eastern Cape;6000;18.0;Y
+01/03/2018;ZAV00145;Silver Hollow Wholesale;GOLD;Sandton;Gauteng;2196;12.0;Y
+01/03/2018;ZAV00146;Silver Fields Distribution;SILVER;Bloemfontein;Free State;9300;15.0;Y
+01/03/2018;ZAV00147;Table Ridge Supplies;GOLD;Stellenbosch;Western Cape;7600;12.0;Y
+01/03/2018;ZAV00148;Amber Trading;SILVER;Soweto;Gauteng;1804;15.0;Y
+01/03/2018;ZAV00149;Cape Trading;SILVER;East London;Eastern Cape;5200;15.0;Y
+01/03/2018;ZAV00150;Drakensberg Ridge Distribution;SILVER;Durban;KwaZulu-Natal;4000;15.0;Y
+01/03/2018;ZAV00151;Boland Junction CC;SILVER;Pretoria;Gauteng;1;15.0;Y
+01/03/2018;ZAV00152;Drakensberg Reef Retail;BRONZE;Pietermaritzburg;KwaZulu-Natal;3201;18.0;Y
+01/03/2018;ZAV00153;Kalahari Ridge;BRONZE;Polokwane;Limpopo;700;18.0;Y
+01/03/2018;ZAV00154;Table Trading Supplies;GOLD;Durban;KwaZulu-Natal;4000;12.0;Y
+01/03/2018;ZAV00155;Cape Springs CC;GOLD;Cape Town;Western Cape;8000;12.0;Y
+01/03/2018;ZAV00156;Umhlanga Grove;BRONZE;Port Elizabeth;Eastern Cape;6000;18.0;Y
+01/03/2018;ZAV00157;Silver Bay;BRONZE;Rustenburg;North West;300;18.0;Y
+01/03/2018;ZAV00158;Boland Ridge (Pty) Ltd;BRONZE;East London;Eastern Cape;5200;18.0;Y
+01/03/2018;ZAV00159;Protea Crest;BRONZE;Johannesburg;Gauteng;2000;18.0;Y
+01/03/2018;ZAV00160;Tugela Peak;PLATINUM;East London;Eastern Cape;5200;9.5;Y
+01/03/2018;ZAV00161;Protea Crest Trading;SILVER;Cape Town;Western Cape;8000;15.0;Y
+01/03/2018;ZAV00162;Amber Grove Enterprises;BRONZE;Bloemfontein;Free State;9300;18.0;Y
+01/03/2018;ZAV00163;Kalahari Springs Supplies;BRONZE;Port Elizabeth;Eastern Cape;6000;18.0;N
+01/03/2018;ZAV00164;Highveld Hollow Wholesale;BRONZE;Cape Town;Western Cape;8000;18.0;Y
+01/03/2018;ZAV00165;Tugela Grove;BRONZE;Soweto;Gauteng;1804;18.0;Y
+01/03/2018;ZAV00166;Tugela Point Supplies;SILVER;Bloemfontein;Free State;9300;15.0;N
+01/03/2018;ZAV00167;Table Ridge;PLATINUM;Kimberley;North West;300;9.5;Y
+01/03/2018;ZAV00168;Kalahari Grove Distribution;SILVER;Nelspruit;Mpumalanga;1200;15.0;Y
+01/03/2018;ZAV00169;Tugela Junction Supplies;BRONZE;Bloemfontein;Free State;9300;18.0;Y
+01/03/2018;ZAV00170;Umhlanga Junction Distribution;BRONZE;Pietermaritzburg;KwaZulu-Natal;3201;18.0;Y
+01/03/2018;ZAV00171;Vaal Grove Group;SILVER;Sandton;Gauteng;2196;15.0;Y
+01/03/2018;ZAV00172;Vaal Junction;BRONZE;Kimberley;Northern Cape;8300;18.0;Y
+01/03/2018;ZAV00173;Highveld Fields Retail;SILVER;Stellenbosch;Western Cape;7600;15.0;Y
+01/03/2018;ZAV00174;Protea Ridge Retail;PLATINUM;Soweto;Gauteng;1804;9.5;Y
+01/03/2018;ZAV00175;Drakensberg Springs Distribution;SILVER;Polokwane;Limpopo;700;15.0;Y
+01/03/2018;ZAV00176;Cape Ridge;BRONZE;Durban;KwaZulu-Natal;4000;18.0;Y
+01/03/2018;ZAV00177;Table Crest Wholesale;BRONZE;Rustenburg;Northern Cape;8300;18.0;Y
+01/03/2018;ZAV00178;Cape Grove;BRONZE;Cape Town;Western Cape;8000;18.0;Y
+01/03/2018;ZAV00179;Kalahari Trading;GOLD;Port Elizabeth;Eastern Cape;6000;12.0;Y
+01/03/2018;ZAV00180;Table Fields;PLATINUM;East London;Eastern Cape;5200;9.5;Y
+01/03/2018;ZAV00181;Drakensberg Hollow Supplies;SILVER;Nelspruit;Limpopo;700;15.0;Y
+01/03/2018;ZAV00182;Zulu Junction CC;PLATINUM;Sandton;Gauteng;2196;9.5;Y
+01/03/2018;ZAV00183;Boland Crest;BRONZE;Kimberley;Northern Cape;8300;18.0;Y
+01/03/2018;ZAV00184;Table Hollow;SILVER;Stellenbosch;Western Cape;7600;15.0;Y
+01/03/2018;ZAV00185;Tugela Grove Retail;SILVER;Johannesburg;Gauteng;2000;15.0;Y
+01/03/2018;ZAV00186;Drakensberg Point Group;SILVER;Polokwane;Limpopo;700;15.0;Y
+01/03/2018;ZAV00187;Umhlanga Grove Trading;BRONZE;Nelspruit;Limpopo;700;18.0;Y
+01/03/2018;ZAV00188;Tugela Hollow;BRONZE;Stellenbosch;Western Cape;7600;18.0;N
+01/03/2018;ZAV00189;Highveld Ridge CC;BRONZE;Johannesburg;Gauteng;2000;18.0;Y
+01/03/2018;ZAV00190;Protea Wharf Distribution;SILVER;Soweto;Gauteng;1804;15.0;Y
+01/03/2018;ZAV00191;Karoo Fields Trading;BRONZE;Soweto;Gauteng;1804;18.0;Y
+01/03/2018;ZAV00192;Protea Bay CC;BRONZE;Polokwane;Limpopo;700;18.0;Y
+01/03/2018;ZAV00193;Cape Ridge Distribution;GOLD;Rustenburg;North West;300;12.0;Y
+01/03/2018;ZAV00194;Table Junction Supplies;BRONZE;Durban;KwaZulu-Natal;4000;18.0;Y
+01/03/2018;ZAV00195;Cape Vale;GOLD;Johannesburg;Gauteng;2000;12.0;Y
+01/03/2018;ZAV00196;Vaal Crest Group;BRONZE;Cape Town;Western Cape;8000;18.0;Y
+01/03/2018;ZAV00197;Tugela Grove Wholesale;SILVER;Durban;KwaZulu-Natal;4000;15.0;Y
+01/03/2018;ZAV00198;Karoo Grove Enterprises;GOLD;Durban;Gauteng;2000;12.0;Y
+01/03/2018;ZAV00199;Amber Reef;BRONZE;Stellenbosch;Western Cape;7600;18.0;N
+01/03/2018;ZAV00200;Umhlanga Reef Group;GOLD;Centurion;Gauteng;157;12.0;Y
+01/03/2018;ZAV00201;Table Ridge;BRONZE;Polokwane;Limpopo;700;18.0;Y
+01/03/2018;ZAV00202;Table Crest;BRONZE;Soweto;Gauteng;1804;18.0;Y
+01/03/2018;ZAV00203;Tugela Crest;BRONZE;East London;Eastern Cape;5200;18.0;Y
+01/03/2018;ZAV00204;Vaal Springs Supplies;GOLD;Nelspruit;Mpumalanga;1200;12.0;Y
+01/03/2018;ZAV00205;Protea Reef Retail;PLATINUM;Sandton;Gauteng;2196;9.5;Y
+01/03/2018;ZAV00206;Protea Reef Supplies;BRONZE;Soweto;Gauteng;1804;18.0;Y
+01/03/2018;ZAV00207;Silver Junction;PLATINUM;Stellenbosch;Western Cape;7600;9.5;N
+01/03/2018;ZAV00208;Zulu Hollow (Pty) Ltd;SILVER;Polokwane;Limpopo;700;15.0;Y
+01/03/2018;ZAV00209;Vaal Vale;BRONZE;Rustenburg;North West;300;18.0;Y
+01/03/2018;ZAV00210;Vaal Trading CC;BRONZE;Soweto;Gauteng;1804;18.0;Y
+01/03/2018;ZAV00211;Cape Trading Trading;GOLD;Sandton;Gauteng;2196;12.0;N
+01/03/2018;ZAV00212;Kalahari Fields CC;GOLD;East London;Eastern Cape;5200;12.0;Y
+01/03/2018;ZAV00213;Kalahari Springs (Pty) Ltd;SILVER;Durban;KwaZulu-Natal;4000;15.0;Y
+01/03/2018;ZAV00214;Karoo Junction;PLATINUM;Pretoria;Gauteng;1;9.5;Y
+01/03/2018;ZAV00215;Amber Trading;BRONZE;Rustenburg;North West;300;18.0;Y
+01/03/2018;ZAV00216;Kalahari Hollow;SILVER;Durban;KwaZulu-Natal;4000;15.0;Y
+01/03/2018;ZAV00217;Boland Trading Supplies;BRONZE;Nelspruit;Mpumalanga;1200;18.0;Y
+01/03/2018;ZAV00218;Vaal Point Supplies;BRONZE;Polokwane;Limpopo;700;18.0;Y
+01/03/2018;ZAV00219;Amber Wharf Retail;SILVER;Cape Town;Western Cape;8000;15.0;Y
+01/03/2018;ZAV00220;Zulu Wharf;GOLD;Bloemfontein;Free State;9300;12.0;Y
+01/03/2018;ZAV00221;Umhlanga Crest Group;SILVER;East London;Eastern Cape;5200;15.0;Y
+01/03/2018;ZAV00222;Umhlanga Crest Supplies;BRONZE;Kimberley;Northern Cape;8300;18.0;Y
+01/03/2018;ZAV00223;Boland Point Group;GOLD;Kimberley;Northern Cape;8300;12.0;Y
+01/03/2018;ZAV00224;Drakensberg Trading Distribution;BRONZE;Durban;KwaZulu-Natal;4000;18.0;Y
+01/03/2018;ZAV00225;Karoo Ridge Supplies;PLATINUM;Port Elizabeth;Eastern Cape;6000;9.5;Y
+01/03/2018;ZAV00226;Silver Ridge Retail;GOLD;Cape Town;Western Cape;8000;12.0;Y
+01/03/2018;ZAV00227;Kalahari Trading;BRONZE;Johannesburg;Gauteng;2000;18.0;Y
+01/03/2018;ZAV00228;Kalahari Vale Enterprises;BRONZE;Pretoria;Gauteng;1;18.0;Y
+01/03/2018;ZAV00229;Karoo Crest CC;BRONZE;Pretoria;Gauteng;1;18.0;Y
+01/03/2018;ZAV00230;Karoo Trading;SILVER;Bloemfontein;Free State;9300;15.0;Y
+01/03/2018;ZAV00231;Cape Wharf Distribution;PLATINUM;Durban;KwaZulu-Natal;4000;9.5;Y
+01/03/2018;ZAV00232;Karoo Grove Wholesale;BRONZE;Pietermaritzburg;KwaZulu-Natal;3201;18.0;Y
+01/03/2018;ZAV00233;Highveld Point;BRONZE;Polokwane;Limpopo;700;18.0;Y
+01/03/2018;ZAV00234;Highveld Point Supplies;BRONZE;Stellenbosch;Western Cape;7600;18.0;Y
+01/03/2018;ZAV00235;Cape Trading;BRONZE;Nelspruit;Mpumalanga;1200;18.0;N
+01/03/2018;ZAV00236;Karoo Reef;SILVER;Soweto;Gauteng;1804;15.0;Y
+01/03/2018;ZAV00237;Drakensberg Crest Distribution;SILVER;Cape Town;Western Cape;8000;15.0;Y
+01/03/2018;ZAV00238;Karoo Crest Enterprises;SILVER;Durban;KwaZulu-Natal;4000;15.0;Y
+01/03/2018;ZAV00239;Protea Reef;SILVER;Port Elizabeth;Eastern Cape;6000;15.0;Y
+01/03/2018;ZAV00240;Drakensberg Point CC;SILVER;Centurion;Gauteng;157;15.0;Y
+01/03/2018;ZAV00241;Umhlanga Springs Supplies;BRONZE;Soweto;Gauteng;1804;18.0;Y
+01/03/2018;ZAV00242;Umhlanga Grove Group;SILVER;East London;Eastern Cape;5200;15.0;Y
+01/03/2018;ZAV00243;Vaal Vale Wholesale;BRONZE;Pietermaritzburg;Gauteng;1804;18.0;Y
+01/03/2018;ZAV00244;Kalahari Fields;GOLD;Durban;KwaZulu-Natal;4000;12.0;Y
+01/03/2018;ZAV00245;Cape Reef Group;SILVER;Pretoria;Gauteng;1;15.0;Y
+01/03/2018;ZAV00246;Vaal Reef;PLATINUM;Centurion;Gauteng;157;9.5;Y
+01/03/2018;ZAV00247;Boland Point CC;SILVER;Soweto;Gauteng;1804;15.0;Y
+01/03/2018;ZAV00248;Drakensberg Wharf CC;BRONZE;Kimberley;Northern Cape;8300;18.0;Y
+01/03/2018;ZAV00249;Protea Crest Group;SILVER;East London;Eastern Cape;5200;15.0;Y
+01/03/2018;ZAV00250;Kalahari Trading CC;BRONZE;Kimberley;Western Cape;7600;18.0;Y
+01/03/2018;ZAV00251;Umhlanga Fields;SILVER;Rustenburg;North West;300;15.0;Y
+01/03/2018;ZAV00252;Kalahari Vale Supplies;BRONZE;Port Elizabeth;Eastern Cape;6000;18.0;Y
+01/03/2018;ZAV00253;Amber Trading (Pty) Ltd;BRONZE;Centurion;Gauteng;157;18.0;Y
+01/03/2018;ZAV00254;Protea Bay CC;SILVER;Sandton;Gauteng;2196;15.0;Y
+01/03/2018;ZAV00255;Boland Wharf Trading;SILVER;Port Elizabeth;Eastern Cape;6000;15.0;Y
+01/03/2018;ZAV00256;Zulu Grove Trading;SILVER;Port Elizabeth;Northern Cape;8300;15.0;Y
+01/03/2018;ZAV00257;Boland Crest;BRONZE;Cape Town;Western Cape;8000;18.0;Y
+01/03/2018;ZAV00258;Highveld Grove Distribution;BRONZE;Rustenburg;North West;300;18.0;Y
+01/03/2018;ZAV00259;Amber Peak Wholesale;PLATINUM;Centurion;Gauteng;157;9.5;Y
+01/03/2018;ZAV00260;Kalahari Junction Wholesale;BRONZE;Durban;KwaZulu-Natal;4000;18.0;Y
+01/03/2018;ZAV00261;Cape Grove;BRONZE;Soweto;Gauteng;1804;18.0;Y
+01/03/2018;ZAV00262;Silver Fields CC;BRONZE;Soweto;Gauteng;1804;18.0;Y
+01/03/2018;ZAV00263;Table Reef;SILVER;Rustenburg;North West;300;15.0;Y
+01/03/2018;ZAV00264;Karoo Hollow;BRONZE;Cape Town;Western Cape;8000;18.0;Y
+01/03/2018;ZAV00265;Highveld Grove;SILVER;Pietermaritzburg;KwaZulu-Natal;3201;15.0;Y
+01/03/2018;ZAV00266;Boland Peak Retail;BRONZE;Centurion;Gauteng;157;18.0;Y
+01/03/2018;ZAV00267;Amber Reef;GOLD;Durban;KwaZulu-Natal;4000;12.0;Y
+01/03/2018;ZAV00268;Umhlanga Hollow Wholesale;SILVER;Bloemfontein;Free State;9300;15.0;Y
+01/03/2018;ZAV00269;Vaal Point;BRONZE;Cape Town;Western Cape;8000;18.0;Y
+01/03/2018;ZAV00270;Karoo Crest Retail;SILVER;Bloemfontein;Free State;9300;15.0;Y
+01/03/2018;ZAV00271;Boland Grove;GOLD;Nelspruit;Mpumalanga;1200;12.0;Y
+01/03/2018;ZAV00272;Umhlanga Point;BRONZE;Pretoria;Gauteng;1;18.0;Y
+01/03/2018;ZAV00273;Table Springs Distribution;PLATINUM;Cape Town;Western Cape;8000;9.5;Y
+01/03/2018;ZAV00274;Highveld Point;BRONZE;East London;Eastern Cape;5200;18.0;Y
+01/03/2018;ZAV00275;Table Hollow;BRONZE;Sandton;Gauteng;2196;18.0;Y
+01/03/2018;ZAV00276;Highveld Wharf;BRONZE;Bloemfontein;Free State;9300;18.0;Y
+01/03/2018;ZAV00277;Highveld Vale Distribution;GOLD;Centurion;Gauteng;157;12.0;Y
+01/03/2018;ZAV00278;Silver Junction Enterprises;GOLD;Nelspruit;Mpumalanga;1200;12.0;Y
+01/03/2018;ZAV00279;Highveld Vale;BRONZE;Pietermaritzburg;KwaZulu-Natal;3201;18.0;Y
+01/03/2018;ZAV00280;Silver Hollow Trading;BRONZE;Cape Town;Western Cape;8000;18.0;Y
+01/03/2018;ZAV00281;Highveld Ridge Enterprises;SILVER;Kimberley;Northern Cape;8300;15.0;Y
+01/03/2018;ZAV00282;Highveld Ridge Wholesale;BRONZE;Bloemfontein;Free State;9300;18.0;Y
+01/03/2018;ZAV00283;Tugela Trading (Pty) Ltd;BRONZE;Nelspruit;Mpumalanga;1200;18.0;Y
+01/03/2018;ZAV00284;Karoo Grove Distribution;SILVER;Cape Town;Western Cape;8000;15.0;Y
+01/03/2018;ZAV00285;Zulu Fields;GOLD;Port Elizabeth;Eastern Cape;6000;12.0;Y
+01/03/2018;ZAV00286;Silver Hollow;SILVER;Kimberley;Northern Cape;8300;15.0;Y
+01/03/2018;ZAV00287;Kalahari Ridge CC;PLATINUM;Kimberley;Western Cape;8000;9.5;Y
+01/03/2018;ZAV00288;Amber Hollow Group;SILVER;Stellenbosch;Western Cape;7600;15.0;Y
+01/03/2018;ZAV00289;Vaal Peak;BRONZE;Polokwane;Limpopo;700;18.0;Y
+01/03/2018;ZAV00290;Karoo Ridge;BRONZE;Pietermaritzburg;KwaZulu-Natal;3201;18.0;Y
+01/03/2018;ZAV00291;Umhlanga Crest (Pty) Ltd;BRONZE;Johannesburg;Gauteng;2000;18.0;Y
+01/03/2018;ZAV00292;Kalahari Fields;BRONZE;Centurion;Gauteng;157;18.0;Y
+01/03/2018;ZAV00293;Drakensberg Crest;BRONZE;Johannesburg;Gauteng;2196;18.0;Y
+01/03/2018;ZAV00294;Zulu Crest;SILVER;Kimberley;Northern Cape;8300;15.0;Y
+01/03/2018;ZAV00295;Table Trading Wholesale;BRONZE;Cape Town;Western Cape;8000;18.0;Y
+01/03/2018;ZAV00296;Kalahari Point Trading;BRONZE;East London;Eastern Cape;5200;18.0;Y
+01/03/2018;ZAV00297;Highveld Point;BRONZE;Rustenburg;North West;300;18.0;Y
+01/03/2018;ZAV00298;Karoo Trading;SILVER;Nelspruit;Mpumalanga;1200;15.0;Y
+01/03/2018;ZAV00299;Boland Ridge Group;BRONZE;Polokwane;Limpopo;700;18.0;Y
+01/03/2018;ZAV00300;Silver Crest Enterprises;PLATINUM;Rustenburg;North West;300;9.5;N
+01/03/2018;ZAV00301;Tugela Wharf;BRONZE;Nelspruit;Mpumalanga;1200;18.0;Y
+01/03/2018;ZAV00302;Silver Reef Wholesale;SILVER;Johannesburg;Gauteng;2000;15.0;Y
+01/03/2018;ZAV00303;Boland Fields (Pty) Ltd;BRONZE;Pretoria;Gauteng;1;18.0;Y
+01/03/2018;ZAV00304;Tugela Trading Trading;GOLD;Durban;KwaZulu-Natal;4000;12.0;Y
+01/03/2018;ZAV00305;Cape Crest;BRONZE;Pietermaritzburg;KwaZulu-Natal;3201;18.0;Y
+01/03/2018;ZAV00306;Zulu Junction;BRONZE;Pretoria;Gauteng;1;18.0;Y
+01/03/2018;ZAV00307;Boland Fields Wholesale;GOLD;Port Elizabeth;Eastern Cape;6000;12.0;Y
+01/03/2018;ZAV00308;Vaal Wharf (Pty) Ltd;BRONZE;Kimberley;Northern Cape;8300;18.0;Y
+01/03/2018;ZAV00309;Boland Reef;SILVER;Polokwane;Limpopo;700;15.0;Y
+01/03/2018;ZAV00310;Silver Springs Distribution;PLATINUM;Nelspruit;Mpumalanga;1200;9.5;Y
+01/03/2018;ZAV00311;Karoo Wharf Enterprises;BRONZE;Centurion;Gauteng;157;18.0;Y
+01/03/2018;ZAV00312;Highveld Bay;SILVER;East London;Eastern Cape;5200;15.0;Y
+01/03/2018;ZAV00313;Table Point Enterprises;GOLD;Rustenburg;North West;300;12.0;Y
+01/03/2018;ZAV00314;Zulu Fields Enterprises;BRONZE;Cape Town;Western Cape;8000;18.0;Y
+01/03/2018;ZAV00315;Cape Crest Trading;SILVER;Port Elizabeth;Eastern Cape;6000;15.0;Y
+01/03/2018;ZAV00316;Umhlanga Hollow CC;BRONZE;Pietermaritzburg;KwaZulu-Natal;3201;18.0;Y
+01/03/2018;ZAV00317;Highveld Ridge;SILVER;Rustenburg;KwaZulu-Natal;4000;15.0;Y
+01/03/2018;ZAV00318;Karoo Peak Distribution;SILVER;East London;Eastern Cape;5200;15.0;Y
+01/03/2018;ZAV00319;Tugela Reef CC;PLATINUM;Nelspruit;Mpumalanga;1200;9.5;Y
+01/03/2018;ZAV00320;Karoo Peak Retail;SILVER;Durban;KwaZulu-Natal;4000;15.0;Y
+01/03/2018;ZAV00321;Table Reef Supplies;BRONZE;Soweto;Gauteng;1804;18.0;Y
+01/03/2018;ZAV00322;Drakensberg Bay;SILVER;Nelspruit;Mpumalanga;1200;15.0;Y
+01/03/2018;ZAV00323;Zulu Point Supplies;PLATINUM;Kimberley;Northern Cape;8300;9.5;Y
+01/03/2018;ZAV00324;Protea Fields;BRONZE;Soweto;Gauteng;1804;18.0;Y
+01/03/2018;ZAV00325;Silver Peak Enterprises;BRONZE;Cape Town;Western Cape;8000;18.0;Y
+01/03/2018;ZAV00326;Protea Crest Distribution;BRONZE;Johannesburg;Gauteng;2000;18.0;Y
+01/03/2018;ZAV00327;Silver Hollow Enterprises;SILVER;Pietermaritzburg;KwaZulu-Natal;3201;15.0;Y
+01/03/2018;ZAV00328;Amber Point Distribution;PLATINUM;Nelspruit;Mpumalanga;1200;9.5;N
+01/03/2018;ZAV00329;Table Vale (Pty) Ltd;SILVER;Polokwane;Limpopo;700;15.0;Y
+01/03/2018;ZAV00330;Vaal Vale;BRONZE;Cape Town;Western Cape;8000;18.0;Y
+01/03/2018;ZAV00331;Amber Reef;GOLD;Rustenburg;North West;300;12.0;Y
+01/03/2018;ZAV00332;Umhlanga Springs Supplies;BRONZE;Pretoria;Gauteng;1;18.0;Y
+01/03/2018;ZAV00333;Kalahari Junction Wholesale;SILVER;Polokwane;Limpopo;700;15.0;Y
+01/03/2018;ZAV00334;Highveld Grove Group;BRONZE;Cape Town;Western Cape;8000;18.0;Y
+01/03/2018;ZAV00335;Boland Bay;GOLD;Kimberley;Northern Cape;8300;12.0;N
+01/03/2018;ZAV00336;Tugela Crest Retail;SILVER;East London;Eastern Cape;5200;15.0;Y
+01/03/2018;ZAV00337;Zulu Wharf CC;BRONZE;Centurion;Gauteng;157;18.0;Y
+01/03/2018;ZAV00338;Boland Fields;BRONZE;Cape Town;Western Cape;8000;18.0;Y
+01/03/2018;ZAV00339;Amber Crest;BRONZE;Sandton;Gauteng;2196;18.0;Y
+01/03/2018;ZAV00340;Protea Peak Retail;SILVER;Centurion;Gauteng;157;15.0;Y
+01/03/2018;ZAV00341;Silver Point;BRONZE;Port Elizabeth;Eastern Cape;6000;18.0;Y
+01/03/2018;ZAV00342;Drakensberg Junction CC;PLATINUM;Pietermaritzburg;KwaZulu-Natal;3201;9.5;N
+01/03/2018;ZAV00343;Table Wharf Enterprises;BRONZE;Pretoria;Gauteng;1;18.0;Y
+01/03/2018;ZAV00344;Zulu Crest Distribution;SILVER;East London;Eastern Cape;5200;15.0;Y
+01/03/2018;ZAV00345;Zulu Junction CC;BRONZE;Kimberley;Northern Cape;8300;18.0;Y
+01/03/2018;ZAV00346;Highveld Ridge Trading;SILVER;East London;Eastern Cape;5200;15.0;Y
+01/03/2018;ZAV00347;Highveld Ridge Distribution;GOLD;Bloemfontein;Free State;9300;12.0;Y
+01/03/2018;ZAV00348;Amber Point;GOLD;Sandton;Gauteng;2196;12.0;Y
+01/03/2018;ZAV00349;Cape Point Supplies;GOLD;Port Elizabeth;Eastern Cape;6000;12.0;Y
+01/03/2018;ZAV00350;Kalahari Junction Group;GOLD;Nelspruit;Free State;9300;12.0;Y
+01/03/2018;ZAV00351;Zulu Ridge;PLATINUM;Sandton;Gauteng;2196;9.5;Y
+01/03/2018;ZAV00352;Boland Vale CC;BRONZE;Soweto;Gauteng;1804;18.0;Y
+01/03/2018;ZAV00353;Protea Fields Trading;BRONZE;Pietermaritzburg;KwaZulu-Natal;3201;18.0;Y
+01/03/2018;ZAV00354;Zulu Ridge Supplies;BRONZE;Cape Town;Western Cape;8000;18.0;Y
+01/03/2018;ZAV00355;Protea Point Enterprises;SILVER;Stellenbosch;Western Cape;7600;15.0;Y
+01/03/2018;ZAV00356;Karoo Ridge;BRONZE;Johannesburg;Gauteng;2000;18.0;Y
+01/03/2018;ZAV00357;Silver Junction;SILVER;Durban;KwaZulu-Natal;4000;15.0;Y
+01/03/2018;ZAV00358;Karoo Trading (Pty) Ltd;BRONZE;Port Elizabeth;Eastern Cape;6000;18.0;Y
+01/03/2018;ZAV00359;Table Hollow Retail;BRONZE;Polokwane;Limpopo;700;18.0;Y
+01/03/2018;ZAV00360;Umhlanga Grove Supplies;SILVER;Pretoria;Gauteng;1;15.0;Y
+01/03/2018;ZAV00361;Zulu Vale Distribution;PLATINUM;Bloemfontein;Free State;9300;9.5;Y
+01/03/2018;ZAV00362;Amber Ridge CC;SILVER;Pietermaritzburg;KwaZulu-Natal;3201;15.0;Y
+01/03/2018;ZAV00363;Amber Hollow Supplies;BRONZE;Pietermaritzburg;KwaZulu-Natal;3201;18.0;Y
+01/03/2018;ZAV00364;Protea Point;BRONZE;Rustenburg;North West;300;18.0;Y
+01/03/2018;ZAV00365;Karoo Vale;GOLD;Kimberley;Northern Cape;8300;12.0;Y
+01/03/2018;ZAV00366;Kalahari Point Retail;BRONZE;Rustenburg;North West;300;18.0;Y
+01/03/2018;ZAV00367;Cape Fields Distribution;SILVER;Pretoria;Gauteng;1;15.0;Y
+01/03/2018;ZAV00368;Highveld Ridge Trading;BRONZE;East London;Eastern Cape;5200;18.0;N
+01/03/2018;ZAV00369;Karoo Reef Wholesale;SILVER;Sandton;Mpumalanga;1200;15.0;Y
+01/03/2018;ZAV00370;Umhlanga Wharf;SILVER;Soweto;Gauteng;1804;15.0;Y
+01/03/2018;ZAV00371;Umhlanga Ridge Group;BRONZE;Port Elizabeth;Eastern Cape;6000;18.0;Y
+01/03/2018;ZAV00372;Drakensberg Peak Enterprises;SILVER;Sandton;Gauteng;2196;15.0;Y
+01/03/2018;ZAV00373;Zulu Trading Group;BRONZE;Rustenburg;North West;300;18.0;Y
+01/03/2018;ZAV00374;Drakensberg Reef;BRONZE;Durban;KwaZulu-Natal;4000;18.0;Y
+01/03/2018;ZAV00375;Karoo Fields Group;GOLD;Pietermaritzburg;KwaZulu-Natal;3201;12.0;Y
+01/03/2018;ZAV00376;Table Hollow;GOLD;Cape Town;Western Cape;8000;12.0;Y
+01/03/2018;ZAV00377;Karoo Crest Trading;BRONZE;Pietermaritzburg;KwaZulu-Natal;3201;18.0;Y
+01/03/2018;ZAV00378;Kalahari Junction;SILVER;Soweto;Gauteng;1804;15.0;Y
+01/03/2018;ZAV00379;Protea Ridge Group;PLATINUM;Pietermaritzburg;KwaZulu-Natal;3201;9.5;Y
+01/03/2018;ZAV00380;Tugela Fields;BRONZE;Nelspruit;Mpumalanga;1200;18.0;Y
+01/03/2018;ZAV00381;Umhlanga Ridge (Pty) Ltd;GOLD;East London;Eastern Cape;5200;12.0;Y
+01/03/2018;ZAV00382;Umhlanga Peak Supplies;SILVER;Soweto;Gauteng;1804;15.0;Y
+01/03/2018;ZAV00383;Table Peak;PLATINUM;Pretoria;Gauteng;1;9.5;Y
+01/03/2018;ZAV00384;Zulu Grove Wholesale;SILVER;Rustenburg;North West;300;15.0;Y
+01/03/2018;ZAV00385;Karoo Ridge Group;BRONZE;Soweto;Gauteng;1804;18.0;N
+01/03/2018;ZAV00386;Silver Hollow Trading;BRONZE;East London;Eastern Cape;5200;18.0;Y
+01/03/2018;ZAV00387;Drakensberg Ridge (Pty) Ltd;PLATINUM;Stellenbosch;Western Cape;7600;9.5;Y
+01/03/2018;ZAV00388;Zulu Peak Wholesale;PLATINUM;Bloemfontein;Free State;9300;9.5;Y
+01/03/2018;ZAV00389;Cape Hollow;GOLD;Stellenbosch;Western Cape;7600;12.0;Y
+01/03/2018;ZAV00390;Protea Wharf CC;BRONZE;Port Elizabeth;Eastern Cape;6000;18.0;Y
+01/03/2018;ZAV00391;Vaal Fields;BRONZE;Centurion;Gauteng;157;18.0;Y
+01/03/2018;ZAV00392;Drakensberg Reef Trading;PLATINUM;Cape Town;Western Cape;8000;9.5;Y
+01/03/2018;ZAV00393;Amber Crest;SILVER;Stellenbosch;Western Cape;7600;15.0;Y
+01/03/2018;ZAV00394;Vaal Junction (Pty) Ltd;BRONZE;Bloemfontein;Gauteng;1804;18.0;Y
+01/03/2018;ZAV00395;Table Crest;GOLD;Johannesburg;Gauteng;2000;12.0;Y
+01/03/2018;ZAV00396;Vaal Peak Distribution;GOLD;Durban;KwaZulu-Natal;4000;12.0;Y
+01/03/2018;ZAV00397;Kalahari Vale;BRONZE;Bloemfontein;Free State;9300;18.0;Y
+01/03/2018;ZAV00398;Vaal Wharf;BRONZE;Stellenbosch;Western Cape;7600;18.0;N
+01/03/2018;ZAV00399;Silver Junction;SILVER;Kimberley;Northern Cape;8300;15.0;N
+01/03/2018;ZAV00400;Drakensberg Fields;SILVER;Sandton;Gauteng;2196;15.0;Y
+01/03/2018;ZAV00401;Protea Point Group;BRONZE;Bloemfontein;Free State;9300;18.0;Y
+01/03/2018;ZAV00402;Karoo Springs;SILVER;Bloemfontein;Free State;9300;15.0;Y
+01/03/2018;ZAV00403;Drakensberg Crest;SILVER;Kimberley;Northern Cape;8300;15.0;Y
+01/03/2018;ZAV00404;Tugela Junction CC;BRONZE;Cape Town;Western Cape;8000;18.0;Y
+01/03/2018;ZAV00405;Protea Springs Retail;GOLD;Soweto;Gauteng;1804;12.0;Y
+01/03/2018;ZAV00406;Tugela Peak;GOLD;Stellenbosch;Western Cape;7600;12.0;Y
+01/03/2018;ZAV00407;Amber Wharf Enterprises;PLATINUM;Rustenburg;North West;300;9.5;Y
+01/03/2018;ZAV00408;Protea Vale;BRONZE;Rustenburg;Gauteng;157;18.0;Y
+01/03/2018;ZAV00409;Protea Trading Enterprises;SILVER;Soweto;Gauteng;1804;15.0;Y
+01/03/2018;ZAV00410;Drakensberg Hollow CC;SILVER;Rustenburg;North West;300;15.0;N
+01/03/2018;ZAV00411;Cape Springs Supplies;GOLD;Soweto;Gauteng;1804;12.0;Y
+01/03/2018;ZAV00412;Cape Junction Wholesale;BRONZE;Johannesburg;Gauteng;2000;18.0;Y
+01/03/2018;ZAV00413;Amber Grove (Pty) Ltd;BRONZE;Sandton;Gauteng;2196;18.0;Y
+01/03/2018;ZAV00414;Protea Peak Wholesale;GOLD;Centurion;Gauteng;157;12.0;Y
+01/03/2018;ZAV00415;Highveld Junction;GOLD;Centurion;Gauteng;157;12.0;Y
+01/03/2018;ZAV00416;Table Reef CC;GOLD;Centurion;Gauteng;157;12.0;Y
+01/03/2018;ZAV00417;Protea Springs (Pty) Ltd;PLATINUM;Nelspruit;Mpumalanga;1200;9.5;Y
+01/03/2018;ZAV00418;Kalahari Reef;BRONZE;Kimberley;Gauteng;1804;18.0;Y
+01/03/2018;ZAV00419;Kalahari Trading Group;GOLD;Port Elizabeth;Eastern Cape;6000;12.0;Y
+01/03/2018;ZAV00420;Vaal Springs;SILVER;Sandton;Gauteng;2196;15.0;Y
+01/03/2018;ZAV00421;Vaal Point;SILVER;Port Elizabeth;Eastern Cape;6000;15.0;Y
+01/03/2018;ZAV00422;Amber Crest Group;GOLD;Cape Town;Western Cape;8000;12.0;Y
+01/03/2018;ZAV00423;Umhlanga Crest;SILVER;Cape Town;Western Cape;8000;15.0;Y
+01/03/2018;ZAV00424;Amber Vale;PLATINUM;Polokwane;Limpopo;700;9.5;Y
+01/03/2018;ZAV00425;Cape Trading Wholesale;BRONZE;Kimberley;Northern Cape;8300;18.0;Y
+01/03/2018;ZAV00426;Drakensberg Bay;SILVER;Cape Town;Western Cape;8000;15.0;N
+01/03/2018;ZAV00427;Vaal Grove;PLATINUM;Pietermaritzburg;KwaZulu-Natal;3201;9.5;Y
+01/03/2018;ZAV00428;Amber Vale;PLATINUM;Port Elizabeth;Eastern Cape;6000;9.5;Y
+01/03/2018;ZAV00429;Highveld Springs;BRONZE;Durban;Gauteng;2000;18.0;Y
+01/03/2018;ZAV00430;Silver Peak Distribution;SILVER;Cape Town;Western Cape;8000;15.0;Y
+01/03/2018;ZAV00431;Protea Bay;GOLD;Centurion;Gauteng;157;12.0;Y
+01/03/2018;ZAV00432;Umhlanga Junction;GOLD;Stellenbosch;Western Cape;7600;12.0;Y
+01/03/2018;ZAV00433;Tugela Trading;SILVER;Cape Town;Western Cape;8000;15.0;Y
+01/03/2018;ZAV00434;Protea Bay Retail;GOLD;Johannesburg;Gauteng;2000;12.0;Y
+01/03/2018;ZAV00435;Table Crest CC;SILVER;East London;Eastern Cape;5200;15.0;Y
+01/03/2018;ZAV00436;Vaal Hollow;GOLD;Cape Town;Western Cape;8000;12.0;Y
+01/03/2018;ZAV00437;Karoo Fields;BRONZE;Soweto;Gauteng;1804;18.0;Y
+01/03/2018;ZAV00438;Drakensberg Vale Enterprises;SILVER;Johannesburg;Gauteng;2000;15.0;Y
+01/03/2018;ZAV00439;Tugela Crest CC;BRONZE;East London;Eastern Cape;5200;18.0;Y
+01/03/2018;ZAV00440;Karoo Reef;GOLD;Port Elizabeth;Eastern Cape;6000;12.0;Y
+01/03/2018;ZAV00441;Karoo Vale;BRONZE;Nelspruit;Mpumalanga;1200;18.0;Y
+01/03/2018;ZAV00442;Karoo Reef;SILVER;Cape Town;Western Cape;8000;15.0;N
+01/03/2018;ZAV00443;Protea Bay Wholesale;BRONZE;Nelspruit;Gauteng;2000;18.0;Y
+01/03/2018;ZAV00444;Table Junction Enterprises;PLATINUM;Kimberley;Northern Cape;8300;9.5;Y
+01/03/2018;ZAV00445;Amber Wharf Distribution;SILVER;Centurion;Gauteng;157;15.0;Y
+01/03/2018;ZAV00446;Amber Fields;SILVER;Stellenbosch;Western Cape;7600;15.0;Y
+01/03/2018;ZAV00447;Vaal Junction Retail;BRONZE;Sandton;Gauteng;2196;18.0;Y
+01/03/2018;ZAV00448;Drakensberg Hollow Retail;PLATINUM;Centurion;Gauteng;157;9.5;Y
+01/03/2018;ZAV00449;Kalahari Crest Distribution;BRONZE;Sandton;Gauteng;2196;18.0;Y
+01/03/2018;ZAV00450;Cape Grove;BRONZE;Port Elizabeth;Limpopo;700;18.0;Y
+01/03/2018;ZAV00451;Tugela Grove Retail;BRONZE;Centurion;Gauteng;157;18.0;Y
+01/03/2018;ZAV00452;Amber Springs Trading;BRONZE;Cape Town;Western Cape;8000;18.0;Y
+01/03/2018;ZAV00453;Cape Crest (Pty) Ltd;PLATINUM;Sandton;Gauteng;2196;9.5;Y
+01/03/2018;ZAV00454;Vaal Springs;GOLD;Rustenburg;North West;300;12.0;Y
+01/03/2018;ZAV00455;Zulu Ridge Group;BRONZE;East London;Eastern Cape;5200;18.0;Y
+01/03/2018;ZAV00456;Highveld Bay (Pty) Ltd;PLATINUM;Centurion;Gauteng;157;9.5;Y
+01/03/2018;ZAV00457;Cape Peak Retail;SILVER;Centurion;Gauteng;157;15.0;Y
+01/03/2018;ZAV00458;Amber Vale Supplies;PLATINUM;Stellenbosch;Western Cape;7600;9.5;Y
+01/03/2018;ZAV00459;Tugela Ridge;BRONZE;Pietermaritzburg;KwaZulu-Natal;3201;18.0;Y
+01/03/2018;ZAV00460;Amber Junction;BRONZE;Sandton;Gauteng;2196;18.0;N
+01/03/2018;ZAV00461;Vaal Trading;BRONZE;Cape Town;Western Cape;8000;18.0;Y
+01/03/2018;ZAV00462;Umhlanga Hollow Group;BRONZE;Cape Town;Western Cape;8000;18.0;Y
+01/03/2018;ZAV00463;Highveld Ridge Wholesale;SILVER;Sandton;Gauteng;2196;15.0;Y
+01/03/2018;ZAV00464;Protea Bay Retail;SILVER;Kimberley;Northern Cape;8300;15.0;Y
+01/03/2018;ZAV00465;Amber Hollow;BRONZE;Bloemfontein;Free State;9300;18.0;Y
+01/03/2018;ZAV00466;Umhlanga Hollow Wholesale;BRONZE;Soweto;Gauteng;1804;18.0;Y
+01/03/2018;ZAV00467;Table Trading;BRONZE;Johannesburg;Gauteng;2000;18.0;Y
+01/03/2018;ZAV00468;Drakensberg Springs;SILVER;Nelspruit;Mpumalanga;1200;15.0;Y
+01/03/2018;ZAV00469;Highveld Reef;SILVER;Pretoria;Gauteng;1;15.0;Y
+01/03/2018;ZAV00470;Table Ridge Enterprises;GOLD;Bloemfontein;Free State;9300;12.0;Y
+01/03/2018;ZAV00471;Cape Wharf Enterprises;SILVER;Bloemfontein;Free State;9300;15.0;Y
+01/03/2018;ZAV00472;Drakensberg Crest Wholesale;BRONZE;East London;Eastern Cape;5200;18.0;Y
+01/03/2018;ZAV00473;Table Fields Wholesale;SILVER;East London;Eastern Cape;5200;15.0;Y
+01/03/2018;ZAV00474;Karoo Vale Wholesale;BRONZE;Bloemfontein;Free State;9300;18.0;N
+01/03/2018;ZAV00475;Cape Fields Distribution;BRONZE;Cape Town;Western Cape;8000;18.0;Y
+01/03/2018;ZAV00476;Table Point;SILVER;Polokwane;Limpopo;700;15.0;Y
+01/03/2018;ZAV00477;Zulu Ridge;BRONZE;East London;Eastern Cape;5200;18.0;Y
+01/03/2018;ZAV00478;Umhlanga Ridge Trading;BRONZE;Bloemfontein;Free State;9300;18.0;Y
+01/03/2018;ZAV00479;Kalahari Crest Group;BRONZE;Cape Town;Western Cape;8000;18.0;Y
+01/03/2018;ZAV00480;Silver Junction CC;BRONZE;Nelspruit;Mpumalanga;1200;18.0;Y
+01/03/2018;ZAV00481;Silver Point Distribution;BRONZE;Johannesburg;Gauteng;2000;18.0;Y
+01/03/2018;ZAV00482;Silver Hollow Trading;PLATINUM;Pietermaritzburg;Western Cape;7600;9.5;Y
+01/03/2018;ZAV00483;Amber Trading Distribution;SILVER;Pietermaritzburg;KwaZulu-Natal;3201;15.0;Y
+01/03/2018;ZAV00484;Table Peak Trading;GOLD;Rustenburg;North West;300;12.0;Y
+01/03/2018;ZAV00485;Protea Fields Distribution;GOLD;Kimberley;Northern Cape;8300;12.0;Y
+01/03/2018;ZAV00486;Highveld Junction Distribution;GOLD;Nelspruit;Mpumalanga;1200;12.0;N
+01/03/2018;ZAV00487;Silver Ridge;BRONZE;Polokwane;Limpopo;700;18.0;Y
+01/03/2018;ZAV00488;Silver Wharf;SILVER;East London;Eastern Cape;5200;15.0;Y
+01/03/2018;ZAV00489;Silver Trading;GOLD;East London;Eastern Cape;5200;12.0;Y
+01/03/2018;ZAV00490;Vaal Springs Wholesale;SILVER;Bloemfontein;Free State;9300;15.0;Y
+01/03/2018;ZAV00491;Cape Peak;SILVER;Bloemfontein;Eastern Cape;5200;15.0;Y
+01/03/2018;ZAV00492;Umhlanga Crest;SILVER;Cape Town;Western Cape;8000;15.0;Y
+01/03/2018;ZAV00493;Kalahari Bay Retail;SILVER;Soweto;Gauteng;1804;15.0;Y
+01/03/2018;ZAV00494;Table Point;SILVER;Rustenburg;North West;300;15.0;Y
+01/03/2018;ZAV00495;Vaal Trading Wholesale;SILVER;Pietermaritzburg;KwaZulu-Natal;3201;15.0;Y
+01/03/2018;ZAV00496;Umhlanga Hollow;BRONZE;Centurion;Gauteng;157;18.0;N
+01/03/2018;ZAV00497;Karoo Crest;SILVER;Johannesburg;Gauteng;2000;15.0;Y
+01/03/2018;ZAV00498;Boland Trading;SILVER;Polokwane;Limpopo;700;15.0;Y
+01/03/2018;ZAV00499;Boland Reef (Pty) Ltd;PLATINUM;Kimberley;Northern Cape;8300;9.5;Y
+01/03/2018;ZAV00500;Table Wharf Enterprises;SILVER;Pretoria;Gauteng;1;15.0;N
+01/03/2018;ZAV00501;Silver Vale;GOLD;Pietermaritzburg;KwaZulu-Natal;3201;12.0;Y
+01/03/2018;ZAV00502;Amber Ridge;BRONZE;Stellenbosch;Western Cape;7600;18.0;Y
+01/03/2018;ZAV00503;Highveld Wharf;SILVER;Durban;KwaZulu-Natal;4000;15.0;Y
+01/03/2018;ZAV00504;Umhlanga Wharf Distribution;PLATINUM;Johannesburg;Gauteng;2000;9.5;Y
+01/03/2018;ZAV00505;Umhlanga Wharf;GOLD;Kimberley;Northern Cape;8300;12.0;Y
+01/03/2018;ZAV00506;Protea Springs Wholesale;SILVER;Cape Town;Western Cape;8000;15.0;N
+01/03/2018;ZAV00507;Boland Springs;GOLD;Durban;KwaZulu-Natal;4000;12.0;N
+01/03/2018;ZAV00508;Vaal Trading CC;PLATINUM;Pretoria;Gauteng;1;9.5;Y
+01/03/2018;ZAV00509;Tugela Crest Supplies;BRONZE;Pretoria;Gauteng;1;18.0;Y
+01/03/2018;ZAV00510;Drakensberg Hollow Enterprises;SILVER;Port Elizabeth;Eastern Cape;6000;15.0;Y
+01/03/2018;ZAV00511;Silver Point;SILVER;Pietermaritzburg;KwaZulu-Natal;3201;15.0;Y
+01/03/2018;ZAV00512;Table Bay;BRONZE;Pietermaritzburg;KwaZulu-Natal;3201;18.0;N
+01/03/2018;ZAV00513;Cape Wharf;PLATINUM;Durban;KwaZulu-Natal;4000;9.5;Y
+01/03/2018;ZAV00514;Tugela Point Wholesale;SILVER;Pietermaritzburg;KwaZulu-Natal;3201;15.0;Y
+01/03/2018;ZAV00515;Kalahari Ridge Group;BRONZE;Soweto;Gauteng;1804;18.0;Y
+01/03/2018;ZAV00516;Umhlanga Crest;GOLD;Stellenbosch;Western Cape;7600;12.0;Y
+01/03/2018;ZAV00517;Karoo Hollow (Pty) Ltd;GOLD;Polokwane;Limpopo;700;12.0;Y
+01/03/2018;ZAV00518;Boland Crest Trading;BRONZE;Pretoria;Gauteng;1;18.0;N
+01/03/2018;ZAV00519;Vaal Springs Retail;GOLD;Stellenbosch;Western Cape;7600;12.0;Y
+01/03/2018;ZAV00520;Boland Ridge Group;BRONZE;Pretoria;Gauteng;1;18.0;Y
+01/03/2018;ZAV00521;Table Reef Wholesale;PLATINUM;Cape Town;Western Cape;8000;9.5;Y
+01/03/2018;ZAV00522;Amber Springs Retail;PLATINUM;Sandton;Gauteng;2196;9.5;Y
+01/03/2018;ZAV00523;Vaal Crest Supplies;SILVER;Pretoria;Gauteng;1;15.0;Y
+01/03/2018;ZAV00524;Silver Fields CC;BRONZE;Polokwane;Limpopo;700;18.0;Y
+01/03/2018;ZAV00525;Amber Reef Supplies;GOLD;Kimberley;Northern Cape;8300;12.0;Y
+01/03/2018;ZAV00526;Table Trading;GOLD;East London;Eastern Cape;5200;12.0;Y
+01/03/2018;ZAV00527;Karoo Peak Supplies;SILVER;Cape Town;Western Cape;8000;15.0;Y
+01/03/2018;ZAV00528;Silver Crest;GOLD;Soweto;Gauteng;1804;12.0;Y
+01/03/2018;ZAV00529;Umhlanga Wharf Wholesale;BRONZE;Stellenbosch;Western Cape;7600;18.0;Y
+01/03/2018;ZAV00530;Amber Ridge;SILVER;Centurion;Gauteng;157;15.0;Y
+01/03/2018;ZAV00531;Cape Bay;GOLD;Stellenbosch;Western Cape;7600;12.0;Y
+01/03/2018;ZAV00532;Drakensberg Springs (Pty) Ltd;BRONZE;Rustenburg;North West;300;18.0;Y
+01/03/2018;ZAV00533;Umhlanga Vale (Pty) Ltd;SILVER;Cape Town;Western Cape;8000;15.0;Y
+01/03/2018;ZAV00534;Cape Peak;BRONZE;Cape Town;Western Cape;8000;18.0;Y
+01/03/2018;ZAV00535;Boland Trading Retail;BRONZE;Pietermaritzburg;KwaZulu-Natal;3201;18.0;Y
+01/03/2018;ZAV00536;Zulu Grove;GOLD;Johannesburg;Gauteng;2000;12.0;N
+01/03/2018;ZAV00537;Umhlanga Bay Distribution;GOLD;Rustenburg;North West;300;12.0;Y
+01/03/2018;ZAV00538;Highveld Peak Group;BRONZE;Rustenburg;North West;300;18.0;Y
+01/03/2018;ZAV00539;Table Bay CC;BRONZE;Stellenbosch;Western Cape;7600;18.0;Y
+01/03/2018;ZAV00540;Tugela Springs (Pty) Ltd;GOLD;Sandton;Gauteng;2196;12.0;Y
+01/03/2018;ZAV00541;Umhlanga Springs Supplies;GOLD;Pretoria;Gauteng;1;12.0;Y
+01/03/2018;ZAV00542;Boland Junction Distribution;BRONZE;Cape Town;Western Cape;8000;18.0;Y
+01/03/2018;ZAV00543;Vaal Junction;BRONZE;Stellenbosch;Western Cape;7600;18.0;N
+01/03/2018;ZAV00544;Highveld Ridge;GOLD;Bloemfontein;Free State;9300;12.0;N
+01/03/2018;ZAV00545;Tugela Peak Wholesale;BRONZE;Rustenburg;North West;300;18.0;Y
+01/03/2018;ZAV00546;Highveld Peak Retail;BRONZE;Polokwane;Limpopo;700;18.0;Y
+01/03/2018;ZAV00547;Vaal Reef Distribution;SILVER;Stellenbosch;Western Cape;7600;15.0;Y
+01/03/2018;ZAV00548;Zulu Fields;GOLD;Nelspruit;Mpumalanga;1200;12.0;Y
+01/03/2018;ZAV00549;Silver Crest Supplies;BRONZE;Port Elizabeth;KwaZulu-Natal;4000;18.0;Y
+01/03/2018;ZAV00550;Cape Crest;GOLD;Johannesburg;Gauteng;2000;12.0;Y
+01/03/2018;ZAV00551;Cape Wharf Trading;BRONZE;Soweto;Gauteng;1804;18.0;Y
+01/03/2018;ZAV00552;Vaal Trading CC;PLATINUM;East London;Eastern Cape;5200;9.5;Y
+01/03/2018;ZAV00553;Highveld Wharf Wholesale;SILVER;Centurion;Gauteng;157;15.0;N
+01/03/2018;ZAV00554;Vaal Peak (Pty) Ltd;BRONZE;Cape Town;Western Cape;8000;18.0;Y
+01/03/2018;ZAV00555;Drakensberg Crest Wholesale;BRONZE;Cape Town;Western Cape;8000;18.0;Y
+01/03/2018;ZAV00556;Amber Point Distribution;PLATINUM;Bloemfontein;Free State;9300;9.5;Y
+01/03/2018;ZAV00557;Zulu Grove CC;BRONZE;Durban;KwaZulu-Natal;4000;18.0;Y
+01/03/2018;ZAV00558;Kalahari Ridge Distribution;SILVER;Centurion;Gauteng;157;15.0;Y
+01/03/2018;ZAV00559;Table Wharf (Pty) Ltd;BRONZE;Durban;KwaZulu-Natal;4000;18.0;N
+01/03/2018;ZAV00560;Tugela Point;SILVER;Soweto;Gauteng;1804;15.0;Y
+01/03/2018;ZAV00561;Cape Reef;SILVER;Pietermaritzburg;KwaZulu-Natal;3201;15.0;Y
+01/03/2018;ZAV00562;Highveld Fields;BRONZE;Rustenburg;North West;300;18.0;Y
+01/03/2018;ZAV00563;Vaal Ridge CC;SILVER;Kimberley;Gauteng;1804;15.0;N
+01/03/2018;ZAV00564;Highveld Springs Retail;BRONZE;Kimberley;Northern Cape;8300;18.0;Y
+01/03/2018;ZAV00565;Drakensberg Springs CC;BRONZE;Pietermaritzburg;KwaZulu-Natal;3201;18.0;Y
+01/03/2018;ZAV00566;Kalahari Point;BRONZE;Durban;KwaZulu-Natal;4000;18.0;Y
+01/03/2018;ZAV00567;Zulu Junction Enterprises;SILVER;Port Elizabeth;Northern Cape;8300;15.0;Y
+01/03/2018;ZAV00568;Drakensberg Bay;BRONZE;Kimberley;Northern Cape;8300;18.0;Y
+01/03/2018;ZAV00569;Tugela Peak Trading;BRONZE;Johannesburg;Gauteng;2000;18.0;Y
+01/03/2018;ZAV00570;Highveld Reef Supplies;SILVER;Port Elizabeth;Eastern Cape;6000;15.0;Y
+01/03/2018;ZAV00571;Protea Peak Trading;SILVER;Polokwane;Limpopo;700;15.0;Y
+01/03/2018;ZAV00572;Highveld Grove;PLATINUM;Johannesburg;Gauteng;2000;9.5;N
+01/03/2018;ZAV00573;Highveld Springs Distribution;BRONZE;Soweto;Gauteng;1804;18.0;Y
+01/03/2018;ZAV00574;Tugela Point Wholesale;SILVER;East London;Eastern Cape;5200;15.0;Y
+01/03/2018;ZAV00575;Highveld Junction CC;BRONZE;Port Elizabeth;Eastern Cape;6000;18.0;Y
+01/03/2018;ZAV00576;Drakensberg Wharf;SILVER;Centurion;Gauteng;157;15.0;Y
+01/03/2018;ZAV00577;Boland Wharf Trading;SILVER;Soweto;Gauteng;1804;15.0;Y
+01/03/2018;ZAV00578;Protea Hollow (Pty) Ltd;BRONZE;Centurion;Western Cape;8000;18.0;Y
+01/03/2018;ZAV00579;Amber Peak;BRONZE;Polokwane;Limpopo;700;18.0;Y
+01/03/2018;ZAV00580;Vaal Reef Enterprises;BRONZE;Polokwane;Limpopo;700;18.0;Y
+01/03/2018;ZAV00581;Drakensberg Crest;BRONZE;Cape Town;Gauteng;157;18.0;Y
+01/03/2018;ZAV00582;Drakensberg Junction;BRONZE;Pietermaritzburg;KwaZulu-Natal;3201;18.0;Y
+01/03/2018;ZAV00583;Table Peak;BRONZE;Soweto;Gauteng;1804;18.0;Y
+01/03/2018;ZAV00584;Amber Wharf;BRONZE;Rustenburg;North West;300;18.0;Y
+01/03/2018;ZAV00585;Kalahari Reef;BRONZE;Johannesburg;Gauteng;2000;18.0;Y
+01/03/2018;ZAV00586;Vaal Wharf Trading;BRONZE;Centurion;Gauteng;157;18.0;Y
+01/03/2018;ZAV00587;Kalahari Peak Distribution;SILVER;East London;Eastern Cape;5200;15.0;Y
+01/03/2018;ZAV00588;Drakensberg Point Supplies;GOLD;Rustenburg;North West;300;12.0;Y
+01/03/2018;ZAV00589;Table Trading;BRONZE;Pietermaritzburg;KwaZulu-Natal;3201;18.0;Y
+01/03/2018;ZAV00590;Karoo Bay Supplies;BRONZE;Johannesburg;Gauteng;2000;18.0;Y
+01/03/2018;ZAV00591;Tugela Wharf;SILVER;Sandton;Gauteng;2196;15.0;Y
+01/03/2018;ZAV00592;Protea Junction Group;SILVER;Johannesburg;Gauteng;2000;15.0;Y
+01/03/2018;ZAV00593;Cape Trading Group;BRONZE;Soweto;Gauteng;1804;18.0;Y
+01/03/2018;ZAV00594;Table Junction Trading;SILVER;Cape Town;Western Cape;8000;15.0;Y
+01/03/2018;ZAV00595;Tugela Point;BRONZE;Rustenburg;North West;300;18.0;Y
+01/03/2018;ZAV00596;Kalahari Wharf Supplies;BRONZE;Rustenburg;North West;300;18.0;Y
+01/03/2018;ZAV00597;Tugela Wharf;BRONZE;Stellenbosch;Western Cape;7600;18.0;Y
+01/03/2018;ZAV00598;Boland Peak;BRONZE;Rustenburg;North West;300;18.0;Y
+01/03/2018;ZAV00599;Vaal Wharf Trading;GOLD;Nelspruit;Mpumalanga;1200;12.0;Y
+01/03/2018;ZAV00600;Cape Trading;BRONZE;Bloemfontein;Free State;9300;18.0;Y
+01/03/2018;ZAV00601;Amber Fields Enterprises;BRONZE;Pietermaritzburg;KwaZulu-Natal;3201;18.0;Y
+01/03/2018;ZAV00602;Silver Crest Wholesale;BRONZE;Cape Town;Western Cape;8000;18.0;Y
+01/03/2018;ZAV00603;Table Trading Distribution;BRONZE;Port Elizabeth;Eastern Cape;6000;18.0;N
+01/03/2018;ZAV00604;Zulu Peak;SILVER;Johannesburg;Gauteng;2000;15.0;Y
+01/03/2018;ZAV00605;Amber Fields (Pty) Ltd;SILVER;Kimberley;Northern Cape;8300;15.0;Y
+01/03/2018;ZAV00606;Protea Trading;SILVER;Centurion;Gauteng;157;15.0;Y
+01/03/2018;ZAV00607;Highveld Wharf Enterprises;GOLD;Pretoria;Free State;9300;12.0;Y
+01/03/2018;ZAV00608;Drakensberg Crest;BRONZE;Nelspruit;Mpumalanga;1200;18.0;N
+01/03/2018;ZAV00609;Table Wharf Group;PLATINUM;Durban;Gauteng;157;9.5;Y
+01/03/2018;ZAV00610;Tugela Junction (Pty) Ltd;BRONZE;Pretoria;Gauteng;1;18.0;Y
+01/03/2018;ZAV00611;Highveld Point Group;PLATINUM;Cape Town;Western Cape;8000;9.5;Y
+01/03/2018;ZAV00612;Amber Hollow;BRONZE;Johannesburg;Gauteng;2000;18.0;Y
+01/03/2018;ZAV00613;Umhlanga Trading Enterprises;SILVER;Johannesburg;Gauteng;2000;15.0;Y
+01/03/2018;ZAV00614;Highveld Junction CC;GOLD;Rustenburg;North West;300;12.0;Y
+01/03/2018;ZAV00615;Vaal Hollow;BRONZE;Bloemfontein;Free State;9300;18.0;Y
+01/03/2018;ZAV00616;Karoo Crest;BRONZE;Bloemfontein;Free State;9300;18.0;Y
+01/03/2018;ZAV00617;Protea Trading Enterprises;GOLD;Stellenbosch;Western Cape;7600;12.0;Y
+01/03/2018;ZAV00618;Highveld Hollow;BRONZE;Soweto;Gauteng;1804;18.0;Y
+01/03/2018;ZAV00619;Vaal Crest Supplies;SILVER;Stellenbosch;Western Cape;7600;15.0;Y
+01/03/2018;ZAV00620;Silver Crest CC;SILVER;Centurion;Gauteng;157;15.0;Y
+01/03/2018;ZAV00621;Tugela Point;SILVER;Stellenbosch;Western Cape;7600;15.0;Y
+01/03/2018;ZAV00622;Protea Junction Group;BRONZE;Pietermaritzburg;KwaZulu-Natal;3201;18.0;Y
+01/03/2018;ZAV00623;Karoo Fields (Pty) Ltd;GOLD;Port Elizabeth;Eastern Cape;6000;12.0;Y
+01/03/2018;ZAV00624;Karoo Vale;SILVER;Johannesburg;Gauteng;2000;15.0;Y
+01/03/2018;ZAV00625;Boland Hollow Group;SILVER;Soweto;Gauteng;1804;15.0;Y
+01/03/2018;ZAV00626;Highveld Ridge (Pty) Ltd;SILVER;Kimberley;Northern Cape;8300;15.0;Y
+01/03/2018;ZAV00627;Protea Crest Enterprises;BRONZE;Sandton;Gauteng;2196;18.0;Y
+01/03/2018;ZAV00628;Umhlanga Hollow;SILVER;Johannesburg;Gauteng;2000;15.0;Y
+01/03/2018;ZAV00629;Cape Junction;BRONZE;Pretoria;Gauteng;1;18.0;Y
+01/03/2018;ZAV00630;Silver Point Group;PLATINUM;Polokwane;Limpopo;700;9.5;Y
+01/03/2018;ZAV00631;Zulu Junction;SILVER;Rustenburg;North West;300;15.0;Y
+01/03/2018;ZAV00632;Vaal Hollow Trading;GOLD;Polokwane;Limpopo;700;12.0;Y
+01/03/2018;ZAV00633;Table Bay CC;GOLD;East London;Eastern Cape;5200;12.0;Y
+01/03/2018;ZAV00634;Umhlanga Junction;BRONZE;Pretoria;Gauteng;1;18.0;N
+01/03/2018;ZAV00635;Silver Bay CC;SILVER;Polokwane;Limpopo;700;15.0;Y
+01/03/2018;ZAV00636;Tugela Peak CC;GOLD;Port Elizabeth;Eastern Cape;6000;12.0;Y
+01/03/2018;ZAV00637;Zulu Trading;GOLD;Rustenburg;North West;300;12.0;Y
+01/03/2018;ZAV00638;Tugela Grove Enterprises;GOLD;Rustenburg;North West;300;12.0;Y
+01/03/2018;ZAV00639;Tugela Trading Wholesale;BRONZE;Port Elizabeth;Eastern Cape;6000;18.0;Y
+01/03/2018;ZAV00640;Karoo Ridge (Pty) Ltd;BRONZE;East London;Eastern Cape;5200;18.0;Y
+01/03/2018;ZAV00641;Silver Grove Wholesale;BRONZE;Pretoria;Gauteng;1;18.0;Y
+01/03/2018;ZAV00642;Karoo Reef Distribution;SILVER;Pretoria;Gauteng;1;15.0;Y
+01/03/2018;ZAV00643;Protea Vale;SILVER;Port Elizabeth;Eastern Cape;6000;15.0;Y
+01/03/2018;ZAV00644;Umhlanga Crest Wholesale;BRONZE;Johannesburg;Gauteng;2000;18.0;Y
+01/03/2018;ZAV00645;Boland Wharf Retail;GOLD;Nelspruit;Mpumalanga;1200;12.0;Y
+01/03/2018;ZAV00646;Table Bay (Pty) Ltd;SILVER;East London;Eastern Cape;5200;15.0;Y
+01/03/2018;ZAV00647;Table Reef Group;BRONZE;Johannesburg;Gauteng;2000;18.0;Y
+01/03/2018;ZAV00648;Highveld Vale Retail;SILVER;Stellenbosch;Western Cape;7600;15.0;Y
+01/03/2018;ZAV00649;Drakensberg Wharf Enterprises;SILVER;Stellenbosch;Western Cape;7600;15.0;Y
+01/03/2018;ZAV00650;Amber Crest Distribution;BRONZE;Rustenburg;North West;300;18.0;Y
+01/03/2018;ZAV00651;Highveld Springs Distribution;BRONZE;Pretoria;Gauteng;1;18.0;Y
+01/03/2018;ZAV00652;Table Ridge Supplies;BRONZE;Sandton;Gauteng;2196;18.0;N
+01/03/2018;ZAV00653;Table Hollow Group;BRONZE;Nelspruit;Mpumalanga;1200;18.0;Y
+01/03/2018;ZAV00654;Boland Crest CC;BRONZE;Centurion;Gauteng;157;18.0;Y
+01/03/2018;ZAV00655;Cape Grove Distribution;BRONZE;Rustenburg;North West;300;18.0;Y
+01/03/2018;ZAV00656;Tugela Trading Wholesale;PLATINUM;Centurion;Gauteng;157;9.5;Y
+01/03/2018;ZAV00657;Zulu Junction Supplies;BRONZE;Durban;KwaZulu-Natal;4000;18.0;Y
+01/03/2018;ZAV00658;Vaal Springs CC;SILVER;Port Elizabeth;Eastern Cape;6000;15.0;Y
+01/03/2018;ZAV00659;Highveld Trading Wholesale;GOLD;Nelspruit;Mpumalanga;1200;12.0;Y
+01/03/2018;ZAV00660;Zulu Ridge Supplies;GOLD;Stellenbosch;Western Cape;7600;12.0;Y
+01/03/2018;ZAV00661;Vaal Bay;SILVER;Durban;KwaZulu-Natal;4000;15.0;Y
+01/03/2018;ZAV00662;Boland Fields Group;SILVER;Sandton;Gauteng;2196;15.0;Y
+01/03/2018;ZAV00663;Cape Trading Trading;SILVER;Soweto;Gauteng;1804;15.0;Y
+01/03/2018;ZAV00664;Drakensberg Bay Wholesale;BRONZE;East London;Eastern Cape;5200;18.0;Y
+01/03/2018;ZAV00665;Tugela Ridge;BRONZE;Soweto;Gauteng;1804;18.0;Y
+01/03/2018;ZAV00666;Highveld Hollow;SILVER;Sandton;Gauteng;2196;15.0;Y
+01/03/2018;ZAV00667;Boland Junction;BRONZE;Centurion;Gauteng;157;18.0;Y
+01/03/2018;ZAV00668;Boland Ridge;GOLD;Bloemfontein;Free State;9300;12.0;Y
+01/03/2018;ZAV00669;Table Vale Group;GOLD;Soweto;Gauteng;1804;12.0;Y
+01/03/2018;ZAV00670;Protea Crest;BRONZE;Pietermaritzburg;KwaZulu-Natal;3201;18.0;Y
+01/03/2018;ZAV00671;Highveld Peak;BRONZE;Port Elizabeth;Eastern Cape;6000;18.0;Y
+01/03/2018;ZAV00672;Umhlanga Fields;GOLD;Polokwane;Limpopo;700;12.0;Y
+01/03/2018;ZAV00673;Amber Hollow Group;BRONZE;Johannesburg;Gauteng;2000;18.0;Y
+01/03/2018;ZAV00674;Umhlanga Vale Group;BRONZE;Soweto;Gauteng;1804;18.0;Y
+01/03/2018;ZAV00675;Boland Hollow Trading;SILVER;Pietermaritzburg;KwaZulu-Natal;3201;15.0;Y
+01/03/2018;ZAV00676;Boland Fields Distribution;BRONZE;Kimberley;Northern Cape;8300;18.0;Y
+01/03/2018;ZAV00677;Drakensberg Wharf Wholesale;PLATINUM;Stellenbosch;Western Cape;7600;9.5;Y
+01/03/2018;ZAV00678;Silver Bay;SILVER;Cape Town;Western Cape;8000;15.0;Y
+01/03/2018;ZAV00679;Vaal Bay;SILVER;Polokwane;Limpopo;700;15.0;Y
+01/03/2018;ZAV00680;Umhlanga Fields CC;BRONZE;Bloemfontein;Free State;9300;18.0;Y
+01/03/2018;ZAV00681;Vaal Reef (Pty) Ltd;BRONZE;Sandton;Gauteng;2196;18.0;Y
+01/03/2018;ZAV00682;Highveld Hollow;SILVER;Stellenbosch;Western Cape;7600;15.0;Y
+01/03/2018;ZAV00683;Highveld Fields;BRONZE;Pietermaritzburg;KwaZulu-Natal;3201;18.0;Y
+01/03/2018;ZAV00684;Protea Trading;BRONZE;Centurion;Gauteng;157;18.0;Y
+01/03/2018;ZAV00685;Kalahari Bay Retail;BRONZE;Pietermaritzburg;KwaZulu-Natal;3201;18.0;Y
+01/03/2018;ZAV00686;Umhlanga Springs Distribution;SILVER;Soweto;Gauteng;1804;15.0;Y
+01/03/2018;ZAV00687;Table Reef;SILVER;Nelspruit;Mpumalanga;1200;15.0;Y
+01/03/2018;ZAV00688;Boland Peak Group;BRONZE;Stellenbosch;Western Cape;7600;18.0;Y
+01/03/2018;ZAV00689;Cape Hollow;BRONZE;Durban;KwaZulu-Natal;4000;18.0;Y
+01/03/2018;ZAV00690;Kalahari Trading;BRONZE;Johannesburg;Gauteng;2000;18.0;Y
+01/03/2018;ZAV00691;Umhlanga Point;BRONZE;Bloemfontein;Free State;9300;18.0;Y
+01/03/2018;ZAV00692;Karoo Grove;BRONZE;Port Elizabeth;Eastern Cape;6000;18.0;Y
+01/03/2018;ZAV00693;Table Ridge Group;SILVER;Rustenburg;North West;300;15.0;Y
+01/03/2018;ZAV00694;Zulu Ridge Supplies;SILVER;Centurion;Gauteng;157;15.0;Y
+01/03/2018;ZAV00695;Protea Springs (Pty) Ltd;PLATINUM;Rustenburg;North West;300;9.5;Y
+01/03/2018;ZAV00696;Protea Wharf;SILVER;Durban;KwaZulu-Natal;4000;15.0;Y
+01/03/2018;ZAV00697;Highveld Junction (Pty) Ltd;SILVER;Port Elizabeth;Eastern Cape;6000;15.0;Y
+01/03/2018;ZAV00698;Silver Vale Trading;PLATINUM;Pietermaritzburg;KwaZulu-Natal;3201;9.5;Y
+01/03/2018;ZAV00699;Boland Crest Group;BRONZE;Johannesburg;Gauteng;2000;18.0;Y
+01/03/2018;ZAV00700;Table Vale Retail;BRONZE;Kimberley;Northern Cape;8300;18.0;Y
+01/03/2018;ZAV00701;Umhlanga Vale Supplies;BRONZE;Johannesburg;Gauteng;2000;18.0;Y
+01/03/2018;ZAV00702;Boland Grove CC;PLATINUM;Kimberley;Northern Cape;8300;9.5;N
+01/03/2018;ZAV00703;Kalahari Wharf;BRONZE;Kimberley;Northern Cape;8300;18.0;N
+01/03/2018;ZAV00704;Vaal Point;BRONZE;Centurion;Gauteng;157;18.0;N
+01/03/2018;ZAV00705;Cape Springs Wholesale;SILVER;East London;Eastern Cape;5200;15.0;Y
+01/03/2018;ZAV00706;Umhlanga Junction Wholesale;BRONZE;Centurion;Gauteng;157;18.0;Y
+01/03/2018;ZAV00707;Karoo Grove;BRONZE;Kimberley;Northern Cape;8300;18.0;Y
+01/03/2018;ZAV00708;Protea Ridge (Pty) Ltd;SILVER;Port Elizabeth;Eastern Cape;6000;15.0;Y
+01/03/2018;ZAV00709;Protea Grove Group;GOLD;Centurion;Gauteng;157;12.0;Y
+01/03/2018;ZAV00710;Zulu Peak Distribution;PLATINUM;Soweto;Gauteng;1804;9.5;Y
+01/03/2018;ZAV00711;Highveld Grove;PLATINUM;Cape Town;Western Cape;8000;9.5;Y
+01/03/2018;ZAV00712;Drakensberg Fields;PLATINUM;Johannesburg;Gauteng;2000;9.5;Y
+01/03/2018;ZAV00713;Drakensberg Junction Supplies;GOLD;East London;Eastern Cape;5200;12.0;Y
+01/03/2018;ZAV00714;Vaal Grove Trading;BRONZE;Kimberley;Northern Cape;8300;18.0;Y
+01/03/2018;ZAV00715;Amber Grove Enterprises;GOLD;East London;Eastern Cape;5200;12.0;Y
+01/03/2018;ZAV00716;Drakensberg Junction CC;GOLD;Soweto;Gauteng;1804;12.0;Y
+01/03/2018;ZAV00717;Amber Springs CC;SILVER;East London;Eastern Cape;5200;15.0;Y
+01/03/2018;ZAV00718;Kalahari Grove Distribution;PLATINUM;Johannesburg;Gauteng;2000;9.5;Y
+01/03/2018;ZAV00719;Karoo Bay Distribution;SILVER;Pietermaritzburg;Northern Cape;8300;15.0;Y
+01/03/2018;ZAV00720;Boland Point;PLATINUM;Pietermaritzburg;KwaZulu-Natal;3201;9.5;Y
+01/03/2018;ZAV00721;Karoo Hollow Supplies;PLATINUM;Port Elizabeth;Eastern Cape;6000;9.5;Y
+01/03/2018;ZAV00722;Kalahari Grove Wholesale;SILVER;Polokwane;Limpopo;700;15.0;Y
+01/03/2018;ZAV00723;Kalahari Trading Trading;BRONZE;Kimberley;Northern Cape;8300;18.0;Y
+01/03/2018;ZAV00724;Cape Point Trading;BRONZE;Nelspruit;Mpumalanga;1200;18.0;Y
+01/03/2018;ZAV00725;Boland Springs Wholesale;SILVER;Stellenbosch;Western Cape;7600;15.0;Y
+01/03/2018;ZAV00726;Highveld Reef;SILVER;Pietermaritzburg;KwaZulu-Natal;3201;15.0;Y
+01/03/2018;ZAV00727;Tugela Wharf CC;SILVER;Sandton;Gauteng;2196;15.0;Y
+01/03/2018;ZAV00728;Cape Hollow Supplies;BRONZE;Sandton;Gauteng;2196;18.0;Y
+01/03/2018;ZAV00729;Kalahari Bay;PLATINUM;East London;Eastern Cape;5200;9.5;Y
+01/03/2018;ZAV00730;Cape Peak;BRONZE;Soweto;Gauteng;1804;18.0;Y
+01/03/2018;ZAV00731;Tugela Reef (Pty) Ltd;SILVER;Nelspruit;Mpumalanga;1200;15.0;Y
+01/03/2018;ZAV00732;Drakensberg Peak CC;SILVER;Polokwane;Limpopo;700;15.0;Y
+01/03/2018;ZAV00733;Cape Bay;BRONZE;Nelspruit;Mpumalanga;1200;18.0;Y
+01/03/2018;ZAV00734;Cape Trading;SILVER;Stellenbosch;Western Cape;7600;15.0;Y
+01/03/2018;ZAV00735;Highveld Fields Group;BRONZE;Durban;KwaZulu-Natal;4000;18.0;Y
+01/03/2018;ZAV00736;Protea Wharf Group;SILVER;Sandton;Gauteng;2196;15.0;Y
+01/03/2018;ZAV00737;Drakensberg Bay;SILVER;Polokwane;Western Cape;7600;15.0;Y
+01/03/2018;ZAV00738;Boland Wharf;GOLD;Pietermaritzburg;Gauteng;2196;12.0;N
+01/03/2018;ZAV00739;Drakensberg Vale;SILVER;Kimberley;Northern Cape;8300;15.0;Y
+01/03/2018;ZAV00740;Drakensberg Reef Retail;SILVER;Nelspruit;Mpumalanga;1200;15.0;Y
+01/03/2018;ZAV00741;Protea Crest Retail;GOLD;Sandton;Gauteng;2196;12.0;Y
+01/03/2018;ZAV00742;Amber Trading Trading;PLATINUM;Polokwane;Western Cape;8000;9.5;Y
+01/03/2018;ZAV00743;Highveld Hollow Trading;SILVER;East London;KwaZulu-Natal;3201;15.0;Y
+01/03/2018;ZAV00744;Drakensberg Point;PLATINUM;Stellenbosch;Western Cape;7600;9.5;Y
+01/03/2018;ZAV00745;Cape Junction Trading;BRONZE;Centurion;Gauteng;157;18.0;Y
+01/03/2018;ZAV00746;Drakensberg Wharf;BRONZE;Kimberley;Northern Cape;8300;18.0;Y
+01/03/2018;ZAV00747;Protea Bay Group;GOLD;Soweto;Gauteng;1804;12.0;Y
+01/03/2018;ZAV00748;Amber Wharf;SILVER;Johannesburg;Gauteng;2000;15.0;Y
+01/03/2018;ZAV00749;Drakensberg Junction Enterprises;BRONZE;East London;Eastern Cape;5200;18.0;Y
+01/03/2018;ZAV00750;Cape Fields Supplies;BRONZE;Pretoria;Gauteng;1;18.0;Y
+01/03/2018;ZAV00751;Umhlanga Hollow (Pty) Ltd;BRONZE;East London;Eastern Cape;5200;18.0;Y
+01/03/2018;ZAV00752;Kalahari Reef Trading;BRONZE;Port Elizabeth;Eastern Cape;6000;18.0;Y
+01/03/2018;ZAV00753;Karoo Ridge;BRONZE;Johannesburg;Gauteng;2000;18.0;Y
+01/03/2018;ZAV00754;Table Fields Distribution;BRONZE;Polokwane;Limpopo;700;18.0;Y
+01/03/2018;ZAV00755;Boland Bay;SILVER;Pretoria;Gauteng;1;15.0;Y
+01/03/2018;ZAV00756;Drakensberg Hollow;SILVER;Bloemfontein;Free State;9300;15.0;Y
+01/03/2018;ZAV00757;Umhlanga Bay Group;SILVER;Rustenburg;North West;300;15.0;Y
+01/03/2018;ZAV00758;Highveld Point;SILVER;Johannesburg;Gauteng;2000;15.0;N
+01/03/2018;ZAV00759;Tugela Crest;SILVER;Rustenburg;North West;300;15.0;Y
+01/03/2018;ZAV00760;Umhlanga Springs Supplies;GOLD;Stellenbosch;Western Cape;7600;12.0;Y
+01/03/2018;ZAV00761;Karoo Junction Wholesale;BRONZE;Bloemfontein;Free State;9300;18.0;Y
+01/03/2018;ZAV00762;Zulu Grove;PLATINUM;Polokwane;Limpopo;700;9.5;Y
+01/03/2018;ZAV00763;Silver Ridge Group;BRONZE;Pretoria;Gauteng;1;18.0;Y
+01/03/2018;ZAV00764;Kalahari Bay (Pty) Ltd;BRONZE;Johannesburg;Gauteng;2000;18.0;Y
+01/03/2018;ZAV00765;Cape Fields Trading;SILVER;Bloemfontein;Free State;9300;15.0;Y
+01/03/2018;ZAV00766;Kalahari Fields;GOLD;Pretoria;Northern Cape;8300;12.0;Y
+01/03/2018;ZAV00767;Kalahari Point Wholesale;SILVER;Durban;KwaZulu-Natal;4000;15.0;Y
+01/03/2018;ZAV00768;Amber Peak Trading;BRONZE;Bloemfontein;Free State;9300;18.0;N
+01/03/2018;ZAV00769;Drakensberg Hollow Group;SILVER;Stellenbosch;Western Cape;7600;15.0;Y
+01/03/2018;ZAV00770;Tugela Crest;BRONZE;Bloemfontein;Free State;9300;18.0;Y
+01/03/2018;ZAV00771;Tugela Peak Retail;SILVER;Nelspruit;Mpumalanga;1200;15.0;Y
+01/03/2018;ZAV00772;Umhlanga Bay;BRONZE;Rustenburg;North West;300;18.0;Y
+01/03/2018;ZAV00773;Drakensberg Wharf;BRONZE;Rustenburg;North West;300;18.0;Y
+01/03/2018;ZAV00774;Vaal Fields Distribution;GOLD;Johannesburg;Gauteng;2000;12.0;Y
+01/03/2018;ZAV00775;Karoo Junction Enterprises;SILVER;Johannesburg;Gauteng;2000;15.0;Y
+01/03/2018;ZAV00776;Table Fields;GOLD;Johannesburg;Gauteng;2000;12.0;Y
+01/03/2018;ZAV00777;Boland Springs;BRONZE;Kimberley;Northern Cape;8300;18.0;Y
+01/03/2018;ZAV00778;Umhlanga Grove Wholesale;BRONZE;Polokwane;Limpopo;700;18.0;Y
+01/03/2018;ZAV00779;Table Reef Retail;PLATINUM;Rustenburg;North West;300;9.5;Y
+01/03/2018;ZAV00780;Amber Vale (Pty) Ltd;BRONZE;Bloemfontein;Free State;9300;18.0;Y
+01/03/2018;ZAV00781;Table Ridge (Pty) Ltd;BRONZE;Pretoria;Gauteng;1;18.0;Y
+01/03/2018;ZAV00782;Silver Crest;SILVER;Polokwane;Limpopo;700;15.0;Y
+01/03/2018;ZAV00783;Silver Hollow;BRONZE;Rustenburg;North West;300;18.0;Y
+01/03/2018;ZAV00784;Umhlanga Grove Group;GOLD;Sandton;Gauteng;2196;12.0;Y
+01/03/2018;ZAV00785;Drakensberg Ridge Enterprises;SILVER;Rustenburg;North West;300;15.0;Y
+01/03/2018;ZAV00786;Vaal Junction;BRONZE;Sandton;Gauteng;2196;18.0;Y
+01/03/2018;ZAV00787;Drakensberg Springs CC;BRONZE;Port Elizabeth;Eastern Cape;6000;18.0;Y
+01/03/2018;ZAV00788;Cape Ridge;BRONZE;Durban;KwaZulu-Natal;4000;18.0;Y
+01/03/2018;ZAV00789;Cape Vale Group;BRONZE;Durban;KwaZulu-Natal;4000;18.0;Y
+01/03/2018;ZAV00790;Silver Grove Trading;BRONZE;East London;Eastern Cape;5200;18.0;Y
+01/03/2018;ZAV00791;Vaal Trading;BRONZE;Pietermaritzburg;KwaZulu-Natal;3201;18.0;Y
+01/03/2018;ZAV00792;Cape Point Group;SILVER;Pietermaritzburg;Gauteng;1;15.0;Y
+01/03/2018;ZAV00793;Vaal Peak Group;BRONZE;Bloemfontein;Free State;9300;18.0;Y
+01/03/2018;ZAV00794;Drakensberg Ridge Group;SILVER;Polokwane;Limpopo;700;15.0;Y
+01/03/2018;ZAV00795;Cape Springs;BRONZE;Kimberley;Northern Cape;8300;18.0;Y
+01/03/2018;ZAV00796;Karoo Reef Enterprises;SILVER;Sandton;Gauteng;2196;15.0;Y
+01/03/2018;ZAV00797;Karoo Peak CC;GOLD;Polokwane;Limpopo;700;12.0;Y
+01/03/2018;ZAV00798;Table Peak CC;SILVER;Johannesburg;Gauteng;2000;15.0;Y
+01/03/2018;ZAV00799;Vaal Ridge;SILVER;Port Elizabeth;Eastern Cape;6000;15.0;Y
+01/03/2018;ZAV00800;Tugela Grove;PLATINUM;Pietermaritzburg;KwaZulu-Natal;3201;9.5;Y

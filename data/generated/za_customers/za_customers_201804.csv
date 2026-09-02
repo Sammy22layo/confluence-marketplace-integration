@@ -1,0 +1,1408 @@
+buyer_ref,buyer_uid,postcode,town,province,signup_dt,acq_channel
+ZAC0000020,5cbe3b9bc83f9460,179,Centurion,Gauteng,12/04/2018,organic
+ZAC0000054,72db53feef385e4f,4026,Durban,KwaZulu-Natal,16/04/2018,social
+ZAC0000058,72071fd1f058f886,2247,Sandton,Gauteng,18/04/2018,social
+ZAC0000074,309c25efe2a28f18,1255,Nelspruit,Mpumalanga,04/04/2018,referral
+ZAC0000116,4652adaa0ce2d949,8048,Cape Town,Western Cape,09/04/2018,referral
+ZAC0000125,aea0da33d6994295,1862,Soweto,Gauteng,19/04/2018,paid_search
+ZAC0000192,a839e5eb6cdcfd76,1227,Nelspruit,Mpumalanga,29/04/2018,social
+ZAC0000214,be632b656851b221,717,Polokwane,Limpopo,27/04/2018,paid_search
+ZAC0000216,63bfa40ae0e232ba,172,Centurion,Gauteng,05/04/2018,referral
+ZAC0000231,279aac3a2105a36d,4041,Durban,KwaZulu-Natal,26/04/2018,organic
+ZAC0000238,c541efea29c3ded0,2008,Johannesburg,Gauteng,11/04/2018,organic
+ZAC0000245,ef3a426aa65c0811,1849,Soweto,Gauteng,04/04/2018,email
+ZAC0000253,6631e153d6968c8e,2235,Sandton,Gauteng,27/04/2018,email
+ZAC0000279,5d74a8181eff15cf,1832,Soweto,Gauteng,30/04/2018,organic
+ZAC0000312,bce25e4988044b63,5227,East London,Eastern Cape,27/04/2018,social
+ZAC0000316,508948905c4dba3a,3211,Pietermaritzburg,KwaZulu-Natal,20/04/2018,email
+ZAC0000377,b9e64f96571e9166,175,Centurion,Gauteng,27/04/2018,social
+ZAC0000419,56ee878069bcb50e,756,Polokwane,Limpopo,02/04/2018,email
+ZAC0000442,18d5e65c0a4ea424,2023,Johannesburg,Gauteng,05/04/2018,social
+ZAC0000443,ab7267587cac27d5,1238,Nelspruit,Mpumalanga,24/04/2018,paid_search
+ZAC0000458,8cc3e270097ed946,9344,Bloemfontein,Free State,27/04/2018,paid_search
+ZAC0000463,f9c043a3795f8d3b,3258,Pietermaritzburg,KwaZulu-Natal,09/04/2018,organic
+ZAC0000476,a38b9bf9a3f48706,1823,Soweto,Gauteng,26/04/2018,organic
+ZAC0000477,9a32e7b8ac85fad2,6031,Port Elizabeth,Eastern Cape,20/04/2018,organic
+ZAC0000483,44a8ab35ad523361,6017,Port Elizabeth,Eastern Cape,18/04/2018,paid_search
+ZAC0000485,9ecc19dad9ac1d2e,2216,Sandton,Gauteng,17/04/2018,email
+ZAC0000499,73729209fe2a6e6f,9326,Bloemfontein,Free State,16/04/2018,affiliate
+ZAC0000507,20471a065aa0cbff,1816,Soweto,Gauteng,01/04/2018,paid_search
+ZAC0000510,069ed9afa819db22,2058,Johannesburg,Gauteng,18/04/2018,referral
+ZAC0000525,89552aea0b5ed7cd,1856,Soweto,Gauteng,12/04/2018,organic
+ZAC0000529,1b32cd5b4571ff62,1220,Nelspruit,Mpumalanga,30/04/2018,organic
+ZAC0000567,d6731a2981006895,2224,Sandton,Gauteng,12/04/2018,email
+ZAC0000593,7386eb3a9999ea15,746,Polokwane,Limpopo,12/04/2018,paid_search
+ZAC0000605,450cdde4c28fa1dc,6007,Port Elizabeth,Eastern Cape,08/04/2018,paid_search
+ZAC0000612,8f982c9e299ab312,8018,Cape Town,Western Cape,01/04/2018,referral
+ZAC0000618,90f4b7fa9defa916,8020,Cape Town,Western Cape,25/04/2018,paid_search
+ZAC0000642,a577e415f25e51bf,8330,Kimberley,Northern Cape,03/04/2018,paid_search
+ZAC0000653,0a3bc0597c263de5,8309,Kimberley,Northern Cape,16/04/2018,paid_search
+ZAC0000658,03ff1b9c27736aae,341,Rustenburg,North West,28/04/2018,social
+ZAC0000663,f4b3f7cb46c52d5d,2012,Johannesburg,Gauteng,25/04/2018,email
+ZAC0000674,b5d467f029eea1a7,181,Centurion,Gauteng,24/04/2018,affiliate
+ZAC0000679,4ba845b5267ab2ad,3202,Pietermaritzburg,KwaZulu-Natal,27/04/2018,organic
+ZAC0000687,d4d5e6fba0d655a9,2245,Sandton,Gauteng,11/04/2018,referral
+ZAC0000700,599f15e3b9043731,6014,Port Elizabeth,Eastern Cape,22/04/2018,paid_search
+ZAC0000705,a1385b4ab0791b61,2015,Johannesburg,Gauteng,25/04/2018,paid_search
+ZAC0000707,a119d80e8eba0e69,2055,Johannesburg,Gauteng,03/04/2018,organic
+ZAC0000723,8a504e0c91498c0c,9311,Bloemfontein,Free State,16/04/2018,email
+ZAC0000740,bcdadbe7eeb441e1,700,Polokwane,Limpopo,20/04/2018,email
+ZAC0000802,78325254d094b79c,5228,East London,Eastern Cape,13/04/2018,paid_search
+ZAC0000805,a2cbddb5ec1adf81,2229,Sandton,Gauteng,04/04/2018,social
+ZAC0000849,8ca0edf4fead5ca0,9353,Bloemfontein,Free State,22/04/2018,affiliate
+ZAC0000864,eb9b5d9ec4ccf685,347,Rustenburg,North West,22/04/2018,paid_search
+ZAC0000945,b419f9ab06429b3f,2005,Johannesburg,Gauteng,12/04/2018,organic
+ZAC0000949,0411c62d484fe5c1,2037,Johannesburg,Gauteng,04/04/2018,paid_search
+ZAC0000951,ea9de5e896a74ced,7616,Stellenbosch,Western Cape,13/04/2018,paid_search
+ZAC0000975,9c419b28cfc684b8,2209,Sandton,Gauteng,27/04/2018,referral
+ZAC0000976,9947f9e8ef0cbd86,8315,Kimberley,Northern Cape,17/04/2018,paid_search
+ZAC0000981,bf9af7fe24bb957e,172,Centurion,Gauteng,14/04/2018,social
+ZAC0000998,a2ddf3f3a15b760a,8,Pretoria,Gauteng,28/04/2018,referral
+ZAC0001036,ec570ce686abac62,9338,Bloemfontein,Free State,10/04/2018,social
+ZAC0001039,4a60a8f4c280885c,1221,Nelspruit,Mpumalanga,21/04/2018,paid_search
+ZAC0001044,e85481b5a73194bb,1252,Nelspruit,Mpumalanga,12/04/2018,referral
+ZAC0001069,8e0b0bfda39cd9ce,6033,Port Elizabeth,Eastern Cape,18/04/2018,social
+ZAC0001070,e0f62e2ed95f4329,168,Centurion,Gauteng,11/04/2018,paid_search
+ZAC0001086,377c370039bedd0d,3231,Pietermaritzburg,KwaZulu-Natal,04/04/2018,affiliate
+ZAC0001090,9f48f9dc2ffad190,7631,Stellenbosch,Western Cape,20/04/2018,organic
+ZAC0001097,f19266797c7781e0,745,Polokwane,Limpopo,01/04/2018,paid_search
+ZAC0001107,51443c2e3b9cb0a2,9352,Bloemfontein,Free State,20/04/2018,email
+ZAC0001112,bf1a9dfc38496c44,5,Pretoria,Gauteng,03/04/2018,email
+ZAC0001124,938effd257b2c344,9326,Bloemfontein,Free State,19/04/2018,social
+ZAC0001131,ccd67257a9bde78f,8320,Kimberley,Northern Cape,02/04/2018,referral
+ZAC0001135,f706898501292f8e,7614,Stellenbosch,Western Cape,27/04/2018,organic
+ZAC0001151,f42173e8ed2d504f,3247,Pietermaritzburg,KwaZulu-Natal,22/04/2018,referral
+ZAC0001162,6afdc09da3b4c30d,8327,Kimberley,Northern Cape,21/04/2018,email
+ZAC0001163,65e9c5778147b684,353,Rustenburg,North West,17/04/2018,social
+ZAC0001167,300ff1ca0a0d33a5,7620,Stellenbosch,Western Cape,15/04/2018,organic
+ZAC0001181,a613014891a2d563,187,Centurion,Gauteng,15/04/2018,paid_search
+ZAC0001186,fac14c9f4dcf22d1,2232,Sandton,Gauteng,20/04/2018,referral
+ZAC0001220,facafb52c9b3c2b9,6041,Port Elizabeth,Eastern Cape,28/04/2018,organic
+ZAC0001231,69f50091c43c87be,1858,Soweto,Gauteng,10/04/2018,organic
+ZAC0001272,21d2582637173be6,6056,Port Elizabeth,Eastern Cape,05/04/2018,social
+ZAC0001283,5a6319260838f054,6048,Port Elizabeth,Eastern Cape,15/04/2018,organic
+ZAC0001286,d8fbac8db9ecbae0,2001,Johannesburg,Gauteng,04/04/2018,paid_search
+ZAC0001290,b6e53ebe94af6854,1248,Nelspruit,Mpumalanga,04/04/2018,social
+ZAC0001314,c02f91ee501fc2df,4042,Durban,KwaZulu-Natal,30/04/2018,paid_search
+ZAC0001344,225c1421c57b1814,9340,Bloemfontein,Free State,03/04/2018,organic
+ZAC0001358,2f9b9a9bd3ead861,2054,Johannesburg,Gauteng,08/04/2018,email
+ZAC0001362,2fa5ffafa5eeec9a,9324,Bloemfontein,Free State,05/04/2018,organic
+ZAC0001366,ef7480a8cf54e9fd,6051,Port Elizabeth,Eastern Cape,15/04/2018,paid_search
+ZAC0001420,7856b09efb378d45,340,Rustenburg,North West,09/04/2018,paid_search
+ZAC0001437,0fe8d01dc7e42536,1840,Soweto,Gauteng,01/04/2018,social
+ZAC0001530,f75423ae99b04d3d,2047,Johannesburg,Gauteng,28/04/2018,paid_search
+ZAC0001548,f5ba791fc1c1f264,8319,Kimberley,Northern Cape,04/04/2018,organic
+ZAC0001575,8035f0b6fd0f2d22,305,Rustenburg,North West,13/04/2018,paid_search
+ZAC0001584,e6d3928d5254ec42,8002,Cape Town,Western Cape,14/04/2018,email
+ZAC0001593,5ea7787d91553a81,5228,East London,Eastern Cape,03/04/2018,social
+ZAC0001603,264b58cbd22a7be8,8008,Cape Town,Western Cape,26/04/2018,social
+ZAC0001606,a8ed155cd5000e74,9318,Bloemfontein,Free State,24/04/2018,paid_search
+ZAC0001620,c01cd10428679182,6048,Port Elizabeth,Eastern Cape,18/04/2018,organic
+ZAC0001627,f1051a0807ffb4cc,52,Pretoria,Gauteng,30/04/2018,email
+ZAC0001631,6a3597ecc949acd7,9327,Bloemfontein,Free State,29/04/2018,paid_search
+ZAC0001646,12a4a9f15930321c,168,Centurion,Gauteng,08/04/2018,organic
+ZAC0001665,f73228e0877ef079,712,Polokwane,Limpopo,09/04/2018,email
+ZAC0001669,1a7618569e4018ba,8310,Kimberley,Northern Cape,04/04/2018,social
+ZAC0001693,60c535058c8f3085,4029,Durban,KwaZulu-Natal,05/04/2018,email
+ZAC0001699,44d319b5fb495a50,317,Rustenburg,North West,18/04/2018,referral
+ZAC0001722,5e39c962b47c2744,170,Centurion,Gauteng,14/04/2018,organic
+ZAC0001750,bf1946f22381e57c,2034,Johannesburg,Gauteng,29/04/2018,social
+ZAC0001757,75543d36b105002e,4041,Durban,KwaZulu-Natal,20/04/2018,organic
+ZAC0001769,695ef3ad55e7f2da,1847,Soweto,Gauteng,18/04/2018,social
+ZAC0001802,490baff9b96901e4,347,Rustenburg,North West,29/04/2018,social
+ZAC0001804,bffb525d308003e9,55,Pretoria,Gauteng,13/04/2018,organic
+ZAC0001807,b7821908f58ab50c,4001,Durban,KwaZulu-Natal,19/04/2018,organic
+ZAC0001813,1e392abab3afd8c7,1237,Nelspruit,Mpumalanga,06/04/2018,referral
+ZAC0001831,76ce63c364a5ddd4,3230,Pietermaritzburg,KwaZulu-Natal,19/04/2018,paid_search
+ZAC0001858,711fa42a05c0a3c0,202,Centurion,Gauteng,24/04/2018,paid_search
+ZAC0001868,be552cf1dd0fd5a9,4021,Durban,KwaZulu-Natal,07/04/2018,affiliate
+ZAC0001886,a81ed9d367d7703e,2250,Sandton,Gauteng,06/04/2018,referral
+ZAC0001926,4f77a3e55888f43b,207,Centurion,Gauteng,24/04/2018,social
+ZAC0001934,1dba323467e9ea12,6027,Port Elizabeth,Eastern Cape,22/04/2018,organic
+ZAC0001947,4b84e711ffd70c2b,9354,Bloemfontein,Free State,05/04/2018,paid_search
+ZAC0001951,633a39cd2fbffde6,2200,Sandton,Gauteng,01/04/2018,organic
+ZAC0001967,6eacfbd0548a9905,1828,Soweto,Gauteng,09/04/2018,paid_search
+ZAC0001984,f436ce945e3b6585,4014,Durban,KwaZulu-Natal,05/04/2018,email
+ZAC0002021,58f62eb1764d7a58,4047,Durban,KwaZulu-Natal,05/04/2018,paid_search
+ZAC0002026,d8eb21a914acbfe5,1230,Nelspruit,Mpumalanga,07/04/2018,social
+ZAC0002049,d124c3827bd34fc5,8330,Kimberley,Northern Cape,05/04/2018,organic
+ZAC0002050,e28c25821fcacfe1,2249,Sandton,Gauteng,15/04/2018,email
+ZAC0002057,90c6ce05ffa2a742,2017,Johannesburg,Gauteng,21/04/2018,organic
+ZAC0002059,daf5bded70f406a5,2226,Sandton,Gauteng,19/04/2018,social
+ZAC0002061,73bd7b38088a4ee1,188,Centurion,Gauteng,28/04/2018,organic
+ZAC0002064,e18c5d496b822aa9,9300,Bloemfontein,Free State,19/04/2018,organic
+ZAC0002085,2267a7c537557cb8,3251,Pietermaritzburg,KwaZulu-Natal,12/04/2018,email
+ZAC0002107,e7e87bd38d04f501,8037,Cape Town,Western Cape,23/04/2018,organic
+ZAC0002110,cd9c26387082e53d,6054,Port Elizabeth,Eastern Cape,27/04/2018,paid_search
+ZAC0002113,3296238d06174ade,3213,Pietermaritzburg,KwaZulu-Natal,23/04/2018,email
+ZAC0002216,2e6e4adf4bbb9ecc,9351,Bloemfontein,Free State,19/04/2018,paid_search
+ZAC0002219,92d62414f35161dc,198,Centurion,Gauteng,26/04/2018,email
+ZAC0002221,2c5dca0e0f4b683f,4006,Durban,KwaZulu-Natal,15/04/2018,organic
+ZAC0002260,2f6c677db21912cf,3231,Pietermaritzburg,KwaZulu-Natal,29/04/2018,affiliate
+ZAC0002315,c51c6def9885bdd2,6012,Port Elizabeth,Eastern Cape,30/04/2018,social
+ZAC0002318,e51d36899c3d215d,159,Centurion,Gauteng,18/04/2018,paid_search
+ZAC0002321,05c1bbf95059f0c8,3252,Pietermaritzburg,KwaZulu-Natal,10/04/2018,organic
+ZAC0002325,705d2c462cb0259b,341,Rustenburg,North West,15/04/2018,social
+ZAC0002338,48055f104ffeadfc,1855,Soweto,Gauteng,14/04/2018,social
+ZAC0002364,865caca7b7d7a26c,2204,Sandton,Gauteng,22/04/2018,affiliate
+ZAC0002390,01b958cfbf6e10c2,3250,Pietermaritzburg,KwaZulu-Natal,13/04/2018,organic
+ZAC0002402,6a8da8e6a9aed4da,2231,Sandton,Gauteng,10/04/2018,organic
+ZAC0002488,f6d83c14220da59f,2241,Sandton,Gauteng,05/04/2018,organic
+ZAC0002489,530914bef1a53ade,5252,East London,Eastern Cape,28/04/2018,organic
+ZAC0002494,a7f22ec6f9820312,8325,Kimberley,Northern Cape,19/04/2018,paid_search
+ZAC0002569,a341f42856a69f9b,714,Polokwane,Limpopo,11/04/2018,social
+ZAC0002571,31695dc03814b7c3,190,Centurion,Gauteng,19/04/2018,social
+ZAC0002577,3398efd6b65c06a9,6003,Port Elizabeth,Eastern Cape,10/04/2018,affiliate
+ZAC0002592,b8cc2c52f6ad3cf1,1847,Soweto,Gauteng,26/04/2018,social
+ZAC0002593,1fee3496f189aae5,9337,Bloemfontein,Free State,22/04/2018,social
+ZAC0002620,540a75bf6557c287,759,Polokwane,Limpopo,12/04/2018,referral
+ZAC0002679,cd70a9379f780cee,6034,Port Elizabeth,Eastern Cape,27/04/2018,paid_search
+ZAC0002685,6eef3db0f03d1455,324,Rustenburg,North West,26/04/2018,social
+ZAC0002701,bd73fd427e540be8,1814,Soweto,Gauteng,04/04/2018,email
+ZAC0002709,0ebfd3703bbe222f,6034,Port Elizabeth,Eastern Cape,09/04/2018,social
+ZAC0002729,f2d6c4c61b76ad4d,2026,Johannesburg,Gauteng,23/04/2018,email
+ZAC0002731,a673b1a4fab4df89,757,Polokwane,Limpopo,02/04/2018,organic
+ZAC0002732,3b7de05e25cdc7fd,4001,Durban,KwaZulu-Natal,23/04/2018,organic
+ZAC0002773,8e432ba6598bbc60,5227,East London,Eastern Cape,13/04/2018,organic
+ZAC0002794,412ec9c653ad4a37,194,Centurion,Gauteng,28/04/2018,organic
+ZAC0002807,04b30d9c0b55afb3,731,Polokwane,Limpopo,30/04/2018,social
+ZAC0002827,8a5332ec0b0b44a5,2216,Sandton,Gauteng,06/04/2018,organic
+ZAC0002833,8a7a22957a10e397,5209,East London,Eastern Cape,11/04/2018,organic
+ZAC0002849,2c18c8a52b0011bc,3236,Pietermaritzburg,KwaZulu-Natal,21/04/2018,affiliate
+ZAC0002864,58b205d5eda15bc8,2053,Johannesburg,Gauteng,08/04/2018,social
+ZAC0002870,46f1ec57c4b89112,8014,Cape Town,Western Cape,17/04/2018,referral
+ZAC0002882,8f1930f38e1c25f1,735,Polokwane,Limpopo,19/04/2018,email
+ZAC0002893,6f79b39bde5f1077,2252,Sandton,Gauteng,28/04/2018,social
+ZAC0002908,3dd0530a368dc6e2,5236,East London,Eastern Cape,26/04/2018,social
+ZAC0002918,7700b274c6bfa34e,211,Centurion,Gauteng,07/04/2018,referral
+ZAC0002932,4b39c96cf6dd6a92,2031,Johannesburg,Gauteng,10/04/2018,organic
+ZAC0002947,f62dfd0ee0ddba6c,2243,Sandton,Gauteng,23/04/2018,affiliate
+ZAC0002949,d2ea04ea9fd7f41c,9300,Bloemfontein,Free State,05/04/2018,social
+ZAC0002970,88216612b49441fd,2213,Sandton,Gauteng,01/04/2018,affiliate
+ZAC0002987,0010e59b3ad4930c,3240,Pietermaritzburg,KwaZulu-Natal,23/04/2018,paid_search
+ZAC0003018,2dbc073e530910e4,2221,Sandton,Gauteng,20/04/2018,referral
+ZAC0003071,83572a27e513e340,7632,Stellenbosch,Western Cape,24/04/2018,organic
+ZAC0003080,9533a3bda8ddd1c4,8036,Cape Town,Western Cape,27/04/2018,organic
+ZAC0003090,36e5b80cb4c402a2,738,Polokwane,Limpopo,01/04/2018,paid_search
+ZAC0003114,8de8637903d4051e,2234,Sandton,Gauteng,16/04/2018,organic
+ZAC0003118,9a69fc26fc6bf479,32,Pretoria,Gauteng,24/04/2018,organic
+ZAC0003147,42d24fffdb495600,1844,Soweto,Gauteng,04/04/2018,affiliate
+ZAC0003197,9d7e389285802956,4048,Durban,KwaZulu-Natal,09/04/2018,email
+ZAC0003199,d3cdcb4dea30cc20,3203,Pietermaritzburg,KwaZulu-Natal,13/04/2018,paid_search
+ZAC0003253,c9fc8a8898f70844,2004,Johannesburg,Gauteng,01/04/2018,organic
+ZAC0003261,fe12d98ef0055e57,6025,Port Elizabeth,Eastern Cape,11/04/2018,organic
+ZAC0003277,97d531e74c8340f0,6021,Port Elizabeth,Eastern Cape,06/04/2018,organic
+ZAC0003284,8e79a155a7669af1,8034,Cape Town,Western Cape,05/04/2018,social
+ZAC0003295,916291b5c99b2986,6058,Port Elizabeth,Eastern Cape,27/04/2018,social
+ZAC0003313,fbe5e499b2ded5b8,745,Polokwane,Limpopo,05/04/2018,paid_search
+ZAC0003328,fee7a42f02683eaf,2025,Johannesburg,Gauteng,28/04/2018,organic
+ZAC0003343,2f3ba196241d023e,9328,Bloemfontein,Free State,12/04/2018,social
+ZAC0003351,b0d010ad11abbbaf,206,Centurion,Gauteng,10/04/2018,paid_search
+ZAC0003367,ece3b901b35f6c93,7629,Stellenbosch,Western Cape,02/04/2018,paid_search
+ZAC0003403,aff4d1479e10a955,2001,Johannesburg,Gauteng,23/04/2018,organic
+ZAC0003430,e57c3bf79932c104,6017,Port Elizabeth,Eastern Cape,20/04/2018,affiliate
+ZAC0003449,345db4e7469e23cb,339,Rustenburg,North West,05/04/2018,organic
+ZAC0003472,6f9ec0204f6a05ac,44,Pretoria,Gauteng,27/04/2018,referral
+ZAC0003480,33b2b980fbeffa70,16,Pretoria,Gauteng,05/04/2018,social
+ZAC0003507,dbfd48ab7ea38e94,716,Polokwane,Limpopo,12/04/2018,organic
+ZAC0003519,75ce744418be7ead,2,Pretoria,Gauteng,11/04/2018,organic
+ZAC0003529,50d861c00f011fe5,333,Rustenburg,North West,16/04/2018,organic
+ZAC0003531,3bedd33d639a7cd8,158,Centurion,Gauteng,02/04/2018,paid_search
+ZAC0003561,cf43001d79bb1ac9,358,Rustenburg,North West,03/04/2018,referral
+ZAC0003566,446b317fa5b60949,6056,Port Elizabeth,Eastern Cape,27/04/2018,paid_search
+ZAC0003574,b2658bc3f8bf9e26,5230,East London,Eastern Cape,16/04/2018,affiliate
+ZAC0003597,8a037b79922d22e8,20,Pretoria,Gauteng,20/04/2018,affiliate
+ZAC0003604,6b21f990b43363db,3220,Pietermaritzburg,KwaZulu-Natal,21/04/2018,email
+ZAC0003652,73cebe29d36b32f2,8052,Cape Town,Western Cape,16/04/2018,social
+ZAC0003699,2eaa37e4620ab581,3246,Pietermaritzburg,KwaZulu-Natal,14/04/2018,organic
+ZAC0003710,ea83835106544cef,2196,Sandton,Gauteng,11/04/2018,email
+ZAC0003729,4f66f5ee87058ff9,1255,Nelspruit,Mpumalanga,12/04/2018,organic
+ZAC0003737,da7c18277dc15116,1840,Soweto,Gauteng,10/04/2018,social
+ZAC0003742,ef29b8b5e12cb1cc,8038,Cape Town,Western Cape,18/04/2018,paid_search
+ZAC0003758,af802134d80eb5a1,8023,Cape Town,Western Cape,18/04/2018,paid_search
+ZAC0003778,765cf4d10ad91027,7608,Stellenbosch,Western Cape,28/04/2018,email
+ZAC0003804,d18875869405aeb9,8359,Kimberley,Northern Cape,15/04/2018,email
+ZAC0003807,8e536da717d0c4cc,750,Polokwane,Limpopo,07/04/2018,social
+ZAC0003813,32f12220f617b071,1815,Soweto,Gauteng,06/04/2018,affiliate
+ZAC0003823,3f4b6ba5e66dc8fb,3225,Pietermaritzburg,KwaZulu-Natal,14/04/2018,paid_search
+ZAC0003829,eaac1034f59d2282,203,Centurion,Gauteng,06/04/2018,organic
+ZAC0003843,a91f6619acf00468,1213,Nelspruit,Mpumalanga,24/04/2018,social
+ZAC0003860,2b7e8832ef8d8ee9,2034,Johannesburg,Gauteng,16/04/2018,social
+ZAC0003869,89ea1875a71bd8ac,9343,Bloemfontein,Free State,02/04/2018,email
+ZAC0003875,5459982a62506c36,8012,Cape Town,Western Cape,23/04/2018,organic
+ZAC0003894,0809221770024fe5,36,Pretoria,Gauteng,23/04/2018,organic
+ZAC0003896,ac3aa82d7d5aab6c,344,Rustenburg,North West,12/04/2018,email
+ZAC0003967,dd81fc862fc91446,2025,Johannesburg,Gauteng,19/04/2018,paid_search
+ZAC0003994,67bcdbe23173b0f1,1245,Nelspruit,Mpumalanga,28/04/2018,email
+ZAC0004051,007273be8e596f7c,1848,Soweto,Gauteng,16/04/2018,organic
+ZAC0004072,6302b97e200be986,1243,Nelspruit,Mpumalanga,12/04/2018,social
+ZAC0004101,6db5530005083f31,6,Pretoria,Gauteng,22/04/2018,paid_search
+ZAC0004126,7e9c8a5faf7e229b,8022,Cape Town,Western Cape,20/04/2018,referral
+ZAC0004142,a6e66aea7cac2f19,6041,Port Elizabeth,Eastern Cape,26/04/2018,organic
+ZAC0004155,310dcf9e33b5f6ff,756,Polokwane,Limpopo,19/04/2018,organic
+ZAC0004157,282b48b05f63d718,6,Pretoria,Gauteng,02/04/2018,social
+ZAC0004169,5ff855d8d0a45992,8010,Cape Town,Western Cape,18/04/2018,paid_search
+ZAC0004172,d800ffe1420805f9,175,Centurion,Gauteng,19/04/2018,paid_search
+ZAC0004177,9101bb452cb42a5f,1210,Nelspruit,Mpumalanga,25/04/2018,social
+ZAC0004180,c2bea98d80871d3a,323,Rustenburg,North West,09/04/2018,referral
+ZAC0004200,162a9fca31e2d621,3236,Pietermaritzburg,KwaZulu-Natal,03/04/2018,paid_search
+ZAC0004233,3a301e0b34713e9f,2231,Sandton,Gauteng,21/04/2018,organic
+ZAC0004240,57e07471e7365003,9310,Bloemfontein,Free State,27/04/2018,email
+ZAC0004267,63a1b13f3f115589,211,Centurion,Gauteng,02/04/2018,paid_search
+ZAC0004293,c68d9163ca4f3efe,749,Polokwane,Limpopo,07/04/2018,social
+ZAC0004327,9709d2dc55c6c803,4045,Durban,KwaZulu-Natal,06/04/2018,social
+ZAC0004379,be63fe59cc80445e,352,Rustenburg,North West,12/04/2018,affiliate
+ZAC0004403,a00a7b6abed00752,6018,Port Elizabeth,Eastern Cape,14/04/2018,organic
+ZAC0004407,7bbe6e38bded9044,5240,East London,Eastern Cape,19/04/2018,social
+ZAC0004443,350d746ddb0ae75b,6008,Port Elizabeth,Eastern Cape,10/04/2018,paid_search
+ZAC0004460,95d2d4fd3f18cf46,9309,Bloemfontein,Free State,24/04/2018,organic
+ZAC0004463,c5b7baa0096292b5,1814,Soweto,Gauteng,27/04/2018,social
+ZAC0004502,1dce372ee90c624f,1236,Nelspruit,Mpumalanga,20/04/2018,affiliate
+ZAC0004517,ebdf76a870e3ea19,8003,Cape Town,Western Cape,18/04/2018,affiliate
+ZAC0004519,039208662cf607cc,6016,Port Elizabeth,Eastern Cape,16/04/2018,organic
+ZAC0004525,7f9b4a04e6a78c0e,6051,Port Elizabeth,Eastern Cape,07/04/2018,referral
+ZAC0004534,fb7e1e82b965a873,6041,Port Elizabeth,Eastern Cape,08/04/2018,paid_search
+ZAC0004540,db739db7e3411b19,335,Rustenburg,North West,25/04/2018,social
+ZAC0004550,857cdeedc7f27b32,4011,Durban,KwaZulu-Natal,24/04/2018,social
+ZAC0004562,6881a516705bb009,717,Polokwane,Limpopo,30/04/2018,email
+ZAC0004582,2c697fb014d5e411,3239,Pietermaritzburg,KwaZulu-Natal,10/04/2018,organic
+ZAC0004588,811b89ca252602eb,8341,Kimberley,Northern Cape,05/04/2018,social
+ZAC0004592,54b6220e8b7427f4,1237,Nelspruit,Mpumalanga,28/04/2018,affiliate
+ZAC0004638,0353d7bf2325c773,4013,Durban,KwaZulu-Natal,28/04/2018,email
+ZAC0004644,ed9c6ee2212d8b22,1206,Nelspruit,Mpumalanga,22/04/2018,organic
+ZAC0004648,7a0e8fdd5e18e737,8321,Kimberley,Northern Cape,28/04/2018,social
+ZAC0004692,b4b518f44541d1c3,4044,Durban,KwaZulu-Natal,20/04/2018,social
+ZAC0004729,74ba565affad1df6,193,Centurion,Gauteng,23/04/2018,social
+ZAC0004739,04b498cd998bdbe5,1855,Soweto,Gauteng,15/04/2018,email
+ZAC0004809,7ca9834b07f2c013,702,Polokwane,Limpopo,29/04/2018,referral
+ZAC0004810,8bf44e0f57dd3ceb,758,Polokwane,Limpopo,20/04/2018,paid_search
+ZAC0004819,02bd47ae04a4582c,5217,East London,Eastern Cape,21/04/2018,organic
+ZAC0004831,bbd7fa5361f030f1,8337,Kimberley,Northern Cape,01/04/2018,organic
+ZAC0004834,c1ca2996abb29d98,2011,Johannesburg,Gauteng,24/04/2018,email
+ZAC0004836,f56df872aa96ef1b,4051,Durban,KwaZulu-Natal,30/04/2018,organic
+ZAC0004842,e169814159c486d7,2215,Sandton,Gauteng,28/04/2018,social
+ZAC0004860,79fb5e2720305885,7640,Stellenbosch,Western Cape,29/04/2018,social
+ZAC0004918,b582c92899f4cdb3,1841,Soweto,Gauteng,14/04/2018,organic
+ZAC0004921,545b039551f03eb6,4040,Durban,KwaZulu-Natal,28/04/2018,referral
+ZAC0005034,bbd45d884b84b125,198,Centurion,Gauteng,04/04/2018,email
+ZAC0005039,25ca5429a94ce975,8352,Kimberley,Northern Cape,05/04/2018,email
+ZAC0005047,2965911fd5b91f2d,5259,East London,Eastern Cape,13/04/2018,paid_search
+ZAC0005049,2cf5dc45a49f83c5,197,Centurion,Gauteng,26/04/2018,affiliate
+ZAC0005050,b1c84233f9a76217,22,Pretoria,Gauteng,01/04/2018,organic
+ZAC0005057,ec04d02f710c9561,5244,East London,Eastern Cape,22/04/2018,organic
+ZAC0005148,ae9e17820fbbdd39,4031,Durban,KwaZulu-Natal,12/04/2018,paid_search
+ZAC0005179,d6f1909da9953443,5229,East London,Eastern Cape,01/04/2018,paid_search
+ZAC0005214,d26352dda0a54f79,4015,Durban,KwaZulu-Natal,28/04/2018,organic
+ZAC0005220,db83a8aef39b5afd,5207,East London,Eastern Cape,22/04/2018,paid_search
+ZAC0005233,79b12f66c1bfa592,4018,Durban,KwaZulu-Natal,20/04/2018,organic
+ZAC0005265,0fe148a0eac72fd2,8313,Kimberley,Northern Cape,09/04/2018,social
+ZAC0005288,914f836277c1c2bf,7614,Stellenbosch,Western Cape,14/04/2018,paid_search
+ZAC0005294,2a6e14a7cab9795f,9302,Bloemfontein,Free State,30/04/2018,social
+ZAC0005300,1272fcea61b8ce6f,751,Polokwane,Limpopo,18/04/2018,paid_search
+ZAC0005308,72a808c6213535bb,303,Rustenburg,North West,13/04/2018,paid_search
+ZAC0005310,c55f810394fe6c1f,317,Rustenburg,North West,09/04/2018,email
+ZAC0005361,dc78e02d2bcef736,7652,Stellenbosch,Western Cape,30/04/2018,organic
+ZAC0005376,1fc4e2a4ebf8ad10,6026,Port Elizabeth,Eastern Cape,07/04/2018,social
+ZAC0005378,d85722dab2b68165,1848,Soweto,Gauteng,14/04/2018,affiliate
+ZAC0005382,afc33706cb2b7bdd,1861,Soweto,Gauteng,11/04/2018,organic
+ZAC0005387,7af2299cea66182a,2246,Sandton,Gauteng,14/04/2018,affiliate
+ZAC0005427,b5f07a79ae5fb09e,5241,East London,Eastern Cape,18/04/2018,organic
+ZAC0005431,cbf748d2057eceb6,8307,Kimberley,Northern Cape,20/04/2018,social
+ZAC0005457,bf84736777a9039e,2058,Johannesburg,Gauteng,30/04/2018,affiliate
+ZAC0005460,23ec4d84ea5b37a2,9308,Bloemfontein,Free State,25/04/2018,organic
+ZAC0005502,098836264d0fb4a0,318,Rustenburg,North West,28/04/2018,organic
+ZAC0005505,0b10aefcc30646ce,324,Rustenburg,North West,19/04/2018,paid_search
+ZAC0005512,1db54ba20c7a0279,9356,Bloemfontein,Free State,17/04/2018,paid_search
+ZAC0005534,0df37504fa23a48c,5224,East London,Eastern Cape,14/04/2018,affiliate
+ZAC0005545,01fe69b34c92856c,5226,East London,Eastern Cape,07/04/2018,organic
+ZAC0005557,779362ee38b89e8e,211,Centurion,Gauteng,06/04/2018,social
+ZAC0005594,6ce27703eb59ea38,712,Polokwane,Limpopo,18/04/2018,paid_search
+ZAC0005605,fffaf0fdeb6f6779,8040,Cape Town,Western Cape,20/04/2018,affiliate
+ZAC0005606,7b03869927572f5b,8003,Cape Town,Western Cape,02/04/2018,paid_search
+ZAC0005618,3ac091b3cb78e139,7629,Stellenbosch,Western Cape,25/04/2018,paid_search
+ZAC0005619,6ec97f1cc75c021a,7638,Stellenbosch,Western Cape,11/04/2018,affiliate
+ZAC0005620,75550d44406fe60d,20,Pretoria,Gauteng,30/04/2018,social
+ZAC0005655,0dbd980f8951dd4c,1244,Nelspruit,Mpumalanga,08/04/2018,paid_search
+ZAC0005656,28c8490977098d49,8035,Cape Town,Western Cape,21/04/2018,social
+ZAC0005670,36435c5bdc42a558,7634,Stellenbosch,Western Cape,30/04/2018,social
+ZAC0005694,ede80c6e50f2c241,6032,Port Elizabeth,Eastern Cape,03/04/2018,paid_search
+ZAC0005734,fd9165adbb25f259,5209,East London,Eastern Cape,10/04/2018,referral
+ZAC0005737,6d5986c272c300f4,6059,Port Elizabeth,Eastern Cape,13/04/2018,referral
+ZAC0005740,da5b81bee6df26b8,1211,Nelspruit,Mpumalanga,19/04/2018,referral
+ZAC0005750,ddf14d69a711ae1e,2221,Sandton,Gauteng,24/04/2018,organic
+ZAC0005763,72d8f44ecd3c72e1,3205,Pietermaritzburg,KwaZulu-Natal,24/04/2018,organic
+ZAC0005784,8bee436503515221,2020,Johannesburg,Gauteng,27/04/2018,paid_search
+ZAC0005811,f811d67044988156,9317,Bloemfontein,Free State,02/04/2018,email
+ZAC0005853,f8e3ec5146123a52,5214,East London,Eastern Cape,23/04/2018,referral
+ZAC0005855,7aad450e4b806095,2215,Sandton,Gauteng,07/04/2018,paid_search
+ZAC0005893,007eb6aa0d779629,2020,Johannesburg,Gauteng,23/04/2018,paid_search
+ZAC0005899,81c10b65caa17d80,3204,Pietermaritzburg,KwaZulu-Natal,12/04/2018,paid_search
+ZAC0005921,0227c8771bcc329e,1242,Nelspruit,Mpumalanga,12/04/2018,social
+ZAC0005922,45fe2573b1597f27,6045,Port Elizabeth,Eastern Cape,03/04/2018,email
+ZAC0005929,b6d85132a77f2346,28,Pretoria,Gauteng,21/04/2018,paid_search
+ZAC0005931,f6adb26586503329,8337,Kimberley,Northern Cape,01/04/2018,paid_search
+ZAC0005947,3f5549e7ab46ff92,8018,Cape Town,Western Cape,21/04/2018,organic
+ZAC0005961,ff2b471b8d71e5ef,6034,Port Elizabeth,Eastern Cape,11/04/2018,social
+ZAC0005966,3e9a1eda22a09bc3,3204,Pietermaritzburg,KwaZulu-Natal,27/04/2018,social
+ZAC0005980,bba0f560197d1b2d,6043,Port Elizabeth,Eastern Cape,02/04/2018,referral
+ZAC0006001,a75d67bfa2eeb3e7,343,Rustenburg,North West,13/04/2018,email
+ZAC0006042,cb3cce983cab7b98,1241,Nelspruit,Mpumalanga,09/04/2018,organic
+ZAC0006055,4c89ce6abf0626ff,7618,Stellenbosch,Western Cape,02/04/2018,affiliate
+ZAC0006059,ab83e399cb23d367,6044,Port Elizabeth,Eastern Cape,16/04/2018,social
+ZAC0006102,a4285d6de6a84c44,2240,Sandton,Gauteng,09/04/2018,social
+ZAC0006151,80510e33128e7884,4001,Durban,KwaZulu-Natal,18/04/2018,paid_search
+ZAC0006152,cf3193769e937af9,3235,Pietermaritzburg,KwaZulu-Natal,29/04/2018,social
+ZAC0006162,0f7aeaf35077b3d7,6040,Port Elizabeth,Eastern Cape,15/04/2018,organic
+ZAC0006170,ddb243c2d2ca494a,159,Centurion,Gauteng,30/04/2018,organic
+ZAC0006184,01213d453ebdaff7,8052,Cape Town,Western Cape,25/04/2018,organic
+ZAC0006190,fd916ee9160cbe0e,311,Rustenburg,North West,07/04/2018,social
+ZAC0006193,30caedd2f4004308,201,Centurion,Gauteng,18/04/2018,paid_search
+ZAC0006210,51d71478debc182f,3204,Pietermaritzburg,KwaZulu-Natal,07/04/2018,social
+ZAC0006249,c4f4db6361b1801e,1852,Soweto,Gauteng,26/04/2018,affiliate
+ZAC0006256,272fd02925c11b48,163,Centurion,Gauteng,01/04/2018,organic
+ZAC0006260,bbd598b1e6951c99,4026,Durban,KwaZulu-Natal,20/04/2018,organic
+ZAC0006265,596bcc8150adc9b6,24,Pretoria,Gauteng,12/04/2018,referral
+ZAC0006279,146ce5a2fa6ffd2f,206,Centurion,Gauteng,12/04/2018,organic
+ZAC0006280,ff55eea1e21c06c5,8002,Cape Town,Western Cape,09/04/2018,email
+ZAC0006286,1ca6e716d975fcca,8356,Kimberley,Northern Cape,08/04/2018,referral
+ZAC0006291,81d53ef6cdcd0cf3,5214,East London,Eastern Cape,02/04/2018,social
+ZAC0006310,026ff6b31a070305,1259,Nelspruit,Mpumalanga,03/04/2018,paid_search
+ZAC0006323,f47e5824fbb235aa,8055,Cape Town,Western Cape,26/04/2018,organic
+ZAC0006327,778f4e4ef1aa353d,7622,Stellenbosch,Western Cape,03/04/2018,organic
+ZAC0006369,68475127cf63eaba,3238,Pietermaritzburg,KwaZulu-Natal,27/04/2018,affiliate
+ZAC0006371,6ed89f8c361f31dd,175,Centurion,Gauteng,17/04/2018,paid_search
+ZAC0006415,041b99a1f53951d0,336,Rustenburg,North West,29/04/2018,social
+ZAC0006447,4ce2041e25a0d72f,757,Polokwane,Limpopo,11/04/2018,email
+ZAC0006466,8d7421681aadb588,3213,Pietermaritzburg,KwaZulu-Natal,05/04/2018,paid_search
+ZAC0006488,3df708b7577e8f4e,5237,East London,Eastern Cape,17/04/2018,paid_search
+ZAC0006558,34573ea57805c5d5,1836,Soweto,Gauteng,24/04/2018,affiliate
+ZAC0006570,b10725f5edcf87c9,9323,Bloemfontein,Free State,28/04/2018,referral
+ZAC0006571,435393faa91b4fd6,1208,Nelspruit,Mpumalanga,03/04/2018,social
+ZAC0006575,0f008e7c1c916d22,2236,Sandton,Gauteng,07/04/2018,organic
+ZAC0006601,53d9e57d46a98e4f,308,Rustenburg,North West,02/04/2018,paid_search
+ZAC0006602,a2efeb7774f3e561,7625,Stellenbosch,Western Cape,15/04/2018,paid_search
+ZAC0006604,adc6091324f0a86a,9326,Bloemfontein,Free State,20/04/2018,organic
+ZAC0006610,94b429e484d6fa2f,5236,East London,Eastern Cape,27/04/2018,social
+ZAC0006666,6fe83004fa2c1505,9307,Bloemfontein,Free State,13/04/2018,paid_search
+ZAC0006675,ea50753bfa1ab6ff,2226,Sandton,Gauteng,30/04/2018,paid_search
+ZAC0006694,177261a63723b983,8312,Kimberley,Northern Cape,23/04/2018,organic
+ZAC0006699,4708fd34c5bc3321,212,Centurion,Gauteng,24/04/2018,referral
+ZAC0006725,47ee2997bfcf028e,2239,Sandton,Gauteng,20/04/2018,paid_search
+ZAC0006727,d94fc55dacfbe798,2001,Johannesburg,Gauteng,26/04/2018,affiliate
+ZAC0006772,1ce5b62ca10d00c6,7610,Stellenbosch,Western Cape,25/04/2018,paid_search
+ZAC0006792,153b4da25829289d,8034,Cape Town,Western Cape,12/04/2018,paid_search
+ZAC0006804,24bae7077d47f2fd,6036,Port Elizabeth,Eastern Cape,07/04/2018,organic
+ZAC0006818,2ea71abe43b29057,7657,Stellenbosch,Western Cape,25/04/2018,social
+ZAC0006838,c6b3423ad14a82bd,701,Polokwane,Limpopo,29/04/2018,referral
+ZAC0006851,ea5f3576f79882b5,7612,Stellenbosch,Western Cape,07/04/2018,paid_search
+ZAC0006863,2fb759ba143bb2d1,1245,Nelspruit,Mpumalanga,05/04/2018,email
+ZAC0006887,adfd3b35eb2f2974,8300,Kimberley,Northern Cape,01/04/2018,email
+ZAC0006913,6d1e6c218551ff24,337,Rustenburg,North West,26/04/2018,social
+ZAC0006943,89eef311dc43195b,7608,Stellenbosch,Western Cape,03/04/2018,organic
+ZAC0006998,1a6993b24aea2f95,8054,Cape Town,Western Cape,24/04/2018,referral
+ZAC0007000,d25938d0647b82dd,9305,Bloemfontein,Free State,01/04/2018,organic
+ZAC0007016,4318f9dec113d322,1230,Nelspruit,Mpumalanga,14/04/2018,paid_search
+ZAC0007026,f178a9e59155e870,2058,Johannesburg,Gauteng,25/04/2018,social
+ZAC0007069,a837d4ea0ca346c5,5215,East London,Eastern Cape,28/04/2018,affiliate
+ZAC0007091,6feef8aa14ac3d55,8022,Cape Town,Western Cape,13/04/2018,paid_search
+ZAC0007104,c43a05fd1f542622,345,Rustenburg,North West,21/04/2018,paid_search
+ZAC0007120,97fdff2f92d9ca92,5227,East London,Eastern Cape,28/04/2018,organic
+ZAC0007127,9187af6746f2e1cc,8013,Cape Town,Western Cape,23/04/2018,referral
+ZAC0007172,648a46e470c80ac8,5252,East London,Eastern Cape,25/04/2018,email
+ZAC0007180,d770d1b4df993ef9,8012,Cape Town,Western Cape,19/04/2018,organic
+ZAC0007182,ae4c191344046542,6005,Port Elizabeth,Eastern Cape,03/04/2018,organic
+ZAC0007188,1cceabc3a5d7a32d,2236,Sandton,Gauteng,22/04/2018,paid_search
+ZAC0007202,bada0d29d5f3885d,5211,East London,Eastern Cape,23/04/2018,social
+ZAC0007203,c629f0d32be8127e,60,Pretoria,Gauteng,09/04/2018,organic
+ZAC0007205,4224e2c7678054b5,7642,Stellenbosch,Western Cape,27/04/2018,referral
+ZAC0007207,4a4b4453f251165d,9320,Bloemfontein,Free State,14/04/2018,paid_search
+ZAC0007244,6d02937bba9834c9,8351,Kimberley,Northern Cape,13/04/2018,social
+ZAC0007276,fdf6713c6f658760,8025,Cape Town,Western Cape,07/04/2018,organic
+ZAC0007297,5e6e8fbaeca6bfb1,306,Rustenburg,North West,22/04/2018,email
+ZAC0007306,ceb319d23aa4c9d1,53,Pretoria,Gauteng,22/04/2018,organic
+ZAC0007311,73934559a30b3e25,2052,Johannesburg,Gauteng,27/04/2018,referral
+ZAC0007313,f9ac9745915100b8,3207,Pietermaritzburg,KwaZulu-Natal,01/04/2018,organic
+ZAC0007322,c4a358bff80bbf60,2045,Johannesburg,Gauteng,26/04/2018,referral
+ZAC0007331,36b68d3a40ad2511,181,Centurion,Gauteng,20/04/2018,organic
+ZAC0007352,a01a56e3d1a92550,8318,Kimberley,Northern Cape,12/04/2018,affiliate
+ZAC0007372,e9dfd9f3441fd045,9319,Bloemfontein,Free State,05/04/2018,paid_search
+ZAC0007402,0bd6f4a1e7948435,8029,Cape Town,Western Cape,03/04/2018,social
+ZAC0007444,8c71baf5f0d62e94,2009,Johannesburg,Gauteng,04/04/2018,social
+ZAC0007453,3d9345f210b5a9d0,6043,Port Elizabeth,Eastern Cape,24/04/2018,social
+ZAC0007461,56afacba2a579081,309,Rustenburg,North West,24/04/2018,social
+ZAC0007481,149452d90b6b482a,166,Centurion,Gauteng,04/04/2018,organic
+ZAC0007507,9da19f9fd54d3bd7,2040,Johannesburg,Gauteng,07/04/2018,affiliate
+ZAC0007521,ecab5654e43ee819,7606,Stellenbosch,Western Cape,22/04/2018,paid_search
+ZAC0007553,09e1a0e89d075314,1212,Nelspruit,Mpumalanga,02/04/2018,social
+ZAC0007592,5711c00da6cc94a6,1830,Soweto,Gauteng,09/04/2018,organic
+ZAC0007609,3fde1d4dd2d6c1b1,32,Pretoria,Gauteng,25/04/2018,social
+ZAC0007615,e093988fbde39eee,20,Pretoria,Gauteng,24/04/2018,paid_search
+ZAC0007635,153a22c6f6d856fe,4032,Durban,KwaZulu-Natal,02/04/2018,email
+ZAC0007654,855045c2e2f4824a,5200,East London,Eastern Cape,13/04/2018,organic
+ZAC0007660,213e46f98a13c13f,1243,Nelspruit,Mpumalanga,23/04/2018,organic
+ZAC0007688,4f66f0e70a84c1f7,8322,Kimberley,Northern Cape,21/04/2018,paid_search
+ZAC0007742,296a074a4f3e4c26,4004,Durban,KwaZulu-Natal,14/04/2018,referral
+ZAC0007743,aa77217923ada416,1236,Nelspruit,Mpumalanga,14/04/2018,paid_search
+ZAC0007750,59972dc2d9a17f46,6006,Port Elizabeth,Eastern Cape,07/04/2018,paid_search
+ZAC0007765,672e82c9f6d6c420,190,Centurion,Gauteng,26/04/2018,paid_search
+ZAC0007779,a11e3680b66bf69a,1808,Soweto,Gauteng,04/04/2018,affiliate
+ZAC0007818,7a3eda3fd63fa850,3224,Pietermaritzburg,KwaZulu-Natal,02/04/2018,paid_search
+ZAC0007819,9ed0315651830a4b,753,Polokwane,Limpopo,02/04/2018,organic
+ZAC0007852,f6e32d70f78b9500,7643,Stellenbosch,Western Cape,14/04/2018,referral
+ZAC0007882,d086d7f6d330158b,744,Polokwane,Limpopo,12/04/2018,referral
+ZAC0007883,74dc8b2f9fa09f07,5219,East London,Eastern Cape,19/04/2018,paid_search
+ZAC0007906,002d654628ace8b7,2019,Johannesburg,Gauteng,13/04/2018,referral
+ZAC0007907,d7d17b9ceb67e570,7618,Stellenbosch,Western Cape,29/04/2018,organic
+ZAC0007925,1d0f19a16f6cd41d,3205,Pietermaritzburg,KwaZulu-Natal,12/04/2018,social
+ZAC0007927,17ed7e3d10a3f358,1222,Nelspruit,Mpumalanga,01/04/2018,organic
+ZAC0007934,3036f536f6ce82a7,729,Polokwane,Limpopo,17/04/2018,organic
+ZAC0007943,d67865c4162da031,3208,Pietermaritzburg,KwaZulu-Natal,21/04/2018,organic
+ZAC0008026,0a20de6d6dc99b8e,5225,East London,Eastern Cape,17/04/2018,organic
+ZAC0008055,5e84259b2865ec7f,6000,Port Elizabeth,Eastern Cape,27/04/2018,social
+ZAC0008070,fdd668262bbd6def,1205,Nelspruit,Mpumalanga,06/04/2018,organic
+ZAC0008077,f22dea504f222659,7617,Stellenbosch,Western Cape,02/04/2018,organic
+ZAC0008100,8584eeead8ccc530,3202,Pietermaritzburg,KwaZulu-Natal,13/04/2018,paid_search
+ZAC0008119,87dbbdc96ba2d57f,7654,Stellenbosch,Western Cape,25/04/2018,referral
+ZAC0008124,8ff405e27c0ff714,7626,Stellenbosch,Western Cape,08/04/2018,organic
+ZAC0008133,2ff3840d0224e862,8351,Kimberley,Northern Cape,15/04/2018,social
+ZAC0008153,62904d408275fdd1,8306,Kimberley,Northern Cape,27/04/2018,social
+ZAC0008198,0f8980fa82815694,2005,Johannesburg,Gauteng,29/04/2018,paid_search
+ZAC0008206,ff4374c2d672b3e3,5234,East London,Eastern Cape,04/04/2018,paid_search
+ZAC0008238,a0deb0fdf5001eee,5,Pretoria,Gauteng,28/04/2018,paid_search
+ZAC0008241,3b648396dd4b3e51,1841,Soweto,Gauteng,13/04/2018,paid_search
+ZAC0008275,4d4c26d8114e1d87,9316,Bloemfontein,Free State,14/04/2018,referral
+ZAC0008276,4f531916e0bff9e6,706,Polokwane,Limpopo,02/04/2018,paid_search
+ZAC0008292,210a741c49813694,322,Rustenburg,North West,07/04/2018,referral
+ZAC0008299,b16b995c1771cbfc,8019,Cape Town,Western Cape,30/04/2018,affiliate
+ZAC0008308,fa23ea1c2dfa4deb,7604,Stellenbosch,Western Cape,09/04/2018,affiliate
+ZAC0008324,0c6032f0b53726b2,2051,Johannesburg,Gauteng,26/04/2018,social
+ZAC0008342,ff8cb8895f4b2fa2,9349,Bloemfontein,Free State,02/04/2018,social
+ZAC0008383,e9d4c0fdc78f6f80,704,Polokwane,Limpopo,08/04/2018,social
+ZAC0008391,9f08a8bfe9c00118,2021,Johannesburg,Gauteng,07/04/2018,email
+ZAC0008400,878f8c7019dc1433,181,Centurion,Gauteng,02/04/2018,organic
+ZAC0008416,2fd1b3eb548eddac,1822,Soweto,Gauteng,17/04/2018,paid_search
+ZAC0008420,c63a12a656593b6d,8041,Cape Town,Western Cape,03/04/2018,paid_search
+ZAC0008429,5bfbff940164181a,2029,Johannesburg,Gauteng,27/04/2018,email
+ZAC0008434,875e434e87dad65b,358,Rustenburg,North West,07/04/2018,referral
+ZAC0008435,69eba15cbf6a2065,7644,Stellenbosch,Western Cape,07/04/2018,organic
+ZAC0008487,be854ecc0d459825,8338,Kimberley,Northern Cape,27/04/2018,referral
+ZAC0008490,965230f1fde5f6e0,1823,Soweto,Gauteng,08/04/2018,email
+ZAC0008491,ad3f987e2ad0f6c6,8015,Cape Town,Western Cape,30/04/2018,paid_search
+ZAC0008510,85b5c8eedc311c15,32,Pretoria,Gauteng,24/04/2018,social
+ZAC0008527,a9ae42b421790a2c,2200,Sandton,Gauteng,08/04/2018,paid_search
+ZAC0008531,b8672b366f71bf7f,7648,Stellenbosch,Western Cape,03/04/2018,organic
+ZAC0008563,90629ac993afedd8,4046,Durban,KwaZulu-Natal,09/04/2018,referral
+ZAC0008582,add01f792f9d69e0,323,Rustenburg,North West,07/04/2018,social
+ZAC0008584,fac9a9e8478d5777,186,Centurion,Gauteng,14/04/2018,paid_search
+ZAC0008594,6eaeec866585623f,7622,Stellenbosch,Western Cape,11/04/2018,paid_search
+ZAC0008595,2b1dc445631e64ea,1851,Soweto,Gauteng,26/04/2018,referral
+ZAC0008611,55a7bd5c055d22e2,8330,Kimberley,Northern Cape,06/04/2018,paid_search
+ZAC0008618,4537fff43f7e8af7,3226,Pietermaritzburg,KwaZulu-Natal,18/04/2018,affiliate
+ZAC0008627,013a5c0486a94711,2042,Johannesburg,Gauteng,18/04/2018,organic
+ZAC0008635,9fb7c7927efb8363,8313,Kimberley,Northern Cape,07/04/2018,email
+ZAC0008639,486c174ebb5cd83f,8319,Kimberley,Northern Cape,06/04/2018,organic
+ZAC0008651,c7eb38fd2e7f242d,3234,Pietermaritzburg,KwaZulu-Natal,28/04/2018,paid_search
+ZAC0008658,889088621c0cca85,8010,Cape Town,Western Cape,28/04/2018,social
+ZAC0008712,faa35b44e542468b,326,Rustenburg,North West,24/04/2018,referral
+ZAC0008732,19ddcd1071ef7575,2241,Sandton,Gauteng,28/04/2018,organic
+ZAC0008755,b51b8f6fcbdb8346,165,Centurion,Gauteng,10/04/2018,paid_search
+ZAC0008772,b892c490ad4020d4,1833,Soweto,Gauteng,25/04/2018,referral
+ZAC0008784,15472a6aa6b735be,2234,Sandton,Gauteng,06/04/2018,organic
+ZAC0008790,1d5449b155a6ff9f,14,Pretoria,Gauteng,17/04/2018,organic
+ZAC0008796,f2f621eab724b0be,6025,Port Elizabeth,Eastern Cape,09/04/2018,organic
+ZAC0008798,7b1a8a6f782fd28e,311,Rustenburg,North West,15/04/2018,paid_search
+ZAC0008803,fbf7343c5d1ceb28,8302,Kimberley,Northern Cape,14/04/2018,organic
+ZAC0008806,f37ae7c0d3424fe1,8020,Cape Town,Western Cape,14/04/2018,paid_search
+ZAC0008819,c652f23c109f49ee,8001,Cape Town,Western Cape,11/04/2018,organic
+ZAC0008824,7b5064b3e8276e5a,5225,East London,Eastern Cape,26/04/2018,organic
+ZAC0008825,80d7d579a9bad83e,8319,Kimberley,Northern Cape,21/04/2018,paid_search
+ZAC0008835,31a85ff4c57333f3,1863,Soweto,Gauteng,03/04/2018,organic
+ZAC0008865,315263612abf23f1,1247,Nelspruit,Mpumalanga,02/04/2018,organic
+ZAC0008866,cfe2363c6cca10bd,6028,Port Elizabeth,Eastern Cape,03/04/2018,organic
+ZAC0008875,e47285cc3ef7420c,4014,Durban,KwaZulu-Natal,14/04/2018,social
+ZAC0008881,ee7feb1e2dda5e1b,9351,Bloemfontein,Free State,07/04/2018,email
+ZAC0008891,1418d6690d020af6,2034,Johannesburg,Gauteng,23/04/2018,paid_search
+ZAC0008914,93097be341941aa8,2006,Johannesburg,Gauteng,27/04/2018,social
+ZAC0008919,cc280ea2324bcc32,177,Centurion,Gauteng,09/04/2018,organic
+ZAC0008922,f29a72c7a1828c33,174,Centurion,Gauteng,12/04/2018,organic
+ZAC0008926,67d5144615059b29,8059,Cape Town,Western Cape,07/04/2018,organic
+ZAC0008947,f6d9b49b739e9571,4035,Durban,KwaZulu-Natal,04/04/2018,organic
+ZAC0008968,5ed3cccac7740698,9321,Bloemfontein,Free State,24/04/2018,social
+ZAC0008991,20c1b56a75f1663d,9320,Bloemfontein,Free State,14/04/2018,paid_search
+ZAC0009016,7da7221f202e4bec,1213,Nelspruit,Mpumalanga,12/04/2018,email
+ZAC0009017,3e3d5d82541e00a8,2007,Johannesburg,Gauteng,27/04/2018,organic
+ZAC0009042,69218ca7637622ff,1825,Soweto,Gauteng,01/04/2018,organic
+ZAC0009047,3f78d0405563b801,2232,Sandton,Gauteng,25/04/2018,referral
+ZAC0009061,a9906aa70ae837e9,8031,Cape Town,Western Cape,23/04/2018,paid_search
+ZAC0009069,b05a4f69c93f7159,4027,Durban,KwaZulu-Natal,07/04/2018,referral
+ZAC0009086,58c6db1ee46e5795,339,Rustenburg,North West,24/04/2018,organic
+ZAC0009101,9722e399f291458f,212,Centurion,Gauteng,27/04/2018,social
+ZAC0009116,2a32f1d44d03e5c2,2247,Sandton,Gauteng,26/04/2018,referral
+ZAC0009125,bdd342a2731c4638,2247,Sandton,Gauteng,24/04/2018,paid_search
+ZAC0009129,0573c9efc4798af0,2024,Johannesburg,Gauteng,30/04/2018,email
+ZAC0009132,5f640acb4f82aca5,4035,Durban,KwaZulu-Natal,06/04/2018,organic
+ZAC0009138,a6c727b6a9221f43,36,Pretoria,Gauteng,12/04/2018,paid_search
+ZAC0009153,2f05786e071b4586,1844,Soweto,Gauteng,03/04/2018,social
+ZAC0009185,6c599a6ee7fa66fe,705,Polokwane,Limpopo,11/04/2018,social
+ZAC0009211,f4aa4b889edd0842,3219,Pietermaritzburg,KwaZulu-Natal,21/04/2018,organic
+ZAC0009237,cef4329225f2a33b,6009,Port Elizabeth,Eastern Cape,07/04/2018,organic
+ZAC0009248,c67c70515a998398,6004,Port Elizabeth,Eastern Cape,03/04/2018,organic
+ZAC0009254,bd867ca7cbbf75e2,8354,Kimberley,Northern Cape,13/04/2018,organic
+ZAC0009274,b1a238207bb2bb30,2018,Johannesburg,Gauteng,20/04/2018,social
+ZAC0009289,8498b8a2b431d56d,8357,Kimberley,Northern Cape,17/04/2018,organic
+ZAC0009308,7ea9e9fcb173b256,165,Centurion,Gauteng,02/04/2018,social
+ZAC0009340,20ca1da02b90fc70,7607,Stellenbosch,Western Cape,17/04/2018,paid_search
+ZAC0009354,3bb52e07a46412e5,7643,Stellenbosch,Western Cape,20/04/2018,referral
+ZAC0009369,fc2f706d50b2cb97,4046,Durban,KwaZulu-Natal,03/04/2018,email
+ZAC0009396,a7de6607ee124f76,7604,Stellenbosch,Western Cape,29/04/2018,affiliate
+ZAC0009399,4e6d67a896c972f2,1846,Soweto,Gauteng,16/04/2018,referral
+ZAC0009416,3f6b7e016a40ee8a,1838,Soweto,Gauteng,19/04/2018,referral
+ZAC0009417,95b635f259f0c8e2,8355,Kimberley,Northern Cape,25/04/2018,social
+ZAC0009418,2206da0c262b90a1,353,Rustenburg,North West,17/04/2018,paid_search
+ZAC0009421,1c09ae4ef0208d45,3208,Pietermaritzburg,KwaZulu-Natal,15/04/2018,affiliate
+ZAC0009438,73ab3cd9f03260bb,8338,Kimberley,Northern Cape,03/04/2018,paid_search
+ZAC0009460,dcc81dba9ba52f21,3210,Pietermaritzburg,KwaZulu-Natal,20/04/2018,organic
+ZAC0009463,abfc2a2f656dad46,8022,Cape Town,Western Cape,19/04/2018,email
+ZAC0009489,970d5434adfe19c3,5246,East London,Eastern Cape,25/04/2018,organic
+ZAC0009498,241085ed82f3cbec,324,Rustenburg,North West,18/04/2018,social
+ZAC0009505,123da61727bc685f,4000,Durban,KwaZulu-Natal,14/04/2018,social
+ZAC0009507,1d8e63497ed842ea,335,Rustenburg,North West,13/04/2018,paid_search
+ZAC0009516,9aacf583c13b4b69,2011,Johannesburg,Gauteng,07/04/2018,organic
+ZAC0009572,a777b9dcb3343130,5215,East London,Eastern Cape,29/04/2018,email
+ZAC0009601,6ce1a4344ca6910b,711,Polokwane,Limpopo,16/04/2018,paid_search
+ZAC0009604,3b242655d4600da8,1806,Soweto,Gauteng,10/04/2018,paid_search
+ZAC0009622,61700542c6e20bbd,8040,Cape Town,Western Cape,29/04/2018,social
+ZAC0009654,ef418edb730933c1,6052,Port Elizabeth,Eastern Cape,07/04/2018,email
+ZAC0009659,5a3d3f92ffe4e7d6,1241,Nelspruit,Mpumalanga,10/04/2018,paid_search
+ZAC0009668,8861ea36f61fd4fd,2022,Johannesburg,Gauteng,28/04/2018,affiliate
+ZAC0009692,9b8abb360b419609,704,Polokwane,Limpopo,14/04/2018,email
+ZAC0009720,9528d6ad1947ab01,1239,Nelspruit,Mpumalanga,07/04/2018,organic
+ZAC0009761,15f050f8ba5e1bb1,6007,Port Elizabeth,Eastern Cape,28/04/2018,organic
+ZAC0009798,42f2201f360f1ec7,6033,Port Elizabeth,Eastern Cape,22/04/2018,social
+ZAC0009812,7a8b5ac454411701,2035,Johannesburg,Gauteng,16/04/2018,paid_search
+ZAC0009831,49a0ca5d58db47bc,8304,Kimberley,Northern Cape,30/04/2018,paid_search
+ZAC0009837,d75075b90c4960c5,2041,Johannesburg,Gauteng,20/04/2018,paid_search
+ZAC0009839,d40b719135568f94,9354,Bloemfontein,Free State,03/04/2018,paid_search
+ZAC0009846,6443178a16309e15,329,Rustenburg,North West,05/04/2018,organic
+ZAC0009847,9995159d74ff3fee,6031,Port Elizabeth,Eastern Cape,25/04/2018,organic
+ZAC0009852,7391693d6f1f27db,5224,East London,Eastern Cape,30/04/2018,organic
+ZAC0009872,79756c3713bf6045,1821,Soweto,Gauteng,08/04/2018,social
+ZAC0009906,bf81a5cfee4b9d2d,324,Rustenburg,North West,21/04/2018,organic
+ZAC0009931,f5da633458c562d4,4059,Durban,KwaZulu-Natal,10/04/2018,organic
+ZAC0009944,67e441819550ad7b,2242,Sandton,Gauteng,19/04/2018,paid_search
+ZAC0009948,4367b4567eb05cb6,703,Polokwane,Limpopo,03/04/2018,organic
+ZAC0009959,26425a5e93c0866f,184,Centurion,Gauteng,16/04/2018,referral
+ZAC0009963,9d1c48a5074c5d2d,4032,Durban,KwaZulu-Natal,29/04/2018,paid_search
+ZAC0009978,37074cf23be2f0f1,1237,Nelspruit,Mpumalanga,11/04/2018,referral
+ZAC0009989,b049cd7ca705c9bc,9311,Bloemfontein,Free State,06/04/2018,organic
+ZAC0009996,0296d8212be0c561,4036,Durban,KwaZulu-Natal,24/04/2018,email
+ZAC0010010,ebf8bfe4220e0343,8341,Kimberley,Northern Cape,30/04/2018,organic
+ZAC0010023,78e0e8a066f2a752,4050,Durban,KwaZulu-Natal,09/04/2018,organic
+ZAC0010024,1b91190acfc5ad9f,4022,Durban,KwaZulu-Natal,09/04/2018,referral
+ZAC0010039,eba3e2fde80d56a6,8339,Kimberley,Northern Cape,23/04/2018,paid_search
+ZAC0010064,09003abfd1d55d06,5222,East London,Eastern Cape,02/04/2018,organic
+ZAC0010101,e2ab9d45aa7bd010,2052,Johannesburg,Gauteng,04/04/2018,organic
+ZAC0010106,75e048a5cc73fd9a,2241,Sandton,Gauteng,16/04/2018,organic
+ZAC0010116,23678bf1078f5077,1,Pretoria,Gauteng,18/04/2018,affiliate
+ZAC0010118,ac5235b1fdbbd643,7625,Stellenbosch,Western Cape,24/04/2018,organic
+ZAC0010127,aeef9d785844460e,351,Rustenburg,North West,24/04/2018,affiliate
+ZAC0010132,96b510fffabeaf5b,354,Rustenburg,North West,02/04/2018,social
+ZAC0010154,ba0d058179e7c70e,4046,Durban,KwaZulu-Natal,23/04/2018,referral
+ZAC0010158,673a1c45638edd16,725,Polokwane,Limpopo,29/04/2018,paid_search
+ZAC0010168,30ac480e2d4929c7,733,Polokwane,Limpopo,27/04/2018,email
+ZAC0010171,3871d9051239810d,174,Centurion,Gauteng,04/04/2018,paid_search
+ZAC0010177,9a1be27e8f57a89c,1808,Soweto,Gauteng,19/04/2018,affiliate
+ZAC0010190,00800df358041b67,8353,Kimberley,Northern Cape,04/04/2018,referral
+ZAC0010197,012a6302964e1121,8330,Kimberley,Northern Cape,09/04/2018,social
+ZAC0010218,a788bb0b4781de23,2244,Sandton,Gauteng,17/04/2018,organic
+ZAC0010234,9be910dd82959644,1257,Nelspruit,Mpumalanga,07/04/2018,organic
+ZAC0010238,023e3dab4a1b5b55,743,Polokwane,Limpopo,06/04/2018,paid_search
+ZAC0010243,5e1237cb2a5bcbca,758,Polokwane,Limpopo,12/04/2018,social
+ZAC0010252,4160ff77b24829a3,8302,Kimberley,Northern Cape,27/04/2018,email
+ZAC0010253,71d460cba9f1d368,8050,Cape Town,Western Cape,19/04/2018,organic
+ZAC0010267,fcac26dfe696f597,354,Rustenburg,North West,17/04/2018,organic
+ZAC0010269,3ccdc2de40e1b617,52,Pretoria,Gauteng,10/04/2018,referral
+ZAC0010322,0d42dc6c98e6493e,20,Pretoria,Gauteng,29/04/2018,organic
+ZAC0010360,a540e53611a4af68,1236,Nelspruit,Mpumalanga,05/04/2018,referral
+ZAC0010364,f79928654100f08b,3250,Pietermaritzburg,KwaZulu-Natal,17/04/2018,organic
+ZAC0010379,6472f56b5a0e4081,215,Centurion,Gauteng,17/04/2018,organic
+ZAC0010393,db7dda6ebe1539a6,3255,Pietermaritzburg,KwaZulu-Natal,09/04/2018,social
+ZAC0010417,b83015842c7939a5,8330,Kimberley,Northern Cape,19/04/2018,social
+ZAC0010425,15142734b265a91e,3214,Pietermaritzburg,KwaZulu-Natal,22/04/2018,paid_search
+ZAC0010426,616acbaca2736efd,13,Pretoria,Gauteng,25/04/2018,paid_search
+ZAC0010446,586d4e8db8a65c9b,1249,Nelspruit,Mpumalanga,25/04/2018,organic
+ZAC0010457,ba791d5c40f34294,1806,Soweto,Gauteng,24/04/2018,paid_search
+ZAC0010480,de6cb66a4266ce60,1832,Soweto,Gauteng,01/04/2018,paid_search
+ZAC0010481,35a0b5327146c987,2222,Sandton,Gauteng,18/04/2018,email
+ZAC0010496,75526dc371b17515,2038,Johannesburg,Gauteng,14/04/2018,social
+ZAC0010506,5b039515887c9bee,38,Pretoria,Gauteng,13/04/2018,organic
+ZAC0010531,6c71f772e36f08f0,4053,Durban,KwaZulu-Natal,26/04/2018,social
+ZAC0010588,2b0871d09d233945,2235,Sandton,Gauteng,20/04/2018,email
+ZAC0010606,4614a113d35d3cac,4012,Durban,KwaZulu-Natal,20/04/2018,organic
+ZAC0010615,12fc2148d1b6e130,4042,Durban,KwaZulu-Natal,25/04/2018,paid_search
+ZAC0010619,93e5179159ba9860,55,Pretoria,Gauteng,13/04/2018,social
+ZAC0010633,cf7a99520dd9d962,4008,Durban,KwaZulu-Natal,20/04/2018,organic
+ZAC0010638,48951e61e40df83f,8003,Cape Town,Western Cape,28/04/2018,affiliate
+ZAC0010649,3d7ead6d498191c0,1237,Nelspruit,Mpumalanga,27/04/2018,social
+ZAC0010669,e74dd4183bfee4a0,301,Rustenburg,North West,11/04/2018,organic
+ZAC0010673,4aac601adec894d9,7648,Stellenbosch,Western Cape,27/04/2018,paid_search
+ZAC0010696,903171e38393354b,1813,Soweto,Gauteng,10/04/2018,organic
+ZAC0010712,4fc13d0934711244,3216,Pietermaritzburg,KwaZulu-Natal,02/04/2018,paid_search
+ZAC0010756,7a7a81db67b3d56d,189,Centurion,Gauteng,24/04/2018,organic
+ZAC0010761,4604cca806487ac1,8014,Cape Town,Western Cape,09/04/2018,paid_search
+ZAC0010762,0490c5e086399200,213,Centurion,Gauteng,17/04/2018,organic
+ZAC0010787,92f4a4a1b1ebca0e,1233,Nelspruit,Mpumalanga,02/04/2018,email
+ZAC0010790,98b7636c693e169d,4047,Durban,KwaZulu-Natal,08/04/2018,social
+ZAC0010797,e7dc9214f35c03ae,7637,Stellenbosch,Western Cape,15/04/2018,social
+ZAC0010827,225183af3e6c49e2,5211,East London,Eastern Cape,15/04/2018,affiliate
+ZAC0010852,e1f910189bb5e501,8058,Cape Town,Western Cape,18/04/2018,social
+ZAC0010862,94b0f41989ccde62,55,Pretoria,Gauteng,28/04/2018,paid_search
+ZAC0010880,46032cb093a19589,1244,Nelspruit,Mpumalanga,10/04/2018,social
+ZAC0010889,81cc232c1915eb1f,308,Rustenburg,North West,29/04/2018,referral
+ZAC0010907,0e2c1efe7299306a,198,Centurion,Gauteng,13/04/2018,paid_search
+ZAC0010910,2cd9b668e4e75965,8317,Kimberley,Northern Cape,19/04/2018,paid_search
+ZAC0010919,04ca6ac24aa79682,320,Rustenburg,North West,10/04/2018,paid_search
+ZAC0010946,8647fbdf90d558a9,5248,East London,Eastern Cape,01/04/2018,affiliate
+ZAC0010954,e80d6a1d1c713a92,177,Centurion,Gauteng,24/04/2018,organic
+ZAC0010956,10365386c220ee5d,4033,Durban,KwaZulu-Natal,13/04/2018,social
+ZAC0010995,99cad292e0d88207,4033,Durban,KwaZulu-Natal,09/04/2018,social
+ZAC0010999,4cab93e682077641,5223,East London,Eastern Cape,15/04/2018,social
+ZAC0011001,59ddcef4b957f0fd,1259,Nelspruit,Mpumalanga,22/04/2018,social
+ZAC0011007,a1240f87381ca16f,46,Pretoria,Gauteng,06/04/2018,organic
+ZAC0011011,44928ced68e440fc,211,Centurion,Gauteng,22/04/2018,social
+ZAC0011026,f663e6d9ffa86fb0,2013,Johannesburg,Gauteng,27/04/2018,social
+ZAC0011034,23aff3068ed58529,2217,Sandton,Gauteng,19/04/2018,paid_search
+ZAC0011056,4ee0868385e2e152,46,Pretoria,Gauteng,21/04/2018,paid_search
+ZAC0011061,9dff669287299561,9330,Bloemfontein,Free State,24/04/2018,paid_search
+ZAC0011063,251b169f196db1a0,8025,Cape Town,Western Cape,30/04/2018,organic
+ZAC0011086,61526a4b949eba10,161,Centurion,Gauteng,29/04/2018,social
+ZAC0011088,c875c922c62c2adf,4014,Durban,KwaZulu-Natal,23/04/2018,organic
+ZAC0011089,7d6fb89bbb76bd5f,46,Pretoria,Gauteng,11/04/2018,referral
+ZAC0011094,925811f3fd7f3511,711,Polokwane,Limpopo,06/04/2018,paid_search
+ZAC0011106,35032779d038c2b1,7641,Stellenbosch,Western Cape,20/04/2018,social
+ZAC0011119,42b32b45313b4a8a,726,Polokwane,Limpopo,05/04/2018,referral
+ZAC0011132,c54d70bb4bce82e4,3,Pretoria,Gauteng,27/04/2018,organic
+ZAC0011165,4fb4a07e39cc72c1,2228,Sandton,Gauteng,30/04/2018,social
+ZAC0011179,fcddfa4bb7bfdb1f,1821,Soweto,Gauteng,13/04/2018,social
+ZAC0011203,603ac170bb27761b,8035,Cape Town,Western Cape,02/04/2018,social
+ZAC0011212,b5981a22eaa5059c,40,Pretoria,Gauteng,16/04/2018,email
+ZAC0011229,d292fc5c6d4d27f7,4016,Durban,KwaZulu-Natal,24/04/2018,organic
+ZAC0011237,4e855843a8fdc58c,2199,Sandton,Gauteng,09/04/2018,organic
+ZAC0011248,bb3d8ec182606c89,6044,Port Elizabeth,Eastern Cape,06/04/2018,organic
+ZAC0011256,f11a1812fd2625c0,6026,Port Elizabeth,Eastern Cape,25/04/2018,referral
+ZAC0011269,6edab60305a33d3c,1253,Nelspruit,Mpumalanga,26/04/2018,email
+ZAC0011315,0b62be3f2200976a,303,Rustenburg,North West,17/04/2018,affiliate
+ZAC0011348,209ac0d2c01acd36,301,Rustenburg,North West,12/04/2018,email
+ZAC0011375,d73e58745429f86f,2017,Johannesburg,Gauteng,12/04/2018,organic
+ZAC0011386,94269adf5ed21467,2039,Johannesburg,Gauteng,09/04/2018,paid_search
+ZAC0011405,0e58c170688f2783,2056,Johannesburg,Gauteng,01/04/2018,paid_search
+ZAC0011412,b7c3bab7c30581d4,3217,Pietermaritzburg,KwaZulu-Natal,13/04/2018,organic
+ZAC0011432,74c5692f3fc5198d,8016,Cape Town,Western Cape,26/04/2018,organic
+ZAC0011443,021fdf05fcc552e9,8019,Cape Town,Western Cape,16/04/2018,organic
+ZAC0011450,ab8650bdca5ecb0e,3246,Pietermaritzburg,KwaZulu-Natal,08/04/2018,referral
+ZAC0011452,fb8cbaa41ab0ee07,4050,Durban,KwaZulu-Natal,19/04/2018,social
+ZAC0011495,09626403e1180bf7,8058,Cape Town,Western Cape,21/04/2018,organic
+ZAC0011497,10f58091e761a607,8058,Cape Town,Western Cape,27/04/2018,organic
+ZAC0011503,191561d6598aca2f,5215,East London,Eastern Cape,30/04/2018,paid_search
+ZAC0011533,10ab36016fa5f194,213,Centurion,Gauteng,23/04/2018,paid_search
+ZAC0011541,5294120854f4b7fe,3257,Pietermaritzburg,KwaZulu-Natal,02/04/2018,referral
+ZAC0011545,8362d8e40cbe3355,4051,Durban,KwaZulu-Natal,23/04/2018,referral
+ZAC0011551,4e2b2b8dd5bbbc75,9301,Bloemfontein,Free State,26/04/2018,social
+ZAC0011561,a6060d431bc1661b,5203,East London,Eastern Cape,02/04/2018,referral
+ZAC0011566,14252a5d53a1a45d,176,Centurion,Gauteng,04/04/2018,social
+ZAC0011568,2a7eff86339dcccb,1858,Soweto,Gauteng,17/04/2018,organic
+ZAC0011580,d22a78dc20f908f9,1811,Soweto,Gauteng,24/04/2018,organic
+ZAC0011617,422bd208bac1f12e,8,Pretoria,Gauteng,11/04/2018,paid_search
+ZAC0011685,db6e90f2af37fe7a,3242,Pietermaritzburg,KwaZulu-Natal,26/04/2018,referral
+ZAC0011731,dcb2b6e4d3023acb,9336,Bloemfontein,Free State,10/04/2018,social
+ZAC0011738,c3c75118067c629f,4041,Durban,KwaZulu-Natal,06/04/2018,affiliate
+ZAC0011739,b1660e417b036e0c,6024,Port Elizabeth,Eastern Cape,21/04/2018,affiliate
+ZAC0011749,cebaa91af57d262d,3224,Pietermaritzburg,KwaZulu-Natal,05/04/2018,organic
+ZAC0011866,c4b71af5510e92b6,1834,Soweto,Gauteng,01/04/2018,referral
+ZAC0011892,039bdc000ca3431d,7645,Stellenbosch,Western Cape,25/04/2018,email
+ZAC0011899,d792f68ca427c719,6044,Port Elizabeth,Eastern Cape,09/04/2018,social
+ZAC0011918,1af2846d4d3bde7e,344,Rustenburg,North West,29/04/2018,affiliate
+ZAC0011929,da7e93afbf5b33b0,1205,Nelspruit,Mpumalanga,06/04/2018,social
+ZAC0011940,86255089056e9813,3243,Pietermaritzburg,KwaZulu-Natal,28/04/2018,social
+ZAC0011943,40874e0f804c09e7,8016,Cape Town,Western Cape,25/04/2018,social
+ZAC0011946,325a62c634d352af,1228,Nelspruit,Mpumalanga,06/04/2018,paid_search
+ZAC0011965,bb95ecd758e5bab9,3233,Pietermaritzburg,KwaZulu-Natal,28/04/2018,referral
+ZAC0012017,63c6fba38941a854,1828,Soweto,Gauteng,30/04/2018,organic
+ZAC0012018,dbf9b9f1e1fae2e9,2250,Sandton,Gauteng,12/04/2018,affiliate
+ZAC0012029,a821472c69e231ca,740,Polokwane,Limpopo,15/04/2018,email
+ZAC0012060,15205d5e4e855bbb,27,Pretoria,Gauteng,18/04/2018,organic
+ZAC0012066,cbf0404f3ef1a8b8,9309,Bloemfontein,Free State,05/04/2018,referral
+ZAC0012079,1d6e194e724d0292,6031,Port Elizabeth,Eastern Cape,28/04/2018,paid_search
+ZAC0012085,26bc20a044e1d522,1212,Nelspruit,Mpumalanga,26/04/2018,email
+ZAC0012130,833b6b1ba1a36393,2222,Sandton,Gauteng,20/04/2018,organic
+ZAC0012139,b4c674f398c368c3,6002,Port Elizabeth,Eastern Cape,27/04/2018,organic
+ZAC0012153,b3166481cc0ec5b0,7646,Stellenbosch,Western Cape,22/04/2018,email
+ZAC0012186,e981483007364856,6011,Port Elizabeth,Eastern Cape,10/04/2018,organic
+ZAC0012188,5967abf54199b987,1849,Soweto,Gauteng,01/04/2018,email
+ZAC0012215,3d2d334e65d8bf1b,210,Centurion,Gauteng,11/04/2018,paid_search
+ZAC0012224,54b23f6e05255fe1,34,Pretoria,Gauteng,07/04/2018,organic
+ZAC0012238,ba0faaad3c4b2ff7,1854,Soweto,Gauteng,20/04/2018,referral
+ZAC0012251,ba8de09e073b172f,8328,Kimberley,Northern Cape,07/04/2018,referral
+ZAC0012281,5ea78adfb0d9df78,1210,Nelspruit,Mpumalanga,22/04/2018,social
+ZAC0012297,79466ed0b00d9630,8331,Kimberley,Northern Cape,03/04/2018,social
+ZAC0012299,493cc386fe2062c8,744,Polokwane,Limpopo,07/04/2018,paid_search
+ZAC0012308,34d1c214b495184f,8301,Kimberley,Northern Cape,09/04/2018,referral
+ZAC0012310,ea789b471ed8958a,6055,Port Elizabeth,Eastern Cape,25/04/2018,organic
+ZAC0012314,b1287cf4a92c99aa,1228,Nelspruit,Mpumalanga,27/04/2018,referral
+ZAC0012315,9d1a5b239bf4597d,333,Rustenburg,North West,24/04/2018,paid_search
+ZAC0012354,dcd37f3f1e6a9dad,8050,Cape Town,Western Cape,03/04/2018,paid_search
+ZAC0012390,bccc4bdc208b01e0,9321,Bloemfontein,Free State,09/04/2018,paid_search
+ZAC0012403,9a7f532f6d34a7f5,7639,Stellenbosch,Western Cape,05/04/2018,organic
+ZAC0012405,924e16786a3b712e,7639,Stellenbosch,Western Cape,17/04/2018,organic
+ZAC0012419,1a1ce2f609dda566,4042,Durban,KwaZulu-Natal,07/04/2018,social
+ZAC0012420,469835f5b16d48a0,51,Pretoria,Gauteng,29/04/2018,paid_search
+ZAC0012437,6932db97c3b5c5ca,3213,Pietermaritzburg,KwaZulu-Natal,13/04/2018,social
+ZAC0012440,f6d089fbeb640b74,5208,East London,Eastern Cape,01/04/2018,organic
+ZAC0012488,95ed00a6fca8837c,3241,Pietermaritzburg,KwaZulu-Natal,30/04/2018,organic
+ZAC0012497,51678e3f57458c55,353,Rustenburg,North West,24/04/2018,referral
+ZAC0012507,bde8c03798412157,2222,Sandton,Gauteng,14/04/2018,organic
+ZAC0012517,23a8351fee9652d5,335,Rustenburg,North West,29/04/2018,social
+ZAC0012534,d846f6ee2eb7f5dd,9346,Bloemfontein,Free State,27/04/2018,social
+ZAC0012538,8f9745b20afc37df,8030,Cape Town,Western Cape,22/04/2018,social
+ZAC0012555,a9bbb3ce0170d92d,2022,Johannesburg,Gauteng,02/04/2018,organic
+ZAC0012557,2e2232187c71c374,334,Rustenburg,North West,17/04/2018,organic
+ZAC0012591,29d94fe674adac27,2033,Johannesburg,Gauteng,09/04/2018,paid_search
+ZAC0012592,dc8d0c4d1562d45c,7621,Stellenbosch,Western Cape,05/04/2018,social
+ZAC0012664,918186248a2727bb,6048,Port Elizabeth,Eastern Cape,10/04/2018,referral
+ZAC0012669,4f71afba56b7c924,8024,Cape Town,Western Cape,07/04/2018,paid_search
+ZAC0012695,43ceb9f8583821b2,2047,Johannesburg,Gauteng,27/04/2018,paid_search
+ZAC0012724,8ab5f0b2166878d7,1205,Nelspruit,Mpumalanga,22/04/2018,paid_search
+ZAC0012771,1367ee6504de1257,4038,Durban,KwaZulu-Natal,15/04/2018,social
+ZAC0012821,4d50f169f21342e5,301,Rustenburg,North West,01/04/2018,organic
+ZAC0012822,980bc80a1bfbac74,4022,Durban,KwaZulu-Natal,08/04/2018,paid_search
+ZAC0012825,ba03e765dc610294,2201,Sandton,Gauteng,25/04/2018,social
+ZAC0012852,0d08dbf90db77730,8344,Kimberley,Northern Cape,10/04/2018,referral
+ZAC0012856,7ef09c442ab897f0,2205,Sandton,Gauteng,09/04/2018,paid_search
+ZAC0012858,d269625a3f177ec7,11,Pretoria,Gauteng,25/04/2018,social
+ZAC0012866,7e24703e7e9bbbd8,5206,East London,Eastern Cape,29/04/2018,email
+ZAC0012875,da6d143b6488ef3c,5256,East London,Eastern Cape,02/04/2018,referral
+ZAC0012897,8eca135aa5bf1c04,8310,Kimberley,Northern Cape,02/04/2018,referral
+ZAC0012923,3a2d9a3d9f1a7181,9327,Bloemfontein,Free State,22/04/2018,organic
+ZAC0012936,dd25bca72a063ac6,2024,Johannesburg,Gauteng,16/04/2018,paid_search
+ZAC0012961,e087851629304342,2041,Johannesburg,Gauteng,18/04/2018,social
+ZAC0012974,4b340122f7b6df1d,9305,Bloemfontein,Free State,25/04/2018,organic
+ZAC0012978,8949b1b813370af8,7633,Stellenbosch,Western Cape,06/04/2018,email
+ZAC0012993,ea3d159406dd13a9,1850,Soweto,Gauteng,18/04/2018,organic
+ZAC0013011,26235c12d2acd53a,2032,Johannesburg,Gauteng,16/04/2018,organic
+ZAC0013044,42fb94a68f6b6408,182,Centurion,Gauteng,01/04/2018,social
+ZAC0013055,265412dfda04bfe6,6021,Port Elizabeth,Eastern Cape,07/04/2018,organic
+ZAC0013117,8c70b132c49660c6,8023,Cape Town,Western Cape,28/04/2018,social
+ZAC0013128,a9b180f242d33e73,2004,Johannesburg,Gauteng,10/04/2018,referral
+ZAC0013141,c1814a74827c93a5,1238,Nelspruit,Mpumalanga,26/04/2018,paid_search
+ZAC0013231,51fc0dd1c690a679,9300,Bloemfontein,Free State,16/04/2018,organic
+ZAC0013249,c856a64e77275f64,166,Centurion,Gauteng,16/04/2018,organic
+ZAC0013254,97c2f4484d9d03ff,9359,Bloemfontein,Free State,02/04/2018,referral
+ZAC0013271,6814c31da60c2f72,3247,Pietermaritzburg,KwaZulu-Natal,07/04/2018,paid_search
+ZAC0013278,d1e76354063465db,2241,Sandton,Gauteng,30/04/2018,paid_search
+ZAC0013306,45406559f9173181,1216,Nelspruit,Mpumalanga,18/04/2018,affiliate
+ZAC0013313,53f4a896be8a4936,2023,Johannesburg,Gauteng,26/04/2018,organic
+ZAC0013351,e235e0a63ef631a3,1205,Nelspruit,Mpumalanga,29/04/2018,affiliate
+ZAC0013373,f648d6bdd5911686,2048,Johannesburg,Gauteng,24/04/2018,affiliate
+ZAC0013381,e798a483ccd79756,713,Polokwane,Limpopo,26/04/2018,email
+ZAC0013385,e5389317cbd97e7d,1228,Nelspruit,Mpumalanga,25/04/2018,paid_search
+ZAC0013391,f26265dacb9c279f,747,Polokwane,Limpopo,26/04/2018,organic
+ZAC0013392,932a9f5ecfa55cd4,8323,Kimberley,Northern Cape,27/04/2018,referral
+ZAC0013394,e3e78f01b1b289a7,3239,Pietermaritzburg,KwaZulu-Natal,18/04/2018,paid_search
+ZAC0013435,2909bdd4645fab31,4048,Durban,KwaZulu-Natal,10/04/2018,referral
+ZAC0013437,079d9be3a82ae20d,1242,Nelspruit,Mpumalanga,13/04/2018,referral
+ZAC0013448,3a04cba91d12620b,3216,Pietermaritzburg,KwaZulu-Natal,26/04/2018,organic
+ZAC0013460,a6fe7db27c7e85fd,731,Polokwane,Limpopo,22/04/2018,paid_search
+ZAC0013468,f74ba5353e1948ba,177,Centurion,Gauteng,30/04/2018,paid_search
+ZAC0013514,51ed124ebe9dc00c,1227,Nelspruit,Mpumalanga,20/04/2018,organic
+ZAC0013521,c295c93b831f1e84,7650,Stellenbosch,Western Cape,01/04/2018,email
+ZAC0013528,57341e93d9a91810,4056,Durban,KwaZulu-Natal,21/04/2018,paid_search
+ZAC0013539,e38949b77351e89f,7659,Stellenbosch,Western Cape,13/04/2018,affiliate
+ZAC0013546,4f594c48414a1bd6,8041,Cape Town,Western Cape,14/04/2018,email
+ZAC0013553,539a0c191af11f9f,301,Rustenburg,North West,16/04/2018,affiliate
+ZAC0013557,8153aee6459655bb,1209,Nelspruit,Mpumalanga,28/04/2018,paid_search
+ZAC0013567,59d5f20c79414bbc,1835,Soweto,Gauteng,05/04/2018,paid_search
+ZAC0013583,e908d9d738cf5c27,8049,Cape Town,Western Cape,28/04/2018,affiliate
+ZAC0013599,55315537f9d18959,9322,Bloemfontein,Free State,09/04/2018,social
+ZAC0013664,91cb7a936d4c8f6c,2235,Sandton,Gauteng,19/04/2018,paid_search
+ZAC0013682,d89d7688fda2bad9,344,Rustenburg,North West,26/04/2018,referral
+ZAC0013688,fcc6a0214d0bb23d,9301,Bloemfontein,Free State,10/04/2018,organic
+ZAC0013702,fda74c0922405e3e,31,Pretoria,Gauteng,06/04/2018,social
+ZAC0013722,88244375da9f38f5,2049,Johannesburg,Gauteng,01/04/2018,paid_search
+ZAC0013726,fc5e82d8b84aee8d,1830,Soweto,Gauteng,30/04/2018,organic
+ZAC0013742,72e9661b4e60dcd6,2042,Johannesburg,Gauteng,19/04/2018,paid_search
+ZAC0013744,bab59d8de76334b3,25,Pretoria,Gauteng,03/04/2018,social
+ZAC0013775,3009a40d2bb0a7dc,8323,Kimberley,Northern Cape,06/04/2018,social
+ZAC0013816,ed3f2bf0a83dd24d,7603,Stellenbosch,Western Cape,08/04/2018,paid_search
+ZAC0013846,3f575a7ec57c8a49,8302,Kimberley,Northern Cape,04/04/2018,social
+ZAC0013850,4d0bfb311bc8130b,8347,Kimberley,Northern Cape,07/04/2018,referral
+ZAC0013883,c45d18aac17f0195,9304,Bloemfontein,Free State,10/04/2018,social
+ZAC0013888,a96e630e20f763f3,727,Polokwane,Limpopo,12/04/2018,social
+ZAC0013890,1ad58ba647db1436,8356,Kimberley,Northern Cape,11/04/2018,affiliate
+ZAC0013911,1ed110155c03b48b,172,Centurion,Gauteng,29/04/2018,social
+ZAC0013918,02a330920e9d66b6,5224,East London,Eastern Cape,15/04/2018,social
+ZAC0013979,3092ac8fab0b9726,1200,Nelspruit,Mpumalanga,23/04/2018,paid_search
+ZAC0014006,1413b4888199b7c7,5207,East London,Eastern Cape,03/04/2018,paid_search
+ZAC0014021,d7e141dc68526821,2255,Sandton,Gauteng,04/04/2018,organic
+ZAC0014056,b4764dbb6349ef75,5218,East London,Eastern Cape,08/04/2018,social
+ZAC0014116,c56cdb71d0792002,2006,Johannesburg,Gauteng,23/04/2018,paid_search
+ZAC0014146,2d05f27f0ef90bdd,8058,Cape Town,Western Cape,03/04/2018,affiliate
+ZAC0014175,62665f572809e4aa,7604,Stellenbosch,Western Cape,05/04/2018,email
+ZAC0014185,b91a83ff2d041f1f,4010,Durban,KwaZulu-Natal,18/04/2018,organic
+ZAC0014186,54b9e111ffc60405,1203,Nelspruit,Mpumalanga,23/04/2018,email
+ZAC0014197,008027bf369b0e2a,181,Centurion,Gauteng,18/04/2018,organic
+ZAC0014209,3a8f2ba9db0a78de,711,Polokwane,Limpopo,24/04/2018,paid_search
+ZAC0014253,cabde8df0277429e,8316,Kimberley,Northern Cape,06/04/2018,paid_search
+ZAC0014288,2f8814b8fb0c0d0f,200,Centurion,Gauteng,26/04/2018,social
+ZAC0014289,7c6d284a91fe8c37,2008,Johannesburg,Gauteng,29/04/2018,paid_search
+ZAC0014312,6a9d40149c8ff5a1,339,Rustenburg,North West,03/04/2018,social
+ZAC0014315,8e2103bfe950834a,157,Centurion,Gauteng,21/04/2018,organic
+ZAC0014319,ac060ec119d95999,8317,Kimberley,Northern Cape,21/04/2018,paid_search
+ZAC0014337,ee18b67fdaa9577b,2218,Sandton,Gauteng,24/04/2018,social
+ZAC0014351,031b48606b1c3e12,35,Pretoria,Gauteng,05/04/2018,affiliate
+ZAC0014354,5a158bdbc04990c2,8342,Kimberley,Northern Cape,26/04/2018,organic
+ZAC0014356,7663df158645b853,2025,Johannesburg,Gauteng,28/04/2018,referral
+ZAC0014378,cdbc87f9ab77b299,321,Rustenburg,North West,25/04/2018,organic
+ZAC0014392,eebef1c5b34078ea,2,Pretoria,Gauteng,15/04/2018,affiliate
+ZAC0014471,c03b8901b972005f,3253,Pietermaritzburg,KwaZulu-Natal,24/04/2018,paid_search
+ZAC0014473,7d913460d299266b,7625,Stellenbosch,Western Cape,05/04/2018,referral
+ZAC0014485,8c1671f43873370c,7619,Stellenbosch,Western Cape,19/04/2018,paid_search
+ZAC0014490,f39f9227b7c30ebb,1806,Soweto,Gauteng,11/04/2018,paid_search
+ZAC0014546,e1daf8c76992be34,1225,Nelspruit,Mpumalanga,14/04/2018,affiliate
+ZAC0014552,3ed9b884c95a2677,8320,Kimberley,Northern Cape,19/04/2018,social
+ZAC0014562,be212f552c22bab4,6015,Port Elizabeth,Eastern Cape,24/04/2018,paid_search
+ZAC0014582,ef88b961ccd731fb,2027,Johannesburg,Gauteng,02/04/2018,social
+ZAC0014603,83c8ebe3dcadd58d,353,Rustenburg,North West,11/04/2018,referral
+ZAC0014605,28f450983d33e8cc,8037,Cape Town,Western Cape,09/04/2018,paid_search
+ZAC0014616,2a18f0f6e0b92715,4057,Durban,KwaZulu-Natal,07/04/2018,organic
+ZAC0014641,4b741920b0181b20,2016,Johannesburg,Gauteng,25/04/2018,social
+ZAC0014647,f16d2877f130cbee,9321,Bloemfontein,Free State,12/04/2018,email
+ZAC0014658,52d145bfd34a7f0f,4032,Durban,KwaZulu-Natal,23/04/2018,organic
+ZAC0014671,593bfc1f14712524,8301,Kimberley,Northern Cape,09/04/2018,email
+ZAC0014737,ad35277482348820,7619,Stellenbosch,Western Cape,30/04/2018,paid_search
+ZAC0014746,4c1edfe5b5b1e728,8035,Cape Town,Western Cape,26/04/2018,affiliate
+ZAC0014778,9093b25e5846d6d0,18,Pretoria,Gauteng,15/04/2018,organic
+ZAC0014788,387e3497cf27d538,8315,Kimberley,Northern Cape,27/04/2018,referral
+ZAC0014910,7dce7c7ee33427f9,164,Centurion,Gauteng,23/04/2018,social
+ZAC0014916,209d63b45cf6810b,5239,East London,Eastern Cape,25/04/2018,referral
+ZAC0014929,020b3a1c1acaf9a6,29,Pretoria,Gauteng,09/04/2018,social
+ZAC0014937,ce95f5bc61f82ba3,1204,Nelspruit,Mpumalanga,25/04/2018,organic
+ZAC0014976,7075b48b04b0d9f2,9309,Bloemfontein,Free State,08/04/2018,affiliate
+ZAC0014977,871e245714da2c3e,728,Polokwane,Limpopo,04/04/2018,organic
+ZAC0014984,29b262f0710f2db0,5257,East London,Eastern Cape,27/04/2018,affiliate
+ZAC0014988,6f4acd4176313e16,8334,Kimberley,Northern Cape,26/04/2018,organic
+ZAC0015003,a0736c3e8a785bab,2056,Johannesburg,Gauteng,20/04/2018,referral
+ZAC0015032,dcbd38cc6f0f66c7,9358,Bloemfontein,Free State,04/04/2018,organic
+ZAC0015067,ce8a21b0bf702da0,169,Centurion,Gauteng,22/04/2018,social
+ZAC0015082,599f055c64dea3bf,45,Pretoria,Gauteng,19/04/2018,email
+ZAC0015094,65d9fe6e300166e0,1201,Nelspruit,Mpumalanga,18/04/2018,paid_search
+ZAC0015104,3476a6aaa86d0321,2007,Johannesburg,Gauteng,07/04/2018,paid_search
+ZAC0015107,a28c5d6ffcc525e9,8042,Cape Town,Western Cape,03/04/2018,organic
+ZAC0015138,dc8e4371979aeb45,757,Polokwane,Limpopo,02/04/2018,affiliate
+ZAC0015142,11f4c0651efa1ae4,19,Pretoria,Gauteng,20/04/2018,paid_search
+ZAC0015165,6f2b60db86d6b2d0,8333,Kimberley,Northern Cape,30/04/2018,affiliate
+ZAC0015173,53ad8acf0be8e5a5,4010,Durban,KwaZulu-Natal,08/04/2018,paid_search
+ZAC0015190,f9499ad861000eb0,1217,Nelspruit,Mpumalanga,14/04/2018,organic
+ZAC0015196,593de7d8e5309a1e,1238,Nelspruit,Mpumalanga,02/04/2018,organic
+ZAC0015206,5a1e6fd6e2d534d8,7629,Stellenbosch,Western Cape,17/04/2018,social
+ZAC0015228,2335742628021cab,1253,Nelspruit,Mpumalanga,07/04/2018,paid_search
+ZAC0015233,efc216cf1360b088,5200,East London,Eastern Cape,13/04/2018,email
+ZAC0015236,17694042aab1ce2e,741,Polokwane,Limpopo,14/04/2018,paid_search
+ZAC0015239,f41914622d08ed6e,7627,Stellenbosch,Western Cape,21/04/2018,email
+ZAC0015243,25940de8a5a95d82,330,Rustenburg,North West,18/04/2018,social
+ZAC0015266,ab9b4d38f5cfbb60,2252,Sandton,Gauteng,13/04/2018,social
+ZAC0015267,c26ceb48cbbcc6ee,3233,Pietermaritzburg,KwaZulu-Natal,30/04/2018,organic
+ZAC0015324,55d2b25459d5ad9f,315,Rustenburg,North West,25/04/2018,organic
+ZAC0015329,162a7ae8148978f5,2013,Johannesburg,Gauteng,08/04/2018,email
+ZAC0015375,bd2628fce51bc57b,1248,Nelspruit,Mpumalanga,19/04/2018,organic
+ZAC0015397,32ee3d62227a614f,9310,Bloemfontein,Free State,22/04/2018,social
+ZAC0015411,56ad249acabef45d,6029,Port Elizabeth,Eastern Cape,03/04/2018,email
+ZAC0015426,254e47d636a20666,9311,Bloemfontein,Free State,19/04/2018,organic
+ZAC0015434,621b6484ba972875,5251,East London,Eastern Cape,27/04/2018,email
+ZAC0015506,e40e7f5b12d69e4e,6058,Port Elizabeth,Eastern Cape,19/04/2018,email
+ZAC0015528,2de18da489a24735,8350,Kimberley,Northern Cape,19/04/2018,organic
+ZAC0015533,b5a0b55428ac7c08,1831,Soweto,Gauteng,13/04/2018,social
+ZAC0015560,0feb119833f12cc3,358,Rustenburg,North West,14/04/2018,organic
+ZAC0015566,997a0ca298fe91ae,6027,Port Elizabeth,Eastern Cape,19/04/2018,email
+ZAC0015567,ec52368adde54bcf,1815,Soweto,Gauteng,12/04/2018,social
+ZAC0015598,1db4eae4d9f277ca,1241,Nelspruit,Mpumalanga,03/04/2018,referral
+ZAC0015607,de06eb2bd5e0fa34,2009,Johannesburg,Gauteng,10/04/2018,paid_search
+ZAC0015680,c813e73fdface2f9,8354,Kimberley,Northern Cape,26/04/2018,social
+ZAC0015733,c5d864922a1284b9,3254,Pietermaritzburg,KwaZulu-Natal,07/04/2018,affiliate
+ZAC0015754,061f2a1d2aea3499,35,Pretoria,Gauteng,11/04/2018,paid_search
+ZAC0015845,a2b4b79bf6e80f42,4041,Durban,KwaZulu-Natal,20/04/2018,organic
+ZAC0015865,fce17d8b83d5d071,709,Polokwane,Limpopo,23/04/2018,social
+ZAC0015882,3b33aba19793b845,206,Centurion,Gauteng,20/04/2018,organic
+ZAC0015890,26fea9f1aef5eef2,187,Centurion,Gauteng,05/04/2018,social
+ZAC0015893,017d6f7dc4b71f41,720,Polokwane,Limpopo,15/04/2018,organic
+ZAC0015896,0b2e47874e637ef0,6055,Port Elizabeth,Eastern Cape,18/04/2018,social
+ZAC0015920,5d9893ba841c6476,8052,Cape Town,Western Cape,08/04/2018,referral
+ZAC0015922,647fc71dc266c43f,3,Pretoria,Gauteng,20/04/2018,paid_search
+ZAC0015928,339772e012a00e82,7622,Stellenbosch,Western Cape,07/04/2018,affiliate
+ZAC0015930,94ef3afd6b31cd22,4005,Durban,KwaZulu-Natal,21/04/2018,referral
+ZAC0015933,1fdce2ceee4d222c,4024,Durban,KwaZulu-Natal,25/04/2018,organic
+ZAC0015942,d84808e79e9838ab,50,Pretoria,Gauteng,13/04/2018,organic
+ZAC0015945,5d390fb68a39beee,207,Centurion,Gauteng,04/04/2018,affiliate
+ZAC0015977,5bd9601f18df8331,9345,Bloemfontein,Free State,29/04/2018,referral
+ZAC0015988,ffc2805b43eeda86,6040,Port Elizabeth,Eastern Cape,12/04/2018,organic
+ZAC0016061,eb8ff51061873a49,3207,Pietermaritzburg,KwaZulu-Natal,14/04/2018,email
+ZAC0016118,dc111647b5a92eb5,8002,Cape Town,Western Cape,01/04/2018,affiliate
+ZAC0016135,bf1d7631fa648559,6044,Port Elizabeth,Eastern Cape,27/04/2018,social
+ZAC0016146,47d68d8250f92a59,8049,Cape Town,Western Cape,10/04/2018,affiliate
+ZAC0016169,8289f0add042ea86,5246,East London,Eastern Cape,26/04/2018,referral
+ZAC0016252,7be3042b1b94a74d,4044,Durban,KwaZulu-Natal,19/04/2018,email
+ZAC0016256,edae0811a01edd15,327,Rustenburg,North West,24/04/2018,organic
+ZAC0016279,141f4ade350fe9c4,1228,Nelspruit,Mpumalanga,27/04/2018,organic
+ZAC0016312,928bb79cd4007720,335,Rustenburg,North West,13/04/2018,paid_search
+ZAC0016317,f99b0d852164cd0b,1210,Nelspruit,Mpumalanga,29/04/2018,social
+ZAC0016323,055fad842fc80fb4,324,Rustenburg,North West,14/04/2018,affiliate
+ZAC0016326,a3918283311926c9,214,Centurion,Gauteng,06/04/2018,referral
+ZAC0016332,c242b265b7255fdc,1204,Nelspruit,Mpumalanga,11/04/2018,paid_search
+ZAC0016353,60ace978662b0ad5,9304,Bloemfontein,Free State,09/04/2018,organic
+ZAC0016355,ec14e5f114d383b0,201,Centurion,Gauteng,29/04/2018,paid_search
+ZAC0016359,e2bae0990dfff9b7,8334,Kimberley,Northern Cape,19/04/2018,paid_search
+ZAC0016378,ecfabcdeeb3e9305,1829,Soweto,Gauteng,02/04/2018,referral
+ZAC0016381,96ed3f200976b5e7,343,Rustenburg,North West,10/04/2018,social
+ZAC0016461,a29ff8818b4db881,1241,Nelspruit,Mpumalanga,16/04/2018,social
+ZAC0016470,6a8994b04eccac5e,5240,East London,Eastern Cape,09/04/2018,paid_search
+ZAC0016482,a056e7bac68bc567,1219,Nelspruit,Mpumalanga,08/04/2018,affiliate
+ZAC0016491,cea0d8e4aaf53733,2204,Sandton,Gauteng,03/04/2018,social
+ZAC0016495,0162e2d59d6d72ad,1259,Nelspruit,Mpumalanga,08/04/2018,social
+ZAC0016524,943822b0469255c9,2037,Johannesburg,Gauteng,19/04/2018,email
+ZAC0016546,4d0d296ecc3de286,3203,Pietermaritzburg,KwaZulu-Natal,25/04/2018,referral
+ZAC0016547,9c54627f149bf5b5,9314,Bloemfontein,Free State,03/04/2018,organic
+ZAC0016552,8a771b440505f845,6042,Port Elizabeth,Eastern Cape,26/04/2018,paid_search
+ZAC0016605,ed09cfc9d5eaa05f,751,Polokwane,Limpopo,02/04/2018,organic
+ZAC0016609,8ef4ef699e9ac5ad,7641,Stellenbosch,Western Cape,22/04/2018,organic
+ZAC0016610,fd972e268bbe0531,8052,Cape Town,Western Cape,14/04/2018,organic
+ZAC0016611,5465c1c0add44c99,4017,Durban,KwaZulu-Natal,18/04/2018,organic
+ZAC0016657,29d04a3d8a59872e,735,Polokwane,Limpopo,07/04/2018,organic
+ZAC0016671,7ba881132a903e5b,4013,Durban,KwaZulu-Natal,21/04/2018,social
+ZAC0016715,341bf0f59e4c296a,1219,Nelspruit,Mpumalanga,08/04/2018,referral
+ZAC0016725,f14e61faa789085a,2215,Sandton,Gauteng,21/04/2018,referral
+ZAC0016726,e9267b211e3b768e,8355,Kimberley,Northern Cape,21/04/2018,paid_search
+ZAC0016758,cfd50079f4d1e1f1,4036,Durban,KwaZulu-Natal,28/04/2018,organic
+ZAC0016782,111bf6a6123b3f63,7651,Stellenbosch,Western Cape,27/04/2018,organic
+ZAC0016862,ce16f4fda93112b6,24,Pretoria,Gauteng,14/04/2018,organic
+ZAC0016864,2702fbcb5b332238,1807,Soweto,Gauteng,08/04/2018,affiliate
+ZAC0016882,7fc24a08f3742c9e,7604,Stellenbosch,Western Cape,20/04/2018,paid_search
+ZAC0016883,0a491c98e90cec5a,9308,Bloemfontein,Free State,11/04/2018,referral
+ZAC0016889,05bf73c3f2630c24,8014,Cape Town,Western Cape,21/04/2018,organic
+ZAC0016898,e36f4d39718c0d8b,194,Centurion,Gauteng,04/04/2018,referral
+ZAC0016907,72d1588c4876caf9,7647,Stellenbosch,Western Cape,03/04/2018,organic
+ZAC0016933,c0fc49831f020ae1,300,Rustenburg,North West,15/04/2018,paid_search
+ZAC0016949,99939154a7df3630,8026,Cape Town,Western Cape,22/04/2018,paid_search
+ZAC0016953,1c0c2aa7dac57b49,8058,Cape Town,Western Cape,25/04/2018,organic
+ZAC0017041,c9df106d26f78244,1206,Nelspruit,Mpumalanga,13/04/2018,organic
+ZAC0017056,24783ce5eccb8a2e,5236,East London,Eastern Cape,30/04/2018,referral
+ZAC0017058,364c45d8feb75dbe,1824,Soweto,Gauteng,14/04/2018,paid_search
+ZAC0017059,1d178860c16da63a,735,Polokwane,Limpopo,28/04/2018,social
+ZAC0017086,4b4a7b5a24e13a46,7633,Stellenbosch,Western Cape,25/04/2018,organic
+ZAC0017128,666cf8169cc87ab0,20,Pretoria,Gauteng,01/04/2018,affiliate
+ZAC0017129,0d8b7de9806b0fc6,163,Centurion,Gauteng,03/04/2018,email
+ZAC0017173,5fb97a7dc7db71ed,1808,Soweto,Gauteng,01/04/2018,referral
+ZAC0017188,8dd5999f8a6b83fa,4040,Durban,KwaZulu-Natal,06/04/2018,organic
+ZAC0017194,2cf0de6f8eabd650,6037,Port Elizabeth,Eastern Cape,09/04/2018,paid_search
+ZAC0017213,cfebda02da932f7e,3210,Pietermaritzburg,KwaZulu-Natal,20/04/2018,social
+ZAC0017246,760e901bc9e87a5d,1863,Soweto,Gauteng,07/04/2018,social
+ZAC0017265,f1d81006c75fc63a,6005,Port Elizabeth,Eastern Cape,18/04/2018,organic
+ZAC0017289,39983dc588e9a4ed,207,Centurion,Gauteng,24/04/2018,social
+ZAC0017304,1ae6f0e29dd813ae,2230,Sandton,Gauteng,18/04/2018,organic
+ZAC0017314,a2f06d9c9e9e94b3,4047,Durban,KwaZulu-Natal,03/04/2018,social
+ZAC0017340,c9bb64ad914d471a,1842,Soweto,Gauteng,28/04/2018,paid_search
+ZAC0017341,d198bd0f5e77bc78,1815,Soweto,Gauteng,09/04/2018,organic
+ZAC0017342,639bef107558692a,16,Pretoria,Gauteng,20/04/2018,paid_search
+ZAC0017348,65cff1ebe3e7a9f6,727,Polokwane,Limpopo,14/04/2018,organic
+ZAC0017349,a90a0c4047cad526,2214,Sandton,Gauteng,04/04/2018,organic
+ZAC0017354,4792442a56870724,1220,Nelspruit,Mpumalanga,22/04/2018,paid_search
+ZAC0017382,fd7964bf058cd31d,735,Polokwane,Limpopo,11/04/2018,organic
+ZAC0017388,a6a2486d00238c70,1855,Soweto,Gauteng,09/04/2018,organic
+ZAC0017422,f3f6114166d562c0,2006,Johannesburg,Gauteng,30/04/2018,paid_search
+ZAC0017434,3a2ac26a93399fec,8036,Cape Town,Western Cape,07/04/2018,affiliate
+ZAC0017498,bb4b65a5b0aca04b,1818,Soweto,Gauteng,27/04/2018,paid_search
+ZAC0017503,6fb6d5f10f82f674,338,Rustenburg,North West,18/04/2018,organic
+ZAC0017504,452b2ece4cdeafec,7623,Stellenbosch,Western Cape,30/04/2018,referral
+ZAC0017505,23a7fe29d9d51da5,1846,Soweto,Gauteng,15/04/2018,referral
+ZAC0017673,bda11b18ac2e062c,1822,Soweto,Gauteng,23/04/2018,affiliate
+ZAC0017678,8777eb1551125590,1853,Soweto,Gauteng,12/04/2018,paid_search
+ZAC0017701,a975dcd168ffdd88,5221,East London,Eastern Cape,02/04/2018,organic
+ZAC0017708,88e972b1e43a4b36,2035,Johannesburg,Gauteng,11/04/2018,paid_search
+ZAC0017713,f55d16127c2bdcbe,22,Pretoria,Gauteng,18/04/2018,organic
+ZAC0017735,17f6b6b6e6f29268,3240,Pietermaritzburg,KwaZulu-Natal,18/04/2018,affiliate
+ZAC0017750,4b07a1e3fde50bbc,352,Rustenburg,North West,16/04/2018,paid_search
+ZAC0017766,59431fd7258d7af5,1215,Nelspruit,Mpumalanga,21/04/2018,organic
+ZAC0017780,29efe9e158972ad4,41,Pretoria,Gauteng,11/04/2018,paid_search
+ZAC0017796,dd1d3142d9e96ff4,5259,East London,Eastern Cape,02/04/2018,organic
+ZAC0017798,68eb1f3760913c18,1235,Nelspruit,Mpumalanga,25/04/2018,organic
+ZAC0017827,93df265eec27b5fd,2215,Sandton,Gauteng,18/04/2018,referral
+ZAC0017850,afe05368f0ff1235,2020,Johannesburg,Gauteng,28/04/2018,paid_search
+ZAC0017862,b41ad3a2cd84d03a,4036,Durban,KwaZulu-Natal,13/04/2018,organic
+ZAC0017885,dfea1908a04dcc88,4003,Durban,KwaZulu-Natal,28/04/2018,social
+ZAC0017889,f06b49b97f2ee2d2,8050,Cape Town,Western Cape,04/04/2018,social
+ZAC0017912,3ae6053b8e752150,1218,Nelspruit,Mpumalanga,23/04/2018,referral
+ZAC0017943,7ec6de2c373bd873,9334,Bloemfontein,Free State,04/04/2018,organic
+ZAC0017949,d5b192f13140155a,4056,Durban,KwaZulu-Natal,09/04/2018,referral
+ZAC0017961,4ade098e3cf29d61,2024,Johannesburg,Gauteng,25/04/2018,email
+ZAC0017967,dbbd622ea85fd6a2,6038,Port Elizabeth,Eastern Cape,29/04/2018,organic
+ZAC0018005,6ce6e53263852393,199,Centurion,Gauteng,20/04/2018,social
+ZAC0018008,4b68a7b238b90284,1210,Nelspruit,Mpumalanga,01/04/2018,organic
+ZAC0018013,6b28027bce43c564,180,Centurion,Gauteng,05/04/2018,paid_search
+ZAC0018036,9ac6db0f5e0472e7,2040,Johannesburg,Gauteng,09/04/2018,email
+ZAC0018042,7296aedf5fd2dba6,2223,Sandton,Gauteng,19/04/2018,social
+ZAC0018045,cbb4d7fdd1ffc284,5257,East London,Eastern Cape,15/04/2018,paid_search
+ZAC0018112,5844b1fe61b7e95b,169,Centurion,Gauteng,22/04/2018,organic
+ZAC0018122,e31e0e3270a8b170,7604,Stellenbosch,Western Cape,17/04/2018,paid_search
+ZAC0018125,e448ff791d6aa470,8045,Cape Town,Western Cape,26/04/2018,paid_search
+ZAC0018130,135eb735b76f37fc,7627,Stellenbosch,Western Cape,14/04/2018,paid_search
+ZAC0018151,f773c738d72d59bd,1834,Soweto,Gauteng,19/04/2018,organic
+ZAC0018156,560d675a53ce0c33,199,Centurion,Gauteng,21/04/2018,organic
+ZAC0018161,79a06dce7009697f,2018,Johannesburg,Gauteng,29/04/2018,referral
+ZAC0018174,f0b0b7f4ec4e45a3,56,Pretoria,Gauteng,19/04/2018,affiliate
+ZAC0018193,5ca68d61d651f003,2023,Johannesburg,Gauteng,01/04/2018,social
+ZAC0018196,2437e07f3c79ae67,748,Polokwane,Limpopo,27/04/2018,organic
+ZAC0018211,349e4ee60c17080d,7600,Stellenbosch,Western Cape,13/04/2018,organic
+ZAC0018236,6cbeeb550f64b7d6,27,Pretoria,Gauteng,07/04/2018,social
+ZAC0018252,a8fc9d3235757478,8349,Kimberley,Northern Cape,26/04/2018,referral
+ZAC0018264,b582fe12160e7afa,4039,Durban,KwaZulu-Natal,26/04/2018,social
+ZAC0018269,d74b7ec9ade08618,9354,Bloemfontein,Free State,28/04/2018,social
+ZAC0018284,a2478d2e5acb2cc0,8029,Cape Town,Western Cape,22/04/2018,paid_search
+ZAC0018363,63fc364e394a4049,211,Centurion,Gauteng,17/04/2018,organic
+ZAC0018421,f6c06776126722b6,31,Pretoria,Gauteng,06/04/2018,organic
+ZAC0018430,00db91a1c0e5d063,25,Pretoria,Gauteng,22/04/2018,paid_search
+ZAC0018442,4b5e2b8c56c568d0,2251,Sandton,Gauteng,04/04/2018,referral
+ZAC0018458,eae072516e00dd42,1804,Soweto,Gauteng,24/04/2018,organic
+ZAC0018480,6cb0fc932b2a768c,7609,Stellenbosch,Western Cape,13/04/2018,paid_search
+ZAC0018495,2b6c5ccf102670e4,6022,Port Elizabeth,Eastern Cape,14/04/2018,paid_search
+ZAC0018503,b10dbe717d4081e6,712,Polokwane,Limpopo,11/04/2018,organic
+ZAC0018522,829ace4d84bdf839,3248,Pietermaritzburg,KwaZulu-Natal,07/04/2018,referral
+ZAC0018568,850ff2f583d5d3db,7647,Stellenbosch,Western Cape,05/04/2018,paid_search
+ZAC0018570,42de54132a4d0dd3,3242,Pietermaritzburg,KwaZulu-Natal,20/04/2018,paid_search
+ZAC0018573,966ce136ac62faaa,2020,Johannesburg,Gauteng,15/04/2018,organic
+ZAC0018581,8db87cc09eb5cf36,7652,Stellenbosch,Western Cape,20/04/2018,referral
+ZAC0018593,4cd5f74657f5a87c,2239,Sandton,Gauteng,18/04/2018,referral
+ZAC0018601,4a4137763889fb0b,177,Centurion,Gauteng,09/04/2018,organic
+ZAC0018607,f9d44e6818b35938,160,Centurion,Gauteng,04/04/2018,paid_search
+ZAC0018617,37c4f337ef1ca6bd,9347,Bloemfontein,Free State,22/04/2018,paid_search
+ZAC0018629,40ed5b5e61684a28,8002,Cape Town,Western Cape,30/04/2018,social
+ZAC0018636,b2ddc337e777566b,7608,Stellenbosch,Western Cape,21/04/2018,organic
+ZAC0018645,2196e689046429f8,1220,Nelspruit,Mpumalanga,19/04/2018,social
+ZAC0018658,b6bb1f9920e9e3c5,177,Centurion,Gauteng,05/04/2018,organic
+ZAC0018665,2348dad0fbe137da,2220,Sandton,Gauteng,23/04/2018,referral
+ZAC0018715,75e93f67326ed1f7,2215,Sandton,Gauteng,27/04/2018,social
+ZAC0018718,6319429c42233184,56,Pretoria,Gauteng,15/04/2018,affiliate
+ZAC0018736,bce017e4f6143ff2,317,Rustenburg,North West,14/04/2018,affiliate
+ZAC0018737,e9a40e39c0dfa6a5,165,Centurion,Gauteng,09/04/2018,organic
+ZAC0018760,d45d04e5734ba44b,719,Polokwane,Limpopo,09/04/2018,paid_search
+ZAC0018771,321e2ad4917bb3cf,1855,Soweto,Gauteng,27/04/2018,affiliate
+ZAC0018781,1e36462bfb3f0b11,750,Polokwane,Limpopo,15/04/2018,social
+ZAC0018790,2060b0561e5accb5,708,Polokwane,Limpopo,02/04/2018,paid_search
+ZAC0018802,9ee1bf8ea0f34174,3203,Pietermaritzburg,KwaZulu-Natal,10/04/2018,organic
+ZAC0018812,21fcc8413b0acbfd,723,Polokwane,Limpopo,19/04/2018,email
+ZAC0018819,82eff9c83a3184c5,1255,Nelspruit,Mpumalanga,20/04/2018,affiliate
+ZAC0018850,4e228f16e0b7c958,3244,Pietermaritzburg,KwaZulu-Natal,29/04/2018,organic
+ZAC0018863,81babdf61ce47279,60,Pretoria,Gauteng,22/04/2018,social
+ZAC0018867,5329f495e0800428,8024,Cape Town,Western Cape,25/04/2018,paid_search
+ZAC0018881,d94baf2cc93fe266,8336,Kimberley,Northern Cape,08/04/2018,social
+ZAC0018884,e404865fc4313fbf,1254,Nelspruit,Mpumalanga,11/04/2018,paid_search
+ZAC0018885,eff16665cfa3d49c,1818,Soweto,Gauteng,10/04/2018,email
+ZAC0018911,47ef044944acb678,2026,Johannesburg,Gauteng,04/04/2018,paid_search
+ZAC0018947,ba0cb23b07ed4979,2204,Sandton,Gauteng,24/04/2018,paid_search
+ZAC0018955,4fdc17204d952382,8347,Kimberley,Northern Cape,29/04/2018,social
+ZAC0018963,ce3887c9a1f53c17,1822,Soweto,Gauteng,30/04/2018,organic
+ZAC0018965,1103921c86a9db1d,757,Polokwane,Limpopo,13/04/2018,paid_search
+ZAC0018988,0aee91668e523c35,5217,East London,Eastern Cape,26/04/2018,organic
+ZAC0019000,ab92c3ee2871fdc8,3235,Pietermaritzburg,KwaZulu-Natal,28/04/2018,organic
+ZAC0019037,b34c022aa350f251,6024,Port Elizabeth,Eastern Cape,28/04/2018,email
+ZAC0019039,1c74b57db8bc043c,4001,Durban,KwaZulu-Natal,16/04/2018,paid_search
+ZAC0019040,b9af6e96d4b46320,1218,Nelspruit,Mpumalanga,06/04/2018,email
+ZAC0019042,b77135ab32c629fe,307,Rustenburg,North West,21/04/2018,email
+ZAC0019056,234d103352068966,5206,East London,Eastern Cape,28/04/2018,organic
+ZAC0019059,a01373fe87b9d8b2,6023,Port Elizabeth,Eastern Cape,20/04/2018,email
+ZAC0019075,02757489ae389dd2,9344,Bloemfontein,Free State,03/04/2018,organic
+ZAC0019076,18b12937842c323c,2241,Sandton,Gauteng,14/04/2018,referral
+ZAC0019094,39f3a78e8d9c0f46,6005,Port Elizabeth,Eastern Cape,29/04/2018,paid_search
+ZAC0019106,2cd1ba967e59bfc9,9332,Bloemfontein,Free State,04/04/2018,organic
+ZAC0019107,b72bde92174fe166,1837,Soweto,Gauteng,06/04/2018,paid_search
+ZAC0019109,e36e465e37b99300,310,Rustenburg,North West,14/04/2018,paid_search
+ZAC0019111,dc004eaf5de2b3b9,1806,Soweto,Gauteng,18/04/2018,organic
+ZAC0019121,d96fc3d33cec81ca,2228,Sandton,Gauteng,23/04/2018,referral
+ZAC0019122,da2955d4608b21e5,7613,Stellenbosch,Western Cape,15/04/2018,referral
+ZAC0019134,f5e941aa7d9463c7,4010,Durban,KwaZulu-Natal,07/04/2018,paid_search
+ZAC0019153,d472165abe0c8218,8022,Cape Town,Western Cape,24/04/2018,social
+ZAC0019154,7273a11c31e82bb0,185,Centurion,Gauteng,23/04/2018,paid_search
+ZAC0019162,e477eff0a30d776f,4058,Durban,KwaZulu-Natal,21/04/2018,organic
+ZAC0019171,ab2a5066577fae0f,3244,Pietermaritzburg,KwaZulu-Natal,08/04/2018,email
+ZAC0019172,abe28ed13776f50f,6028,Port Elizabeth,Eastern Cape,09/04/2018,social
+ZAC0019182,76a6895259a23423,744,Polokwane,Limpopo,30/04/2018,email
+ZAC0019196,8682b32db149d9d0,2055,Johannesburg,Gauteng,30/04/2018,organic
+ZAC0019205,1490f7a76eee1e59,1839,Soweto,Gauteng,24/04/2018,paid_search
+ZAC0019290,39ed99d50506250d,8357,Kimberley,Northern Cape,02/04/2018,paid_search
+ZAC0019340,7a9aa5d2b42bd71f,5201,East London,Eastern Cape,02/04/2018,referral
+ZAC0019345,fbc80cbc8f10e20f,9347,Bloemfontein,Free State,09/04/2018,paid_search
+ZAC0019353,2475c1dabe064ef6,2002,Johannesburg,Gauteng,02/04/2018,organic
+ZAC0019362,326ff3058ef606f8,164,Centurion,Gauteng,20/04/2018,paid_search
+ZAC0019381,28f84768c1948f08,18,Pretoria,Gauteng,23/04/2018,organic
+ZAC0019419,045dc4859926c80b,4010,Durban,KwaZulu-Natal,13/04/2018,paid_search
+ZAC0019425,2ad3ba4fb7ce353e,1850,Soweto,Gauteng,30/04/2018,paid_search
+ZAC0019433,2397f861988aacf1,8308,Kimberley,Northern Cape,03/04/2018,organic
+ZAC0019473,73489bf18a0ed676,1259,Nelspruit,Mpumalanga,27/04/2018,paid_search
+ZAC0019476,58929588081cfb03,5202,East London,Eastern Cape,22/04/2018,affiliate
+ZAC0019479,b9fe2faa77622cbd,341,Rustenburg,North West,13/04/2018,social
+ZAC0019482,9c5e2253489dd37c,8313,Kimberley,Northern Cape,20/04/2018,organic
+ZAC0019487,2dc49a1f7d559a83,176,Centurion,Gauteng,19/04/2018,affiliate
+ZAC0019528,afb08a47ed7d764c,5203,East London,Eastern Cape,05/04/2018,affiliate
+ZAC0019530,46d293886879c8e7,3215,Pietermaritzburg,KwaZulu-Natal,19/04/2018,organic
+ZAC0019540,5edcf54f25c59f0c,52,Pretoria,Gauteng,25/04/2018,organic
+ZAC0019541,7619155e005f16ea,2027,Johannesburg,Gauteng,10/04/2018,referral
+ZAC0019556,12fa6e453ab744e2,42,Pretoria,Gauteng,12/04/2018,social
+ZAC0019600,ac106ddc6800082c,5227,East London,Eastern Cape,06/04/2018,affiliate
+ZAC0019658,21f4f16d130a082d,9,Pretoria,Gauteng,15/04/2018,organic
+ZAC0019683,eb4ebb50629981da,2250,Sandton,Gauteng,15/04/2018,affiliate
+ZAC0019721,e85e8acf43979f6b,1218,Nelspruit,Mpumalanga,15/04/2018,social
+ZAC0019735,2706ad3676895895,2037,Johannesburg,Gauteng,27/04/2018,paid_search
+ZAC0019739,42c7699799369447,8315,Kimberley,Northern Cape,10/04/2018,social
+ZAC0019777,b9195edf0206c785,3222,Pietermaritzburg,KwaZulu-Natal,19/04/2018,referral
+ZAC0019783,2fc42f316a0ce402,328,Rustenburg,North West,16/04/2018,paid_search
+ZAC0019803,17db842341cfc784,8303,Kimberley,Northern Cape,29/04/2018,affiliate
+ZAC0019816,0fbf423747df2376,176,Centurion,Gauteng,02/04/2018,affiliate
+ZAC0019858,942c818498985ec9,1812,Soweto,Gauteng,17/04/2018,social
+ZAC0019861,b3a036af9bb25023,1848,Soweto,Gauteng,21/04/2018,organic
+ZAC0019864,868f7490bc5051de,4036,Durban,KwaZulu-Natal,25/04/2018,email
+ZAC0019869,3750106ebae1a366,1806,Soweto,Gauteng,10/04/2018,affiliate
+ZAC0019883,6ed5aa2093c507a2,2231,Sandton,Gauteng,01/04/2018,email
+ZAC0019897,56456596c1cc8b84,322,Rustenburg,North West,17/04/2018,social
+ZAC0019901,8cb658b065b70771,3222,Pietermaritzburg,KwaZulu-Natal,10/04/2018,social
+ZAC0019910,374f3a3d44ac19bf,2202,Sandton,Gauteng,22/04/2018,social
+ZAC0019955,869c105c9b94e52f,1842,Soweto,Gauteng,01/04/2018,email
+ZAC0019973,9bdc678f89925917,187,Centurion,Gauteng,23/04/2018,paid_search
+ZAC0019978,d6b9c8ce3160963e,8035,Cape Town,Western Cape,14/04/2018,referral
+ZAC0019984,18b2d3d940bb02ad,1209,Nelspruit,Mpumalanga,23/04/2018,email
+ZAC0019995,1a9af05811c30261,4032,Durban,KwaZulu-Natal,09/04/2018,organic
+ZAC0019999,8e565f082db0087b,1247,Nelspruit,Mpumalanga,18/04/2018,paid_search
+ZAC0020002,29c0551a1a49a945,6043,Port Elizabeth,Eastern Cape,02/04/2018,paid_search
+ZAC0020004,2a8294b2c5ba8993,2254,Sandton,Gauteng,15/04/2018,paid_search
+ZAC0020009,fb652b26b5a393ce,9305,Bloemfontein,Free State,07/04/2018,referral
+ZAC0020022,7c4afd1b6cf130a9,2016,Johannesburg,Gauteng,24/04/2018,paid_search
+ZAC0020052,f87dd7026de4afdd,8330,Kimberley,Northern Cape,03/04/2018,email
+ZAC0020056,b4345e19505414bd,1849,Soweto,Gauteng,16/04/2018,paid_search
+ZAC0020068,11c4361c995f7557,6035,Port Elizabeth,Eastern Cape,22/04/2018,affiliate
+ZAC0020078,6943f93e4c22995d,2048,Johannesburg,Gauteng,04/04/2018,paid_search
+ZAC0020122,26e445c7de6c01a8,338,Rustenburg,North West,04/04/2018,social
+ZAC0020127,cd2e95578972208f,4036,Durban,KwaZulu-Natal,09/04/2018,email
+ZAC0020141,e4ae6b2532f7bc5e,3259,Pietermaritzburg,KwaZulu-Natal,21/04/2018,social
+ZAC0020148,dac30f6297c9c63d,5215,East London,Eastern Cape,23/04/2018,paid_search
+ZAC0020193,0038f456d6357266,5237,East London,Eastern Cape,02/04/2018,social
+ZAC0020196,9037a537cbaa45e4,5213,East London,Eastern Cape,04/04/2018,organic
+ZAC0020197,bd972dc753be8946,5248,East London,Eastern Cape,13/04/2018,social
+ZAC0020224,9ac1267fccb38bcb,3204,Pietermaritzburg,KwaZulu-Natal,26/04/2018,organic
+ZAC0020268,07300ec7d1916556,7604,Stellenbosch,Western Cape,11/04/2018,organic
+ZAC0020271,157198232260602a,9334,Bloemfontein,Free State,14/04/2018,organic
+ZAC0020282,34e8d3b2bddd90c4,320,Rustenburg,North West,18/04/2018,paid_search
+ZAC0020311,5c4aec165bff8afb,200,Centurion,Gauteng,14/04/2018,organic
+ZAC0020326,2d3934f14774e309,4015,Durban,KwaZulu-Natal,03/04/2018,referral
+ZAC0020378,69bbf124f1df4312,186,Centurion,Gauteng,29/04/2018,social
+ZAC0020379,837f8e530dc43458,9335,Bloemfontein,Free State,29/04/2018,social
+ZAC0020382,78085ece019552c0,1811,Soweto,Gauteng,18/04/2018,social
+ZAC0020393,68a2a450271fd38d,7608,Stellenbosch,Western Cape,27/04/2018,organic
+ZAC0020405,a23ccb54f71bcd84,717,Polokwane,Limpopo,07/04/2018,paid_search
+ZAC0020406,03871859ea0f0da6,7630,Stellenbosch,Western Cape,12/04/2018,social
+ZAC0020525,8fe5d1726a59b2c2,3231,Pietermaritzburg,KwaZulu-Natal,20/04/2018,email
+ZAC0020535,188224bbfc819eb7,359,Rustenburg,North West,15/04/2018,organic
+ZAC0020542,e25e2c532ad389bf,8345,Kimberley,Northern Cape,23/04/2018,organic
+ZAC0020572,5f851fdc947d4a3b,8039,Cape Town,Western Cape,03/04/2018,social
+ZAC0020576,25f47c4fe6a69cc4,2255,Sandton,Gauteng,13/04/2018,organic
+ZAC0020593,dd28aa695e4e1e31,4022,Durban,KwaZulu-Natal,11/04/2018,referral
+ZAC0020604,3a66283a16555396,5230,East London,Eastern Cape,07/04/2018,organic
+ZAC0020626,b35e8f49e4e5d4f3,2237,Sandton,Gauteng,03/04/2018,paid_search
+ZAC0020628,258d93457997a4b7,4029,Durban,KwaZulu-Natal,09/04/2018,organic
+ZAC0020640,872fee917dd0a405,1854,Soweto,Gauteng,22/04/2018,organic
+ZAC0020644,74290de3f3568f9e,9305,Bloemfontein,Free State,29/04/2018,social
+ZAC0020666,f5eaa3a6aa217588,15,Pretoria,Gauteng,13/04/2018,organic
+ZAC0020684,6e4938743fb10fc8,9310,Bloemfontein,Free State,01/04/2018,paid_search
+ZAC0020729,82239e86dd57dfeb,2209,Sandton,Gauteng,14/04/2018,organic
+ZAC0020755,c9952d81189c8377,3255,Pietermaritzburg,KwaZulu-Natal,18/04/2018,referral
+ZAC0020760,a9b15c0c344e26dc,3219,Pietermaritzburg,KwaZulu-Natal,16/04/2018,email
+ZAC0020768,9369a33028817d7e,8040,Cape Town,Western Cape,14/04/2018,social
+ZAC0020777,4f020f7b1f2a42dc,167,Centurion,Gauteng,28/04/2018,paid_search
+ZAC0020788,482c42f95a49e6ed,7630,Stellenbosch,Western Cape,20/04/2018,referral
+ZAC0020795,11c81be08542bbe7,727,Polokwane,Limpopo,12/04/2018,referral
+ZAC0020802,7d2214d7c9fb5c8c,2211,Sandton,Gauteng,11/04/2018,organic
+ZAC0020824,4410aeeafeda2841,55,Pretoria,Gauteng,29/04/2018,paid_search
+ZAC0020826,b2581b31c6392640,8027,Cape Town,Western Cape,20/04/2018,organic
+ZAC0020839,2da142e0d899e1dd,2249,Sandton,Gauteng,16/04/2018,social
+ZAC0020852,543b0956445d8bf2,8356,Kimberley,Northern Cape,21/04/2018,referral
+ZAC0020874,2ecd2f5651117ed9,210,Centurion,Gauteng,01/04/2018,email
+ZAC0020877,9921ae85506c7c9a,2229,Sandton,Gauteng,22/04/2018,organic
+ZAC0020885,4eedac9f2ca8c443,8323,Kimberley,Northern Cape,25/04/2018,social
+ZAC0020887,22bb99e8cf4965a4,3238,Pietermaritzburg,KwaZulu-Natal,19/04/2018,social
+ZAC0020902,016bfe7531d9dd69,1212,Nelspruit,Mpumalanga,16/04/2018,organic
+ZAC0020911,2dd12aec0fb97b0a,1207,Nelspruit,Mpumalanga,25/04/2018,paid_search
+ZAC0020927,e1bdcffea67b7471,7623,Stellenbosch,Western Cape,02/04/2018,referral
+ZAC0020940,8fd40fc637cc6b7e,2002,Johannesburg,Gauteng,06/04/2018,paid_search
+ZAC0021021,a40207c0df44b63f,1813,Soweto,Gauteng,30/04/2018,paid_search
+ZAC0021032,5c60b3590ac01298,2246,Sandton,Gauteng,23/04/2018,referral
+ZAC0021035,f490c32684a48f85,7601,Stellenbosch,Western Cape,11/04/2018,paid_search
+ZAC0021037,57965378c577f1a4,3227,Pietermaritzburg,KwaZulu-Natal,05/04/2018,referral
+ZAC0021059,31e8fcf1683ee98f,700,Polokwane,Limpopo,07/04/2018,organic
+ZAC0021067,c6510be422e1fb20,3247,Pietermaritzburg,KwaZulu-Natal,01/04/2018,referral
+ZAC0021159,97f72825de705a0a,9310,Bloemfontein,Free State,15/04/2018,referral
+ZAC0021183,5517d72d2bb6cc78,3203,Pietermaritzburg,KwaZulu-Natal,03/04/2018,paid_search
+ZAC0021246,294e9e24ded29e73,186,Centurion,Gauteng,30/04/2018,social
+ZAC0021252,5432e138ba39cf55,3216,Pietermaritzburg,KwaZulu-Natal,28/04/2018,organic
+ZAC0021257,a1a798dd493412f1,8355,Kimberley,Northern Cape,10/04/2018,social
+ZAC0021266,018e363a9af3a6ea,2215,Sandton,Gauteng,11/04/2018,organic
+ZAC0021272,42d8994c3bcfbcb6,186,Centurion,Gauteng,07/04/2018,organic
+ZAC0021295,22abd747b4ef87af,1232,Nelspruit,Mpumalanga,15/04/2018,paid_search
+ZAC0021381,2f7c3b96f73bfc4c,1813,Soweto,Gauteng,30/04/2018,organic
+ZAC0021383,ff971f45722a2e8d,6027,Port Elizabeth,Eastern Cape,17/04/2018,organic
+ZAC0021404,e43e1e51055bd3e5,4045,Durban,KwaZulu-Natal,09/04/2018,affiliate
+ZAC0021405,76095ca66be2d442,8342,Kimberley,Northern Cape,24/04/2018,organic
+ZAC0021443,e4ee7c0adc2f7d25,2234,Sandton,Gauteng,19/04/2018,social
+ZAC0021503,106277d052c9a9c1,5222,East London,Eastern Cape,25/04/2018,email
+ZAC0021510,47e40a8f2a097d5f,9354,Bloemfontein,Free State,09/04/2018,referral
+ZAC0021577,8f0c9be8015ec3f7,5219,East London,Eastern Cape,03/04/2018,organic
+ZAC0021596,8d4d3e0093100c42,7631,Stellenbosch,Western Cape,27/04/2018,organic
+ZAC0021615,663742f1e6c70b0f,319,Rustenburg,North West,17/04/2018,social
+ZAC0021672,ef8f983cf281e011,172,Centurion,Gauteng,23/04/2018,organic
+ZAC0021677,afabdb8830f6e8ef,4005,Durban,KwaZulu-Natal,25/04/2018,organic
+ZAC0021683,7cc7975357597aee,18,Pretoria,Gauteng,15/04/2018,social
+ZAC0021687,ad38ddb662c5bf63,171,Centurion,Gauteng,21/04/2018,email
+ZAC0021730,9b09e83a4128bdc6,4012,Durban,KwaZulu-Natal,04/04/2018,organic
+ZAC0021754,95d9ff9abba78716,2236,Sandton,Gauteng,29/04/2018,organic
+ZAC0021765,54e0ca2499618f8d,8058,Cape Town,Western Cape,11/04/2018,email
+ZAC0021780,7a640ed1f3b9b8c9,8300,Kimberley,Northern Cape,14/04/2018,paid_search
+ZAC0021787,8460f380ef1fa6d1,216,Centurion,Gauteng,20/04/2018,paid_search
+ZAC0021790,40b2523452671093,1862,Soweto,Gauteng,11/04/2018,referral
+ZAC0021813,200bea12a8fc8c57,7632,Stellenbosch,Western Cape,28/04/2018,referral
+ZAC0021820,dc1cebe6ba271609,312,Rustenburg,North West,26/04/2018,organic
+ZAC0021831,18233f24210cab1d,2223,Sandton,Gauteng,16/04/2018,email
+ZAC0021837,40d9646422b381c8,8,Pretoria,Gauteng,07/04/2018,social
+ZAC0021849,1316223dec5fc0aa,1861,Soweto,Gauteng,18/04/2018,paid_search
+ZAC0021859,3c385d0145c2ea2e,2213,Sandton,Gauteng,16/04/2018,social
+ZAC0021879,57f350a6a3a4931d,8311,Kimberley,Northern Cape,17/04/2018,organic
+ZAC0021907,bfb6e54cafdfded5,5200,East London,Eastern Cape,19/04/2018,social
+ZAC0021933,9b5ef7d1d1d030b3,8007,Cape Town,Western Cape,15/04/2018,organic
+ZAC0021944,9570305a68b369a2,8325,Kimberley,Northern Cape,10/04/2018,referral
+ZAC0021979,92f62c1f801688bb,8059,Cape Town,Western Cape,28/04/2018,organic
+ZAC0021992,c517dbe15cd651db,4042,Durban,KwaZulu-Natal,12/04/2018,email
+ZAC0022021,2a08bea371e98177,4031,Durban,KwaZulu-Natal,26/04/2018,paid_search
+ZAC0022029,d660db8828482f21,2248,Sandton,Gauteng,08/04/2018,organic
+ZAC0022042,efbd030a79bb8fa1,2057,Johannesburg,Gauteng,22/04/2018,organic
+ZAC0022044,14f27ca1e0df44b4,745,Polokwane,Limpopo,20/04/2018,email
+ZAC0022052,b3a3df898b9ac047,1826,Soweto,Gauteng,11/04/2018,social
+ZAC0022057,ec79787d6bac76ec,8345,Kimberley,Northern Cape,27/04/2018,organic
+ZAC0022069,7a08c765fc3e6b9c,3254,Pietermaritzburg,KwaZulu-Natal,08/04/2018,social
+ZAC0022070,c21c8b2a6c8c9f7b,8302,Kimberley,Northern Cape,08/04/2018,organic
+ZAC0022082,5f647ae411842b9e,186,Centurion,Gauteng,19/04/2018,social
+ZAC0022098,18b115f767af40cb,9352,Bloemfontein,Free State,19/04/2018,paid_search
+ZAC0022106,02f776d25265e4d2,1227,Nelspruit,Mpumalanga,25/04/2018,email
+ZAC0022122,355775e3aba8f49d,8045,Cape Town,Western Cape,14/04/2018,email
+ZAC0022148,82c11e45fea0c856,2026,Johannesburg,Gauteng,09/04/2018,social
+ZAC0022152,684ffcaba0574701,195,Centurion,Gauteng,09/04/2018,social
+ZAC0022199,94949665c2d87e57,8030,Cape Town,Western Cape,05/04/2018,organic
+ZAC0022212,18f3f73eb155ae79,8325,Kimberley,Northern Cape,15/04/2018,organic
+ZAC0022254,81aa18b94681e783,1806,Soweto,Gauteng,03/04/2018,organic
+ZAC0022260,de5df9768e53d8e9,2021,Johannesburg,Gauteng,29/04/2018,paid_search
+ZAC0022268,128e8eec6d2de1e6,23,Pretoria,Gauteng,11/04/2018,referral
+ZAC0022274,745da7267af25fd2,2039,Johannesburg,Gauteng,06/04/2018,organic
+ZAC0022283,81e21173ff9c804e,1841,Soweto,Gauteng,20/04/2018,organic
+ZAC0022300,66c86506eba52b4c,4015,Durban,KwaZulu-Natal,30/04/2018,organic
+ZAC0022328,43b3bd75cbadaaf9,8011,Cape Town,Western Cape,09/04/2018,social
+ZAC0022337,41baef7b35bd72a9,2028,Johannesburg,Gauteng,03/04/2018,organic
+ZAC0022348,fbc20b3377a4a600,7602,Stellenbosch,Western Cape,02/04/2018,organic
+ZAC0022371,8578dc94937fe0fa,40,Pretoria,Gauteng,23/04/2018,paid_search
+ZAC0022403,d7d0f847e0b8a370,2028,Johannesburg,Gauteng,27/04/2018,organic
+ZAC0022416,b91aa1367ccb957a,8023,Cape Town,Western Cape,06/04/2018,affiliate
+ZAC0022420,743b2f6abac3a466,2050,Johannesburg,Gauteng,02/04/2018,social
+ZAC0022424,e5662aa286b5f83b,8016,Cape Town,Western Cape,30/04/2018,affiliate
+ZAC0022441,3a78f53463c584c3,9347,Bloemfontein,Free State,19/04/2018,paid_search
+ZAC0022443,cb53744b20d23c49,9301,Bloemfontein,Free State,04/04/2018,affiliate
+ZAC0022468,ed1befb9309d4617,6028,Port Elizabeth,Eastern Cape,01/04/2018,organic
+ZAC0022497,226955b03e2abf65,3244,Pietermaritzburg,KwaZulu-Natal,30/04/2018,affiliate
+ZAC0022513,2f3f54904a459e7c,161,Centurion,Gauteng,03/04/2018,affiliate
+ZAC0022517,cdf0672e702f5fed,8017,Cape Town,Western Cape,24/04/2018,social
+ZAC0022520,f3499d784464daf1,2047,Johannesburg,Gauteng,16/04/2018,social
+ZAC0022521,e8380bc310ea0d7a,2255,Sandton,Gauteng,13/04/2018,paid_search
+ZAC0022550,1cd032d0902c3678,6003,Port Elizabeth,Eastern Cape,11/04/2018,social
+ZAC0022559,faca912e00cf35a3,2225,Sandton,Gauteng,14/04/2018,paid_search
+ZAC0022566,d56ea619f94d7ab8,4055,Durban,KwaZulu-Natal,06/04/2018,social
+ZAC0022583,e4f6bcab8d580b4e,2041,Johannesburg,Gauteng,11/04/2018,organic
+ZAC0022604,8eadd3d7058e0986,4037,Durban,KwaZulu-Natal,25/04/2018,organic
+ZAC0022619,07b7e26c35b72098,9325,Bloemfontein,Free State,16/04/2018,paid_search
+ZAC0022635,7c1b2c7757548689,4017,Durban,KwaZulu-Natal,20/04/2018,social
+ZAC0022656,4cd98c9b2915807c,5245,East London,Eastern Cape,17/04/2018,social
+ZAC0022677,b2ee408b7d3ec94b,2212,Sandton,Gauteng,04/04/2018,social
+ZAC0022681,01d232b1c7b1a4bb,9323,Bloemfontein,Free State,12/04/2018,organic
+ZAC0022715,267140b3604ce94d,2218,Sandton,Gauteng,16/04/2018,social
+ZAC0022737,2b23ac0cc73316c0,2217,Sandton,Gauteng,27/04/2018,social
+ZAC0022763,01cbbd48f673dd48,7648,Stellenbosch,Western Cape,23/04/2018,affiliate
+ZAC0022774,798fee3eeb12ec59,5248,East London,Eastern Cape,28/04/2018,social
+ZAC0022796,9507926cb882f938,2045,Johannesburg,Gauteng,21/04/2018,affiliate
+ZAC0022802,fe23dd4acd479483,7659,Stellenbosch,Western Cape,21/04/2018,referral
+ZAC0022814,31a5250fc134cc99,2049,Johannesburg,Gauteng,06/04/2018,affiliate
+ZAC0022817,51aa222c08cbe7d6,6051,Port Elizabeth,Eastern Cape,20/04/2018,social
+ZAC0022837,bb885d4b42f7aad6,1210,Nelspruit,Mpumalanga,12/04/2018,paid_search
+ZAC0022840,0467a1a6db51745b,178,Centurion,Gauteng,20/04/2018,referral
+ZAC0022878,8f418f8258b216ff,3215,Pietermaritzburg,KwaZulu-Natal,01/04/2018,organic
+ZAC0022911,09f3e99627e1549b,4009,Durban,KwaZulu-Natal,18/04/2018,organic
+ZAC0022925,f41e65e37c470da1,2200,Sandton,Gauteng,10/04/2018,paid_search
+ZAC0022926,4d5d276d99a4b2c1,1250,Nelspruit,Mpumalanga,10/04/2018,organic
+ZAC0022948,a212bf7d86d10fdc,4045,Durban,KwaZulu-Natal,06/04/2018,email
+ZAC0022969,0fa79a03e7c843d0,3206,Pietermaritzburg,KwaZulu-Natal,08/04/2018,organic
+ZAC0022976,72ba7542c14b4e26,9356,Bloemfontein,Free State,01/04/2018,organic
+ZAC0023001,378ad0116dd4585c,7611,Stellenbosch,Western Cape,09/04/2018,organic
+ZAC0023011,489ae351abc9e2d7,6039,Port Elizabeth,Eastern Cape,04/04/2018,social
+ZAC0023017,c7b9c4159f79ae3e,6028,Port Elizabeth,Eastern Cape,09/04/2018,affiliate
+ZAC0023024,26961f901943a8db,344,Rustenburg,North West,03/04/2018,paid_search
+ZAC0023050,e104e123f9b1e47f,748,Polokwane,Limpopo,03/04/2018,organic
+ZAC0023058,088f80c7d146809a,738,Polokwane,Limpopo,01/04/2018,paid_search
+ZAC0023096,90af8f98a5e46993,14,Pretoria,Gauteng,21/04/2018,organic
+ZAC0023105,4b923e8d78b4e374,4026,Durban,KwaZulu-Natal,12/04/2018,referral
+ZAC0023115,2b6abea28735624b,324,Rustenburg,North West,18/04/2018,affiliate
+ZAC0023145,97a5ce77c504eed1,9309,Bloemfontein,Free State,27/04/2018,social
+ZAC0023148,60399a8dacdfd3c4,339,Rustenburg,North West,22/04/2018,paid_search
+ZAC0023158,9c8fca2d57a6e444,752,Polokwane,Limpopo,26/04/2018,email
+ZAC0023212,3bb5bc079f0a6f9e,1822,Soweto,Gauteng,23/04/2018,paid_search
+ZAC0023221,7441e47e7f0acb82,733,Polokwane,Limpopo,27/04/2018,social
+ZAC0023234,0da71cee63c2ca41,1849,Soweto,Gauteng,07/04/2018,social
+ZAC0023237,a053e68cf3cffc81,7650,Stellenbosch,Western Cape,11/04/2018,organic
+ZAC0023274,d63c2ce2f973a423,2211,Sandton,Gauteng,15/04/2018,organic
+ZAC0023314,71a0c9cdfae0fbee,8347,Kimberley,Northern Cape,09/04/2018,paid_search
+ZAC0023322,20e527f47e1b0f58,4034,Durban,KwaZulu-Natal,03/04/2018,organic
+ZAC0023324,f984dc91782aed04,14,Pretoria,Gauteng,25/04/2018,organic
+ZAC0023336,ed8b9e717c694fdf,190,Centurion,Gauteng,22/04/2018,social
+ZAC0023347,68dafb8ad7ca4b88,4021,Durban,KwaZulu-Natal,05/04/2018,organic
+ZAC0023367,b127c4c62e4cad0f,4015,Durban,KwaZulu-Natal,16/04/2018,paid_search
+ZAC0023384,200fc76f0bd87bea,3209,Pietermaritzburg,KwaZulu-Natal,01/04/2018,affiliate
+ZAC0023393,aff7aee482ab2e4b,711,Polokwane,Limpopo,23/04/2018,social
+ZAC0023425,ea78447501726304,7633,Stellenbosch,Western Cape,10/04/2018,organic
+ZAC0023437,5765bad370cb0aca,8303,Kimberley,Northern Cape,05/04/2018,paid_search
+ZAC0023471,23ea6707b19f650f,1224,Nelspruit,Mpumalanga,23/04/2018,organic
+ZAC0023478,0d6a539ebf8fb17a,6030,Port Elizabeth,Eastern Cape,12/04/2018,organic
+ZAC0023516,8cb4658407dac526,2251,Sandton,Gauteng,16/04/2018,referral
+ZAC0023518,e520334b780d984e,4037,Durban,KwaZulu-Natal,06/04/2018,referral
+ZAC0023533,1fab3350a04703cc,3203,Pietermaritzburg,KwaZulu-Natal,26/04/2018,email
+ZAC0023540,5655bb787d290c3c,6025,Port Elizabeth,Eastern Cape,04/04/2018,social
+ZAC0023597,699feebbc7cc779a,215,Centurion,Gauteng,19/04/2018,organic
+ZAC0023610,5e519309c4a58a02,1215,Nelspruit,Mpumalanga,25/04/2018,referral
+ZAC0023618,e687be6ba8c81646,2041,Johannesburg,Gauteng,20/04/2018,social
+ZAC0023619,dc9e29152740c707,356,Rustenburg,North West,13/04/2018,referral
+ZAC0023622,7c78f41907c06d9f,8027,Cape Town,Western Cape,09/04/2018,email
+ZAC0023626,1b293d4e5897b3bb,8008,Cape Town,Western Cape,20/04/2018,affiliate
+ZAC0023687,36c1841503bcc231,1837,Soweto,Gauteng,17/04/2018,organic
+ZAC0023706,618636bf30361cf8,5216,East London,Eastern Cape,16/04/2018,referral
+ZAC0023708,12847b1ae95bee3b,3249,Pietermaritzburg,KwaZulu-Natal,16/04/2018,social
+ZAC0023710,1b2c51fb1c91dd1d,160,Centurion,Gauteng,27/04/2018,referral
+ZAC0023714,146097f1287090e3,6019,Port Elizabeth,Eastern Cape,17/04/2018,social
+ZAC0023764,21785b58de179c75,716,Polokwane,Limpopo,14/04/2018,social
+ZAC0023797,9c8bd6ba3325f0d4,158,Centurion,Gauteng,03/04/2018,social
+ZAC0023804,15c6649824baf766,3219,Pietermaritzburg,KwaZulu-Natal,13/04/2018,social
+ZAC0023825,9c644cf86935d92c,4040,Durban,KwaZulu-Natal,02/04/2018,paid_search
+ZAC0023850,85011cc8fffb22aa,5230,East London,Eastern Cape,24/04/2018,social
+ZAC0023852,a44a2f2002bf5547,7628,Stellenbosch,Western Cape,06/04/2018,referral
+ZAC0023862,a3af03dec328a568,8039,Cape Town,Western Cape,23/04/2018,organic
+ZAC0023869,7f86ed7d1519ee79,5205,East London,Eastern Cape,11/04/2018,paid_search
+ZAC0023871,eb2c1afdb9f7dadf,5216,East London,Eastern Cape,12/04/2018,organic
+ZAC0023876,a3770e54144910eb,8006,Cape Town,Western Cape,16/04/2018,organic
+ZAC0023923,5e4763976288b5a9,204,Centurion,Gauteng,20/04/2018,paid_search
+ZAC0023959,ee5f3392ecba757d,9338,Bloemfontein,Free State,03/04/2018,paid_search
+ZAC0023974,90465e204a2fc95c,4043,Durban,KwaZulu-Natal,12/04/2018,organic
