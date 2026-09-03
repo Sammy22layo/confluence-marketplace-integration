@@ -1,0 +1,15 @@
+{
+	"name": "adf-confluence-sammy",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "53a4fac2-c820-4a34-9fe0-ae396da840e8",
+		"tenantId": "5d3218a3-cc7b-45cf-885f-bf57a9128cd9"
+	}
+}
