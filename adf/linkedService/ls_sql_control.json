@@ -1,0 +1,17 @@
+{
+	"name": "ls_sql_control",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "sql-confluence-sammy.database.windows.net",
+			"database": "confluence-control",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "sammyserver",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEU5OUIxODJFLUEzNjEtNEFCOS04RUQ3LTQzRjQyM0I2QjJFRl80NTUzY2ViMS1kYTQzLTQ2YmQtODZkZC00OGEwNDk3ZDY5OTQiDQp9"
+		}
+	}
+}
