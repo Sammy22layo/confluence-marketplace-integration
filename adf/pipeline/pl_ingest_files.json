@@ -1,0 +1,401 @@
+{
+	"name": "pl_ingest_files",
+	"properties": {
+		"activities": [
+			{
+				"name": "Get Active File Sources",
+				"type": "Lookup",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"source": {
+						"type": "AzureSqlSource",
+						"sqlReaderQuery": "SELECT source_id, source_name, source_type, load_type,\n       source_folder, file_pattern, file_format,\n       column_delimiter, landing_container, landing_folder, expected_min_files\nFROM   ctl.IngestionSource\nWHERE  is_active = 1 AND source_type = 'file'\nORDER BY load_order, source_id;",
+						"queryTimeout": "02:00:00",
+						"partitionOption": "None"
+					},
+					"dataset": {
+						"referenceName": "ds_sql_control",
+						"type": "DatasetReference"
+					},
+					"firstRowOnly": false
+				}
+			},
+			{
+				"name": "Loop Sources",
+				"type": "ForEach",
+				"dependsOn": [
+					{
+						"activity": "Get Active File Sources",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"items": {
+						"value": "@activity('Get Active File Sources').output.value",
+						"type": "Expression"
+					},
+					"isSequential": true,
+					"activities": [
+						{
+							"name": "Log Start Error",
+							"type": "SqlServerStoredProcedure",
+							"state": "Inactive",
+							"onInactiveMarkAs": "Succeeded",
+							"dependsOn": [],
+							"policy": {
+								"timeout": "0.12:00:00",
+								"retry": 0,
+								"retryIntervalInSeconds": 30,
+								"secureOutput": false,
+								"secureInput": false
+							},
+							"userProperties": [],
+							"typeProperties": {
+								"storedProcedureName": "[ctl].[usp_StartRun]",
+								"storedProcedureParameters": {
+									"adf_pipeline_name": {
+										"value": {
+											"value": "@pipeline().Pipeline",
+											"type": "Expression"
+										},
+										"type": "String"
+									},
+									"adf_run_id": {
+										"value": {
+											"value": "@pipeline().RunId",
+											"type": "Expression"
+										},
+										"type": "String"
+									},
+									"ceiling": {
+										"value": "",
+										"type": "String"
+									},
+									"source_name": {
+										"value": "@item().source_name",
+										"type": "String"
+									}
+								}
+							},
+							"linkedServiceName": {
+								"referenceName": "ls_sql_control",
+								"type": "LinkedServiceReference"
+							}
+						},
+						{
+							"name": "Copy To Landing",
+							"type": "Copy",
+							"dependsOn": [
+								{
+									"activity": "Log Start Error",
+									"dependencyConditions": [
+										"Succeeded"
+									]
+								},
+								{
+									"activity": "Log Start",
+									"dependencyConditions": [
+										"Succeeded"
+									]
+								}
+							],
+							"policy": {
+								"timeout": "0.12:00:00",
+								"retry": 0,
+								"retryIntervalInSeconds": 30,
+								"secureOutput": false,
+								"secureInput": false
+							},
+							"userProperties": [],
+							"typeProperties": {
+								"source": {
+									"type": "DelimitedTextSource",
+									"storeSettings": {
+										"type": "AzureBlobFSReadSettings",
+										"recursive": true,
+										"wildcardFolderPath": "@item().source_folder",
+										"wildcardFileName": "@item().file_pattern",
+										"enablePartitionDiscovery": false
+									},
+									"formatSettings": {
+										"type": "DelimitedTextReadSettings"
+									}
+								},
+								"sink": {
+									"type": "DelimitedTextSink",
+									"storeSettings": {
+										"type": "AzureBlobFSWriteSettings",
+										"copyBehavior": "PreserveHierarchy"
+									},
+									"formatSettings": {
+										"type": "DelimitedTextWriteSettings",
+										"quoteAllText": true,
+										"fileExtension": ".txt"
+									}
+								},
+								"enableStaging": false,
+								"translator": {
+									"type": "TabularTranslator",
+									"typeConversion": true,
+									"typeConversionSettings": {
+										"allowDataTruncation": true,
+										"treatBooleanAsNumber": false
+									}
+								}
+							},
+							"inputs": [
+								{
+									"referenceName": "ds_adls_delimited",
+									"type": "DatasetReference",
+									"parameters": {
+										"container": "source",
+										"folderPath": {
+											"value": "@item().source_folder",
+											"type": "Expression"
+										},
+										"fileName": "@item().file_pattern",
+										"delimiter": "@item().column_delimiter"
+									}
+								}
+							],
+							"outputs": [
+								{
+									"referenceName": "ds_adls_delimited",
+									"type": "DatasetReference",
+									"parameters": {
+										"container": {
+											"value": "@item().landing_container",
+											"type": "Expression"
+										},
+										"folderPath": {
+											"value": "@item().landing_folder",
+											"type": "Expression"
+										},
+										"fileName": "@{''}",
+										"delimiter": {
+											"value": "@item().column_delimiter",
+											"type": "Expression"
+										}
+									}
+								}
+							]
+						},
+						{
+							"name": "Log Start",
+							"type": "Lookup",
+							"dependsOn": [],
+							"policy": {
+								"timeout": "0.12:00:00",
+								"retry": 0,
+								"retryIntervalInSeconds": 30,
+								"secureOutput": false,
+								"secureInput": false
+							},
+							"userProperties": [],
+							"typeProperties": {
+								"source": {
+									"type": "AzureSqlSource",
+									"sqlReaderStoredProcedureName": "[ctl].[usp_StartRun]",
+									"storedProcedureParameters": {
+										"adf_pipeline_name": {
+											"type": "String",
+											"value": {
+												"value": "@pipeline().Pipeline",
+												"type": "Expression"
+											}
+										},
+										"adf_run_id": {
+											"type": "String",
+											"value": {
+												"value": "@pipeline().RunId",
+												"type": "Expression"
+											}
+										},
+										"ceiling": {
+											"type": "String",
+											"value": null
+										},
+										"source_name": {
+											"type": "String",
+											"value": {
+												"value": "@item().source_name",
+												"type": "Expression"
+											}
+										}
+									},
+									"queryTimeout": "02:00:00",
+									"partitionOption": "None"
+								},
+								"dataset": {
+									"referenceName": "ds_sql_control",
+									"type": "DatasetReference"
+								}
+							}
+						},
+						{
+							"name": "Check File Count",
+							"type": "IfCondition",
+							"dependsOn": [
+								{
+									"activity": "Copy To Landing",
+									"dependencyConditions": [
+										"Succeeded"
+									]
+								}
+							],
+							"userProperties": [],
+							"typeProperties": {
+								"expression": {
+									"value": "@greaterOrEquals(activity('Copy To Landing').output.filesRead, item().expected_min_files)",
+									"type": "Expression"
+								},
+								"ifFalseActivities": [
+									{
+										"name": "Log Failure",
+										"type": "SqlServerStoredProcedure",
+										"dependsOn": [],
+										"policy": {
+											"timeout": "0.12:00:00",
+											"retry": 0,
+											"retryIntervalInSeconds": 30,
+											"secureOutput": false,
+											"secureInput": false
+										},
+										"userProperties": [],
+										"typeProperties": {
+											"storedProcedureName": "[ctl].[usp_EndRun]",
+											"storedProcedureParameters": {
+												"error_message": {
+													"value": "@activity('Copy To Landing').output.errors[0].Message",
+													"type": "String"
+												},
+												"files_read": {
+													"value": null,
+													"type": "Int32"
+												},
+												"rows_quarantined": {
+													"value": null,
+													"type": "Int64"
+												},
+												"rows_read": {
+													"value": null,
+													"type": "Int64"
+												},
+												"rows_written": {
+													"value": null,
+													"type": "Int64"
+												},
+												"run_id": {
+													"value": {
+														"value": "@activity('Log Start').output.firstRow.run_id",
+														"type": "Expression"
+													},
+													"type": "Guid"
+												},
+												"status": {
+													"value": "FAILED",
+													"type": "String"
+												}
+											}
+										},
+										"linkedServiceName": {
+											"referenceName": "ls_sql_control",
+											"type": "LinkedServiceReference"
+										}
+									},
+									{
+										"name": "Fail1",
+										"type": "Fail",
+										"dependsOn": [
+											{
+												"activity": "Log Failure",
+												"dependencyConditions": [
+													"Completed"
+												]
+											}
+										],
+										"userProperties": [],
+										"typeProperties": {
+											"message": "@concat('Quality gate failed: expected at least ', string(item().expected_min_files), ' files, got ', string(activity('Copy To Landing').output.filesRead))",
+											"errorCode": "QUALITY_GATE_FAILED"
+										}
+									}
+								],
+								"ifTrueActivities": [
+									{
+										"name": "Log Success",
+										"type": "SqlServerStoredProcedure",
+										"dependsOn": [],
+										"policy": {
+											"timeout": "0.12:00:00",
+											"retry": 0,
+											"retryIntervalInSeconds": 30,
+											"secureOutput": false,
+											"secureInput": false
+										},
+										"userProperties": [],
+										"typeProperties": {
+											"storedProcedureName": "[ctl].[usp_EndRun]",
+											"storedProcedureParameters": {
+												"error_message": {
+													"value": "",
+													"type": "String"
+												},
+												"files_read": {
+													"value": {
+														"value": "@activity('Copy To Landing').output.filesRead",
+														"type": "Expression"
+													},
+													"type": "Int32"
+												},
+												"rows_quarantined": {
+													"value": "0",
+													"type": "Int64"
+												},
+												"rows_read": {
+													"value": null,
+													"type": "Int64"
+												},
+												"rows_written": {
+													"value": null,
+													"type": "Int64"
+												},
+												"run_id": {
+													"value": {
+														"value": "@activity('Log Start').output.firstRow.run_id",
+														"type": "Expression"
+													},
+													"type": "Guid"
+												},
+												"status": {
+													"value": "SUCCEEDED",
+													"type": "String"
+												}
+											}
+										},
+										"linkedServiceName": {
+											"referenceName": "ls_sql_control",
+											"type": "LinkedServiceReference"
+										}
+									}
+								]
+							}
+						}
+					]
+				}
+			}
+		],
+		"annotations": []
+	}
+}
