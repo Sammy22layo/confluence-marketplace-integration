@@ -1,0 +1,32 @@
+{
+	"name": "ds_rest_generic",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_rest_generic",
+			"type": "LinkedServiceReference",
+			"parameters": {
+				"baseUrl": {
+					"value": "@dataset().baseUrl",
+					"type": "Expression"
+				}
+			}
+		},
+		"parameters": {
+			"relativeUrl": {
+				"type": "string"
+			},
+			"baseUrl": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"typeProperties": {
+			"relativeUrl": {
+				"value": "@dataset().relativeUrl",
+				"type": "Expression"
+			}
+		},
+		"schema": []
+	}
+}
