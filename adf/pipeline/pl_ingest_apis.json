@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Lookup1",
+				"name": "Get API Calls",
 				"type": "Lookup",
 				"dependsOn": [],
 				"policy": {
@@ -13,7 +13,20 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"source": {
+						"type": "AzureSqlSource",
+						"sqlReaderQuery": "SELECT c.api_call_id, c.source_id, s.source_name, c.call_key,\n       c.base_url, c.relative_url,\n       s.landing_container, c.landing_folder, c.landing_file\nFROM   ctl.ApiCall c\nJOIN   ctl.IngestionSource s ON s.source_id = c.source_id\nWHERE  c.is_active = 1 AND s.is_active = 1\nORDER  BY c.source_id, c.api_call_id;",
+						"queryTimeout": "02:00:00",
+						"partitionOption": "None"
+					},
+					"dataset": {
+						"referenceName": "ds_sql_control",
+						"type": "DatasetReference"
+					},
+					"firstRowOnly": false
+				}
 			}
 		],
 		"annotations": []
