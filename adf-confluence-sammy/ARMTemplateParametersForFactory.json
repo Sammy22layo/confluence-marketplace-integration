@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-confluence-sammy"
+		},
+		"ls_sql_control_password": {
+			"value": ""
+		},
+		"ls_adls_confluence_properties_typeProperties_url": {
+			"value": "https://stconfluencesa.dfs.core.windows.net/"
+		},
+		"ls_rest_generic_properties_typeProperties_url": {
+			"value": "@{linkedService().baseUrl}"
+		},
+		"ls_sql_control_properties_typeProperties_server": {
+			"value": "sql-confluence-sammy.database.windows.net"
+		},
+		"ls_sql_control_properties_typeProperties_database": {
+			"value": "confluence-control"
+		},
+		"ls_sql_control_properties_typeProperties_userName": {
+			"value": "sammyserver"
+		}
+	}
+}

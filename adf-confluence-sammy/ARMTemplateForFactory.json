@@ -1,0 +1,729 @@
+{
+	"$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"type": "string",
+			"metadata": "Data Factory name",
+			"defaultValue": "adf-confluence-sammy"
+		},
+		"ls_sql_control_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'ls_sql_control'"
+		},
+		"ls_adls_confluence_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://stconfluencesa.dfs.core.windows.net/"
+		},
+		"ls_rest_generic_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "@{linkedService().baseUrl}"
+		},
+		"ls_sql_control_properties_typeProperties_server": {
+			"type": "string",
+			"defaultValue": "sql-confluence-sammy.database.windows.net"
+		},
+		"ls_sql_control_properties_typeProperties_database": {
+			"type": "string",
+			"defaultValue": "confluence-control"
+		},
+		"ls_sql_control_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "sammyserver"
+		}
+	},
+	"variables": {
+		"factoryId": "[concat('Microsoft.DataFactory/factories/', parameters('factoryName'))]"
+	},
+	"resources": [
+		{
+			"name": "[concat(parameters('factoryName'), '/pl_ingest_apis')]",
+			"type": "Microsoft.DataFactory/factories/pipelines",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"activities": [
+					{
+						"name": "Get API Calls",
+						"type": "Lookup",
+						"dependsOn": [],
+						"policy": {
+							"timeout": "0.12:00:00",
+							"retry": 0,
+							"retryIntervalInSeconds": 30,
+							"secureOutput": false,
+							"secureInput": false
+						},
+						"userProperties": [],
+						"typeProperties": {
+							"source": {
+								"type": "AzureSqlSource",
+								"sqlReaderQuery": "SELECT c.api_call_id, c.source_id, s.source_name, c.call_key,\n       c.base_url, c.relative_url,\n       s.landing_container, c.landing_folder, c.landing_file\nFROM   ctl.ApiCall c\nJOIN   ctl.IngestionSource s ON s.source_id = c.source_id\nWHERE  c.is_active = 1 AND s.is_active = 1\nORDER  BY c.source_id, c.api_call_id;",
+								"queryTimeout": "02:00:00",
+								"partitionOption": "None"
+							},
+							"dataset": {
+								"referenceName": "ds_sql_control",
+								"type": "DatasetReference",
+								"parameters": {}
+							},
+							"firstRowOnly": false
+						}
+					}
+				],
+				"policy": {
+					"elapsedTimeMetric": {}
+				},
+				"annotations": []
+			},
+			"dependsOn": [
+				"[concat(variables('factoryId'), '/datasets/ds_sql_control')]"
+			]
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/pl_ingest_files')]",
+			"type": "Microsoft.DataFactory/factories/pipelines",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"activities": [
+					{
+						"name": "Get Active File Sources",
+						"type": "Lookup",
+						"dependsOn": [],
+						"policy": {
+							"timeout": "0.12:00:00",
+							"retry": 0,
+							"retryIntervalInSeconds": 30,
+							"secureOutput": false,
+							"secureInput": false
+						},
+						"userProperties": [],
+						"typeProperties": {
+							"source": {
+								"type": "AzureSqlSource",
+								"sqlReaderQuery": "SELECT source_id, source_name, source_type, load_type,\n       source_folder, file_pattern, file_format,\n       column_delimiter, landing_container, landing_folder, expected_min_files\nFROM   ctl.IngestionSource\nWHERE  is_active = 1 AND source_type = 'file'\nORDER BY load_order, source_id;",
+								"queryTimeout": "02:00:00",
+								"partitionOption": "None"
+							},
+							"dataset": {
+								"referenceName": "ds_sql_control",
+								"type": "DatasetReference",
+								"parameters": {}
+							},
+							"firstRowOnly": false
+						}
+					},
+					{
+						"name": "Loop Sources",
+						"type": "ForEach",
+						"dependsOn": [
+							{
+								"activity": "Get Active File Sources",
+								"dependencyConditions": [
+									"Succeeded"
+								]
+							}
+						],
+						"userProperties": [],
+						"typeProperties": {
+							"items": {
+								"value": "@activity('Get Active File Sources').output.value",
+								"type": "Expression"
+							},
+							"isSequential": true,
+							"activities": [
+								{
+									"name": "Copy To Landing",
+									"type": "Copy",
+									"dependsOn": [
+										{
+											"activity": "Log Start",
+											"dependencyConditions": [
+												"Succeeded"
+											]
+										}
+									],
+									"policy": {
+										"timeout": "0.12:00:00",
+										"retry": 0,
+										"retryIntervalInSeconds": 30,
+										"secureOutput": false,
+										"secureInput": false
+									},
+									"userProperties": [],
+									"typeProperties": {
+										"source": {
+											"type": "DelimitedTextSource",
+											"storeSettings": {
+												"type": "AzureBlobFSReadSettings",
+												"recursive": true,
+												"wildcardFolderPath": {
+													"value": "@item().source_folder",
+													"type": "Expression"
+												},
+												"wildcardFileName": {
+													"value": "@item().file_pattern",
+													"type": "Expression"
+												},
+												"enablePartitionDiscovery": false
+											},
+											"formatSettings": {
+												"type": "DelimitedTextReadSettings"
+											}
+										},
+										"sink": {
+											"type": "DelimitedTextSink",
+											"storeSettings": {
+												"type": "AzureBlobFSWriteSettings",
+												"copyBehavior": "PreserveHierarchy"
+											},
+											"formatSettings": {
+												"type": "DelimitedTextWriteSettings",
+												"quoteAllText": true,
+												"fileExtension": ".txt"
+											}
+										},
+										"enableStaging": false,
+										"translator": {
+											"type": "TabularTranslator",
+											"typeConversion": true,
+											"typeConversionSettings": {
+												"allowDataTruncation": true,
+												"treatBooleanAsNumber": false
+											}
+										}
+									},
+									"inputs": [
+										{
+											"referenceName": "ds_adls_delimited",
+											"type": "DatasetReference",
+											"parameters": {
+												"container": "source",
+												"folderPath": {
+													"value": "@item().source_folder",
+													"type": "Expression"
+												},
+												"fileName": "@item().file_pattern",
+												"delimiter": "@item().column_delimiter"
+											}
+										}
+									],
+									"outputs": [
+										{
+											"referenceName": "ds_adls_delimited",
+											"type": "DatasetReference",
+											"parameters": {
+												"container": {
+													"value": "@item().landing_container",
+													"type": "Expression"
+												},
+												"folderPath": {
+													"value": "@item().landing_folder",
+													"type": "Expression"
+												},
+												"fileName": "@{''}",
+												"delimiter": {
+													"value": "@item().column_delimiter",
+													"type": "Expression"
+												}
+											}
+										}
+									]
+								},
+								{
+									"name": "Log Start",
+									"type": "Lookup",
+									"dependsOn": [],
+									"policy": {
+										"timeout": "0.12:00:00",
+										"retry": 0,
+										"retryIntervalInSeconds": 30,
+										"secureOutput": false,
+										"secureInput": false
+									},
+									"userProperties": [],
+									"typeProperties": {
+										"source": {
+											"type": "AzureSqlSource",
+											"sqlReaderStoredProcedureName": "[[ctl].[usp_StartRun]",
+											"storedProcedureParameters": {
+												"adf_pipeline_name": {
+													"type": "String",
+													"value": {
+														"value": "@pipeline().Pipeline",
+														"type": "Expression"
+													}
+												},
+												"adf_run_id": {
+													"type": "String",
+													"value": {
+														"value": "@pipeline().RunId",
+														"type": "Expression"
+													}
+												},
+												"ceiling": {
+													"type": "String",
+													"value": null
+												},
+												"source_name": {
+													"type": "String",
+													"value": {
+														"value": "@item().source_name",
+														"type": "Expression"
+													}
+												}
+											},
+											"queryTimeout": "02:00:00",
+											"partitionOption": "None"
+										},
+										"dataset": {
+											"referenceName": "ds_sql_control",
+											"type": "DatasetReference",
+											"parameters": {}
+										}
+									}
+								},
+								{
+									"name": "Check File Count",
+									"type": "IfCondition",
+									"dependsOn": [
+										{
+											"activity": "Copy To Landing",
+											"dependencyConditions": [
+												"Succeeded"
+											]
+										}
+									],
+									"userProperties": [],
+									"typeProperties": {
+										"expression": {
+											"value": "@greaterOrEquals(activity('Copy To Landing').output.filesRead, item().expected_min_files)",
+											"type": "Expression"
+										},
+										"ifFalseActivities": [
+											{
+												"name": "Log Gate Failure",
+												"type": "SqlServerStoredProcedure",
+												"dependsOn": [],
+												"policy": {
+													"timeout": "0.12:00:00",
+													"retry": 0,
+													"retryIntervalInSeconds": 30,
+													"secureOutput": false,
+													"secureInput": false
+												},
+												"userProperties": [],
+												"typeProperties": {
+													"storedProcedureName": "[[ctl].[usp_EndRun]",
+													"storedProcedureParameters": {
+														"error_message": {
+															"value": {
+																"value": "@concat('Quality gate failed: expected at least ', string(item().expected_min_files), ' files, got ', string(activity('Copy To Landing').output.filesRead))",
+																"type": "Expression"
+															},
+															"type": "String"
+														},
+														"files_read": {
+															"value": null,
+															"type": "Int32"
+														},
+														"rows_quarantined": {
+															"value": null,
+															"type": "Int64"
+														},
+														"rows_read": {
+															"value": null,
+															"type": "Int64"
+														},
+														"rows_written": {
+															"value": null,
+															"type": "Int64"
+														},
+														"run_id": {
+															"value": {
+																"value": "@activity('Log Start').output.firstRow.run_id",
+																"type": "Expression"
+															},
+															"type": "Guid"
+														},
+														"status": {
+															"value": "FAILED",
+															"type": "String"
+														}
+													}
+												},
+												"linkedServiceName": {
+													"referenceName": "ls_sql_control",
+													"type": "LinkedServiceReference"
+												}
+											},
+											{
+												"name": "Fail1",
+												"type": "Fail",
+												"dependsOn": [
+													{
+														"activity": "Log Gate Failure",
+														"dependencyConditions": [
+															"Succeeded"
+														]
+													}
+												],
+												"userProperties": [],
+												"typeProperties": {
+													"message": {
+														"value": "@concat('Quality gate failed: expected at least ', string(item().expected_min_files), ' files, got ', string(activity('Copy To Landing').output.filesRead))",
+														"type": "Expression"
+													},
+													"errorCode": "QUALITY_GATE_FAILED"
+												}
+											}
+										],
+										"ifTrueActivities": [
+											{
+												"name": "Log Success",
+												"type": "SqlServerStoredProcedure",
+												"dependsOn": [],
+												"policy": {
+													"timeout": "0.12:00:00",
+													"retry": 0,
+													"retryIntervalInSeconds": 30,
+													"secureOutput": false,
+													"secureInput": false
+												},
+												"userProperties": [],
+												"typeProperties": {
+													"storedProcedureName": "[[ctl].[usp_EndRun]",
+													"storedProcedureParameters": {
+														"error_message": {
+															"value": "",
+															"type": "String"
+														},
+														"files_read": {
+															"value": {
+																"value": "@activity('Copy To Landing').output.filesRead",
+																"type": "Expression"
+															},
+															"type": "Int32"
+														},
+														"rows_quarantined": {
+															"value": "0",
+															"type": "Int64"
+														},
+														"rows_read": {
+															"value": null,
+															"type": "Int64"
+														},
+														"rows_written": {
+															"value": null,
+															"type": "Int64"
+														},
+														"run_id": {
+															"value": {
+																"value": "@activity('Log Start').output.firstRow.run_id",
+																"type": "Expression"
+															},
+															"type": "Guid"
+														},
+														"status": {
+															"value": "SUCCEEDED",
+															"type": "String"
+														}
+													}
+												},
+												"linkedServiceName": {
+													"referenceName": "ls_sql_control",
+													"type": "LinkedServiceReference"
+												}
+											}
+										]
+									}
+								},
+								{
+									"name": "Log Copy Failure",
+									"type": "SqlServerStoredProcedure",
+									"dependsOn": [
+										{
+											"activity": "Copy To Landing",
+											"dependencyConditions": [
+												"Failed"
+											]
+										}
+									],
+									"policy": {
+										"timeout": "0.12:00:00",
+										"retry": 0,
+										"retryIntervalInSeconds": 30,
+										"secureOutput": false,
+										"secureInput": false
+									},
+									"userProperties": [],
+									"typeProperties": {
+										"storedProcedureName": "[[ctl].[usp_EndRun]",
+										"storedProcedureParameters": {
+											"error_message": {
+												"value": {
+													"value": "@activity('Copy To Landing').output.errors[0].Message",
+													"type": "Expression"
+												},
+												"type": "String"
+											},
+											"files_read": {
+												"value": null,
+												"type": "Int32"
+											},
+											"rows_quarantined": {
+												"value": null,
+												"type": "Int64"
+											},
+											"rows_read": {
+												"value": null,
+												"type": "Int64"
+											},
+											"rows_written": {
+												"value": null,
+												"type": "Int64"
+											},
+											"run_id": {
+												"value": {
+													"value": "@activity('Log Start').output.firstRow.run_id",
+													"type": "Expression"
+												},
+												"type": "Guid"
+											},
+											"status": {
+												"value": "FAILED",
+												"type": "String"
+											}
+										}
+									},
+									"linkedServiceName": {
+										"referenceName": "ls_sql_control",
+										"type": "LinkedServiceReference"
+									}
+								}
+							]
+						}
+					}
+				],
+				"policy": {
+					"elapsedTimeMetric": {}
+				},
+				"annotations": []
+			},
+			"dependsOn": [
+				"[concat(variables('factoryId'), '/datasets/ds_sql_control')]",
+				"[concat(variables('factoryId'), '/datasets/ds_adls_delimited')]",
+				"[concat(variables('factoryId'), '/linkedServices/ls_sql_control')]"
+			]
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/ds_adls_delimited')]",
+			"type": "Microsoft.DataFactory/factories/datasets",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"linkedServiceName": {
+					"referenceName": "ls_adls_confluence",
+					"type": "LinkedServiceReference"
+				},
+				"parameters": {
+					"container": {
+						"type": "string"
+					},
+					"folderPath": {
+						"type": "string"
+					},
+					"fileName": {
+						"type": "string"
+					},
+					"delimiter": {
+						"type": "string"
+					}
+				},
+				"annotations": [],
+				"type": "DelimitedText",
+				"typeProperties": {
+					"location": {
+						"type": "AzureBlobFSLocation",
+						"fileName": {
+							"value": "@dataset().fileName",
+							"type": "Expression"
+						},
+						"folderPath": {
+							"value": "@dataset().folderPath",
+							"type": "Expression"
+						},
+						"fileSystem": {
+							"value": "@dataset().container",
+							"type": "Expression"
+						}
+					},
+					"columnDelimiter": {
+						"value": "@dataset().delimiter",
+						"type": "Expression"
+					},
+					"escapeChar": "\\",
+					"firstRowAsHeader": true,
+					"quoteChar": "\""
+				},
+				"schema": []
+			},
+			"dependsOn": [
+				"[concat(variables('factoryId'), '/linkedServices/ls_adls_confluence')]"
+			]
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/ds_adls_json')]",
+			"type": "Microsoft.DataFactory/factories/datasets",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"linkedServiceName": {
+					"referenceName": "ls_adls_confluence",
+					"type": "LinkedServiceReference"
+				},
+				"parameters": {
+					"container": {
+						"type": "string"
+					},
+					"folderPath": {
+						"type": "string"
+					},
+					"fileName": {
+						"type": "string"
+					}
+				},
+				"annotations": [],
+				"type": "Json",
+				"typeProperties": {
+					"location": {
+						"type": "AzureBlobFSLocation",
+						"fileName": {
+							"value": "@dataset().folderPath",
+							"type": "Expression"
+						},
+						"folderPath": {
+							"value": "@dataset().folderPath",
+							"type": "Expression"
+						},
+						"fileSystem": {
+							"value": "dataset().container",
+							"type": "Expression"
+						}
+					}
+				},
+				"schema": {}
+			},
+			"dependsOn": [
+				"[concat(variables('factoryId'), '/linkedServices/ls_adls_confluence')]"
+			]
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/ds_rest_generic')]",
+			"type": "Microsoft.DataFactory/factories/datasets",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"linkedServiceName": {
+					"referenceName": "ls_rest_generic",
+					"type": "LinkedServiceReference",
+					"parameters": {
+						"baseUrl": {
+							"value": "@dataset().baseUrl",
+							"type": "Expression"
+						}
+					}
+				},
+				"parameters": {
+					"relativeUrl": {
+						"type": "string"
+					},
+					"baseUrl": {
+						"type": "string"
+					}
+				},
+				"annotations": [],
+				"type": "RestResource",
+				"typeProperties": {
+					"relativeUrl": {
+						"value": "@dataset().relativeUrl",
+						"type": "Expression"
+					}
+				},
+				"schema": []
+			},
+			"dependsOn": [
+				"[concat(variables('factoryId'), '/linkedServices/ls_rest_generic')]"
+			]
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/ds_sql_control')]",
+			"type": "Microsoft.DataFactory/factories/datasets",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"linkedServiceName": {
+					"referenceName": "ls_sql_control",
+					"type": "LinkedServiceReference"
+				},
+				"annotations": [],
+				"type": "AzureSqlTable",
+				"schema": [],
+				"typeProperties": {}
+			},
+			"dependsOn": [
+				"[concat(variables('factoryId'), '/linkedServices/ls_sql_control')]"
+			]
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/ls_adls_confluence')]",
+			"type": "Microsoft.DataFactory/factories/linkedServices",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"annotations": [],
+				"type": "AzureBlobFS",
+				"typeProperties": {
+					"url": "[parameters('ls_adls_confluence_properties_typeProperties_url')]"
+				}
+			},
+			"dependsOn": []
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/ls_rest_generic')]",
+			"type": "Microsoft.DataFactory/factories/linkedServices",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"parameters": {
+					"baseUrl": {
+						"type": "string"
+					}
+				},
+				"annotations": [],
+				"type": "RestService",
+				"typeProperties": {
+					"url": "[parameters('ls_rest_generic_properties_typeProperties_url')]",
+					"enableServerCertificateValidation": true,
+					"authenticationType": "Anonymous"
+				}
+			},
+			"dependsOn": []
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/ls_sql_control')]",
+			"type": "Microsoft.DataFactory/factories/linkedServices",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"annotations": [],
+				"type": "AzureSqlDatabase",
+				"typeProperties": {
+					"server": "[parameters('ls_sql_control_properties_typeProperties_server')]",
+					"database": "[parameters('ls_sql_control_properties_typeProperties_database')]",
+					"encrypt": "mandatory",
+					"trustServerCertificate": false,
+					"authenticationType": "SQL",
+					"userName": "[parameters('ls_sql_control_properties_typeProperties_userName')]",
+					"password": {
+						"type": "SecureString",
+						"value": "[parameters('ls_sql_control_password')]"
+					}
+				}
+			},
+			"dependsOn": []
+		}
+	]
+}
