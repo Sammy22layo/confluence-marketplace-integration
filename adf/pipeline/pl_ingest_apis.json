@@ -27,6 +27,202 @@
 					},
 					"firstRowOnly": false
 				}
+			},
+			{
+				"name": "Loop API Calls",
+				"type": "ForEach",
+				"dependsOn": [
+					{
+						"activity": "Get API Calls",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"items": {
+						"value": "@activity('Get API Calls').output.value",
+						"type": "Expression"
+					},
+					"isSequential": true,
+					"activities": [
+						{
+							"name": "Log Start",
+							"type": "Lookup",
+							"dependsOn": [],
+							"policy": {
+								"timeout": "0.12:00:00",
+								"retry": 0,
+								"retryIntervalInSeconds": 30,
+								"secureOutput": false,
+								"secureInput": false
+							},
+							"userProperties": [],
+							"typeProperties": {
+								"source": {
+									"type": "AzureSqlSource",
+									"sqlReaderStoredProcedureName": "[ctl].[usp_StartRun]",
+									"storedProcedureParameters": {
+										"adf_pipeline_name": {
+											"type": "String",
+											"value": {
+												"value": "@pipeline().Pipeline",
+												"type": "Expression"
+											}
+										},
+										"adf_run_id": {
+											"type": "String",
+											"value": {
+												"value": "@pipeline().RunId",
+												"type": "Expression"
+											}
+										},
+										"ceiling": {
+											"type": "String",
+											"value": null
+										},
+										"source_name": {
+											"type": "String",
+											"value": "@item().source_name"
+										}
+									},
+									"queryTimeout": "02:00:00",
+									"partitionOption": "None"
+								},
+								"dataset": {
+									"referenceName": "ds_sql_control",
+									"type": "DatasetReference"
+								}
+							}
+						},
+						{
+							"name": "Fetch API",
+							"type": "Copy",
+							"dependsOn": [
+								{
+									"activity": "Log Start",
+									"dependencyConditions": [
+										"Succeeded"
+									]
+								}
+							],
+							"policy": {
+								"timeout": "0.12:00:00",
+								"retry": 0,
+								"retryIntervalInSeconds": 30,
+								"secureOutput": false,
+								"secureInput": false
+							},
+							"userProperties": [],
+							"typeProperties": {
+								"source": {
+									"type": "RestSource",
+									"httpRequestTimeout": "00:01:40",
+									"requestInterval": "00.00:00:00.010",
+									"requestMethod": "GET",
+									"paginationRules": {
+										"supportRFC5988": "true"
+									}
+								},
+								"sink": {
+									"type": "JsonSink",
+									"storeSettings": {
+										"type": "AzureBlobFSWriteSettings"
+									},
+									"formatSettings": {
+										"type": "JsonWriteSettings"
+									}
+								},
+								"enableStaging": false
+							},
+							"inputs": [
+								{
+									"referenceName": "ds_rest_generic",
+									"type": "DatasetReference",
+									"parameters": {
+										"relativeUrl": {
+											"value": "@item().relative_url",
+											"type": "Expression"
+										},
+										"baseUrl": {
+											"value": "@item().base_url",
+											"type": "Expression"
+										}
+									}
+								}
+							],
+							"outputs": [
+								{
+									"referenceName": "ds_adls_json",
+									"type": "DatasetReference",
+									"parameters": {
+										"container": "@item().landing_container",
+										"folderPath": "@item().landing_folder",
+										"fileName": "@item().landing_file"
+									}
+								}
+							]
+						},
+						{
+							"name": "Log Success",
+							"type": "SqlServerStoredProcedure",
+							"dependsOn": [
+								{
+									"activity": "Fetch API",
+									"dependencyConditions": [
+										"Succeeded"
+									]
+								}
+							],
+							"policy": {
+								"timeout": "0.12:00:00",
+								"retry": 0,
+								"retryIntervalInSeconds": 30,
+								"secureOutput": false,
+								"secureInput": false
+							},
+							"userProperties": [],
+							"typeProperties": {
+								"storedProcedureName": "[ctl].[usp_EndRun]",
+								"storedProcedureParameters": {
+									"error_message": {
+										"value": null,
+										"type": "String"
+									},
+									"files_read": {
+										"value": null,
+										"type": "Int32"
+									},
+									"rows_quarantined": {
+										"value": null,
+										"type": "Int64"
+									},
+									"rows_read": {
+										"value": null,
+										"type": "Int64"
+									},
+									"rows_written": {
+										"value": null,
+										"type": "Int64"
+									},
+									"run_id": {
+										"value": "@activity('Log Start').output.firstRow.run_id",
+										"type": "Guid"
+									},
+									"status": {
+										"value": "SUCCEEDED",
+										"type": "String"
+									}
+								}
+							},
+							"linkedServiceName": {
+								"referenceName": "ls_sql_control",
+								"type": "LinkedServiceReference"
+							}
+						}
+					]
+				}
 			}
 		],
 		"annotations": []
