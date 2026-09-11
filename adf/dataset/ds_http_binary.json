@@ -1,0 +1,28 @@
+{
+	"name": "ds_http_binary",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_http_generic",
+			"type": "LinkedServiceReference",
+			"parameters": {
+				"baseUrl": "@dataset().baseUrl"
+			}
+		},
+		"parameters": {
+			"baseUrl": {
+				"type": "string"
+			},
+			"relativeUrl": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "@dataset().relativeUrl"
+			}
+		}
+	}
+}
