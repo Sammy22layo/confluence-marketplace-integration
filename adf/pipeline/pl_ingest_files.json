@@ -17,7 +17,7 @@
 				"typeProperties": {
 					"source": {
 						"type": "AzureSqlSource",
-						"sqlReaderQuery": "SELECT source_id, source_name, source_type, load_type,\n       source_folder, file_pattern, file_format,\n       column_delimiter, landing_container, landing_folder, expected_min_files\nFROM   ctl.IngestionSource\nWHERE  is_active = 1 AND source_type = 'file'\nORDER BY load_order, source_id;",
+						"sqlReaderQuery": "SELECT source_id, source_name, source_type, load_type,\n       source_folder, file_pattern, file_format,\n       column_delimiter, landing_container, landing_folder, expected_min_files\nFROM   ctl.IngestionSource s\nWHERE  is_active = 1 AND source_type = 'file' and  s.load_type = 'INCREMENTAL'\nORDER BY load_order, source_id;",
 						"queryTimeout": "02:00:00",
 						"partitionOption": "None"
 					},
@@ -72,8 +72,18 @@
 									"storeSettings": {
 										"type": "AzureBlobFSReadSettings",
 										"recursive": true,
-										"wildcardFolderPath": "@item().source_folder",
-										"wildcardFileName": "@item().file_pattern",
+										"modifiedDatetimeStart": {
+											"value": "@activity('Log Start').output.firstRow.window_start",
+											"type": "Expression"
+										},
+										"wildcardFolderPath": {
+											"value": "@item().source_folder",
+											"type": "Expression"
+										},
+										"wildcardFileName": {
+											"value": "@item().file_pattern",
+											"type": "Expression"
+										},
 										"enablePartitionDiscovery": false
 									},
 									"formatSettings": {
@@ -278,7 +288,10 @@
 										],
 										"userProperties": [],
 										"typeProperties": {
-											"message": "@concat('Quality gate failed: expected at least ', string(item().expected_min_files), ' files, got ', string(activity('Copy To Landing').output.filesRead))",
+											"message": {
+												"value": "@concat('Quality gate failed: expected at least ', string(item().expected_min_files), ' files, got ', string(activity('Copy To Landing').output.filesRead))",
+												"type": "Expression"
+											},
 											"errorCode": "QUALITY_GATE_FAILED"
 										}
 									}
@@ -366,7 +379,10 @@
 								"storedProcedureName": "[ctl].[usp_EndRun]",
 								"storedProcedureParameters": {
 									"error_message": {
-										"value": "@activity('Copy To Landing').output.errors[0].Message",
+										"value": {
+											"value": "@activity('Copy To Landing').output.errors[0].Message",
+											"type": "Expression"
+										},
 										"type": "String"
 									},
 									"files_read": {
