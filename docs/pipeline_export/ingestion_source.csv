@@ -1,0 +1,19 @@
+source_id,source_name,source_group,platform_code,source_type,load_type,source_folder,file_pattern,column_delimiter,date_format,landing_container,landing_folder,watermark_column,watermark_type,expected_min_files,load_order,is_active
+1,olist_orders,olist,BR,file,FULL,data/raw/olist,olist_orders_dataset.csv,",",yyyy-MM-dd HH:mm:ss,landing,bronze/olist/orders,,,1.0,10,True
+2,olist_order_items,olist,BR,file,FULL,data/raw/olist,olist_order_items_dataset.csv,",",yyyy-MM-dd HH:mm:ss,landing,bronze/olist/order_items,,,1.0,10,True
+3,olist_customers,olist,BR,file,FULL,data/raw/olist,olist_customers_dataset.csv,",",,landing,bronze/olist/customers,,,1.0,10,True
+4,olist_products,olist,BR,file,FULL,data/raw/olist,olist_products_dataset.csv,",",,landing,bronze/olist/products,,,1.0,10,True
+5,olist_sellers,olist,BR,file,FULL,data/raw/olist,olist_sellers_dataset.csv,",",,landing,bronze/olist/sellers,,,1.0,10,True
+6,olist_order_payments,olist,BR,file,FULL,data/raw/olist,olist_order_payments_dataset.csv,",",,landing,bronze/olist/payments,,,1.0,10,True
+7,olist_order_reviews,olist,BR,file,FULL,data/raw/olist,olist_order_reviews_dataset.csv,",",yyyy-MM-dd HH:mm:ss,landing,bronze/olist/reviews,,,1.0,10,True
+8,olist_geolocation,olist,BR,file,FULL,data/raw/olist,olist_geolocation_dataset.csv,",",,landing,bronze/olist/geolocation,,,1.0,10,True
+9,olist_category_xlat,olist,BR,file,FULL,data/raw/olist,product_category_name_translation.csv,",",,landing,bronze/olist/category_xlat,,,1.0,10,True
+10,br_merchant_snapshot,merchant_master,BR,file,SNAPSHOT,data/generated/br_merchants,br_merchants_*.csv,",",yyyy-MM-dd,landing,bronze/merchants/br,snapshot_date,date,22.0,20,True
+11,za_vendor_snapshot,merchant_master,ZA,file,SNAPSHOT,data/generated/za_merchants,za_vendors_*.csv,;,dd/MM/yyyy,landing,bronze/merchants/za,snapshot_date,date,22.0,20,True
+12,za_orders,za_platform,ZA,file,INCREMENTAL,data/generated/za_orders,za_orders_*.csv,",",dd/MM/yyyy HH:mm,landing,bronze/za/orders,ord_dt,filename,22.0,30,True
+13,za_order_lines,za_platform,ZA,file,INCREMENTAL,data/generated/za_order_lines,za_order_lines_*.csv,",",,landing,bronze/za/order_lines,,filename,22.0,30,True
+14,za_customers,za_platform,ZA,file,INCREMENTAL,data/generated/za_customers,za_customers_*.csv,",",dd/MM/yyyy,landing,bronze/za/customers,signup_dt,filename,22.0,30,True
+15,za_refunds,za_platform,ZA,file,INCREMENTAL,data/generated/za_refunds,za_refunds_*.csv,",",dd/MM/yyyy,landing,bronze/za/refunds,refund_dt,filename,90.0,40,True
+16,fx_rates_ecb,api,,rest,FULL,,,,,landing,bronze/reference/fx,,,,50,True
+17,holidays_nager,api,,rest,FULL,,,,,landing,bronze/reference/holidays,,,,50,True
+18,weather_openmeteo,api,,rest,FULL,,,,,landing,bronze/reference/weather,,,,50,True
