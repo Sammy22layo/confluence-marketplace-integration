@@ -11,6 +11,9 @@
 		"ls_adls_confluence_properties_typeProperties_url": {
 			"value": "https://stconfluencesa.dfs.core.windows.net/"
 		},
+		"ls_http_generic_properties_typeProperties_url": {
+			"value": "@{linkedService().baseUrl}"
+		},
 		"ls_rest_generic_properties_typeProperties_url": {
 			"value": "@{linkedService().baseUrl}"
 		},

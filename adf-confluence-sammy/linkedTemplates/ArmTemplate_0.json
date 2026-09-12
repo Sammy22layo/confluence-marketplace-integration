@@ -15,6 +15,10 @@
 			"type": "string",
 			"defaultValue": "https://stconfluencesa.dfs.core.windows.net/"
 		},
+		"ls_http_generic_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "@{linkedService().baseUrl}"
+		},
 		"ls_rest_generic_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "@{linkedService().baseUrl}"
@@ -45,6 +49,26 @@
 				"type": "AzureBlobFS",
 				"typeProperties": {
 					"url": "[parameters('ls_adls_confluence_properties_typeProperties_url')]"
+				}
+			},
+			"dependsOn": []
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/ls_http_generic')]",
+			"type": "Microsoft.DataFactory/factories/linkedServices",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"parameters": {
+					"baseUrl": {
+						"type": "string"
+					}
+				},
+				"annotations": [],
+				"type": "HttpServer",
+				"typeProperties": {
+					"url": "[parameters('ls_http_generic_properties_typeProperties_url')]",
+					"enableServerCertificateValidation": true,
+					"authenticationType": "Anonymous"
 				}
 			},
 			"dependsOn": []
@@ -90,6 +114,50 @@
 				}
 			},
 			"dependsOn": []
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/ds_adls_binary')]",
+			"type": "Microsoft.DataFactory/factories/datasets",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"linkedServiceName": {
+					"referenceName": "ls_adls_confluence",
+					"type": "LinkedServiceReference"
+				},
+				"parameters": {
+					"container": {
+						"type": "string"
+					},
+					"folderPath": {
+						"type": "string"
+					},
+					"fileName": {
+						"type": "string"
+					}
+				},
+				"annotations": [],
+				"type": "Binary",
+				"typeProperties": {
+					"location": {
+						"type": "AzureBlobFSLocation",
+						"fileName": {
+							"value": "@dataset().fileName",
+							"type": "Expression"
+						},
+						"folderPath": {
+							"value": "@dataset().folderPath",
+							"type": "Expression"
+						},
+						"fileSystem": {
+							"value": "@dataset().container",
+							"type": "Expression"
+						}
+					}
+				}
+			},
+			"dependsOn": [
+				"[concat(variables('factoryId'), '/linkedServices/ls_adls_confluence')]"
+			]
 		},
 		{
 			"name": "[concat(parameters('factoryName'), '/ds_adls_delimited')]",
@@ -172,7 +240,7 @@
 					"location": {
 						"type": "AzureBlobFSLocation",
 						"fileName": {
-							"value": "@dataset().folderPath",
+							"value": "@dataset().fileName",
 							"type": "Expression"
 						},
 						"folderPath": {
@@ -180,7 +248,7 @@
 							"type": "Expression"
 						},
 						"fileSystem": {
-							"value": "dataset().container",
+							"value": "@dataset().container",
 							"type": "Expression"
 						}
 					}
@@ -189,6 +257,42 @@
 			},
 			"dependsOn": [
 				"[concat(variables('factoryId'), '/linkedServices/ls_adls_confluence')]"
+			]
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/ds_http_binary')]",
+			"type": "Microsoft.DataFactory/factories/datasets",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"linkedServiceName": {
+					"referenceName": "ls_http_generic",
+					"type": "LinkedServiceReference",
+					"parameters": {
+						"baseUrl": "@dataset().baseUrl"
+					}
+				},
+				"parameters": {
+					"baseUrl": {
+						"type": "string"
+					},
+					"relativeUrl": {
+						"type": "string"
+					}
+				},
+				"annotations": [],
+				"type": "Binary",
+				"typeProperties": {
+					"location": {
+						"type": "HttpServerLocation",
+						"relativeUrl": {
+							"value": "@dataset().relativeUrl",
+							"type": "Expression"
+						}
+					}
+				}
+			},
+			"dependsOn": [
+				"[concat(variables('factoryId'), '/linkedServices/ls_http_generic')]"
 			]
 		},
 		{
@@ -267,7 +371,7 @@
 						"typeProperties": {
 							"source": {
 								"type": "AzureSqlSource",
-								"sqlReaderQuery": "SELECT c.api_call_id, c.source_id, s.source_name, c.call_key,\n       c.base_url, c.relative_url,\n       s.landing_container, c.landing_folder, c.landing_file\nFROM   ctl.ApiCall c\nJOIN   ctl.IngestionSource s ON s.source_id = c.source_id\nWHERE  c.is_active = 1 AND s.is_active = 1\nORDER  BY c.source_id, c.api_call_id;",
+								"sqlReaderQuery": "SELECT c.api_call_id, c.source_id, s.source_name, c.call_key,\n       c.base_url, c.relative_url,\n       s.landing_container, c.landing_folder, c.landing_file\nFROM   ctl.ApiCall c\nJOIN   ctl.IngestionSource s ON s.source_id = c.source_id\nWHERE  c.is_active = 1 AND s.is_active = 1 \nORDER  BY c.source_id, c.api_call_id;",
 								"queryTimeout": "02:00:00",
 								"partitionOption": "None"
 							},
@@ -278,6 +382,203 @@
 							},
 							"firstRowOnly": false
 						}
+					},
+					{
+						"name": "Loop API Calls",
+						"type": "ForEach",
+						"dependsOn": [
+							{
+								"activity": "Get API Calls",
+								"dependencyConditions": [
+									"Succeeded"
+								]
+							}
+						],
+						"userProperties": [],
+						"typeProperties": {
+							"items": {
+								"value": "@activity('Get API Calls').output.value",
+								"type": "Expression"
+							},
+							"isSequential": true,
+							"activities": [
+								{
+									"name": "Log Start",
+									"type": "Lookup",
+									"dependsOn": [],
+									"policy": {
+										"timeout": "0.12:00:00",
+										"retry": 0,
+										"retryIntervalInSeconds": 30,
+										"secureOutput": false,
+										"secureInput": false
+									},
+									"userProperties": [],
+									"typeProperties": {
+										"source": {
+											"type": "AzureSqlSource",
+											"sqlReaderStoredProcedureName": "[[ctl].[usp_StartRun]",
+											"storedProcedureParameters": {
+												"adf_pipeline_name": {
+													"type": "String",
+													"value": {
+														"value": "@pipeline().Pipeline",
+														"type": "Expression"
+													}
+												},
+												"adf_run_id": {
+													"type": "String",
+													"value": {
+														"value": "@pipeline().RunId",
+														"type": "Expression"
+													}
+												},
+												"ceiling": {
+													"type": "String",
+													"value": null
+												},
+												"source_name": {
+													"type": "String",
+													"value": {
+														"value": "@item().source_name",
+														"type": "Expression"
+													}
+												}
+											},
+											"queryTimeout": "02:00:00",
+											"partitionOption": "None"
+										},
+										"dataset": {
+											"referenceName": "ds_sql_control",
+											"type": "DatasetReference",
+											"parameters": {}
+										}
+									}
+								},
+								{
+									"name": "Fetch API",
+									"type": "Copy",
+									"dependsOn": [
+										{
+											"activity": "Log Start",
+											"dependencyConditions": [
+												"Succeeded"
+											]
+										}
+									],
+									"policy": {
+										"timeout": "0.12:00:00",
+										"retry": 0,
+										"retryIntervalInSeconds": 30,
+										"secureOutput": false,
+										"secureInput": false
+									},
+									"userProperties": [],
+									"typeProperties": {
+										"source": {
+											"type": "BinarySource",
+											"storeSettings": {
+												"type": "HttpReadSettings",
+												"requestMethod": "GET",
+												"additionalHeaders": "Accept-Encoding: identity",
+												"requestTimeout": ""
+											},
+											"formatSettings": {
+												"type": "BinaryReadSettings"
+											}
+										},
+										"sink": {
+											"type": "BinarySink",
+											"storeSettings": {
+												"type": "AzureBlobFSWriteSettings"
+											}
+										},
+										"enableStaging": false
+									},
+									"inputs": [
+										{
+											"referenceName": "ds_http_binary",
+											"type": "DatasetReference",
+											"parameters": {
+												"baseUrl": "@item().base_url",
+												"relativeUrl": "@item().relative_url"
+											}
+										}
+									],
+									"outputs": [
+										{
+											"referenceName": "ds_adls_binary",
+											"type": "DatasetReference",
+											"parameters": {
+												"container": "@item().landing_container",
+												"folderPath": "@item().landing_folder",
+												"fileName": "@item().landing_file"
+											}
+										}
+									]
+								},
+								{
+									"name": "Log Success",
+									"type": "SqlServerStoredProcedure",
+									"dependsOn": [
+										{
+											"activity": "Fetch API",
+											"dependencyConditions": [
+												"Succeeded"
+											]
+										}
+									],
+									"policy": {
+										"timeout": "0.12:00:00",
+										"retry": 0,
+										"retryIntervalInSeconds": 30,
+										"secureOutput": false,
+										"secureInput": false
+									},
+									"userProperties": [],
+									"typeProperties": {
+										"storedProcedureName": "[[ctl].[usp_EndRun]",
+										"storedProcedureParameters": {
+											"error_message": {
+												"value": null,
+												"type": "String"
+											},
+											"files_read": {
+												"value": null,
+												"type": "Int32"
+											},
+											"rows_quarantined": {
+												"value": null,
+												"type": "Int64"
+											},
+											"rows_read": {
+												"value": null,
+												"type": "Int64"
+											},
+											"rows_written": {
+												"value": null,
+												"type": "Int64"
+											},
+											"run_id": {
+												"value": {
+													"value": "@activity('Log Start').output.firstRow.run_id",
+													"type": "Expression"
+												},
+												"type": "Guid"
+											},
+											"status": {
+												"value": "SUCCEEDED",
+												"type": "String"
+											}
+										}
+									},
+									"linkedServiceName": {
+										"referenceName": "ls_sql_control",
+										"type": "LinkedServiceReference"
+									}
+								}
+							]
+						}
 					}
 				],
 				"policy": {
@@ -286,7 +587,10 @@
 				"annotations": []
 			},
 			"dependsOn": [
-				"[concat(variables('factoryId'), '/datasets/ds_sql_control')]"
+				"[concat(variables('factoryId'), '/datasets/ds_sql_control')]",
+				"[concat(variables('factoryId'), '/datasets/ds_http_binary')]",
+				"[concat(variables('factoryId'), '/datasets/ds_adls_binary')]",
+				"[concat(variables('factoryId'), '/linkedServices/ls_sql_control')]"
 			]
 		},
 		{

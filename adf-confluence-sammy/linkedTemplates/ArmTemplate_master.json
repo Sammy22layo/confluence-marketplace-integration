@@ -15,6 +15,10 @@
 			"type": "string",
 			"defaultValue": "https://stconfluencesa.dfs.core.windows.net/"
 		},
+		"ls_http_generic_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "@{linkedService().baseUrl}"
+		},
 		"ls_rest_generic_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "@{linkedService().baseUrl}"
@@ -63,6 +67,9 @@
 					},
 					"ls_adls_confluence_properties_typeProperties_url": {
 						"value": "[parameters('ls_adls_confluence_properties_typeProperties_url')]"
+					},
+					"ls_http_generic_properties_typeProperties_url": {
+						"value": "[parameters('ls_http_generic_properties_typeProperties_url')]"
 					},
 					"ls_rest_generic_properties_typeProperties_url": {
 						"value": "[parameters('ls_rest_generic_properties_typeProperties_url')]"
