@@ -1,0 +1,30 @@
+{
+	"name": "ds_adls_binary",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_adls_confluence",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"container": {
+				"type": "string"
+			},
+			"folderPath": {
+				"type": "string"
+			},
+			"fileName": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "@dataset().fileName",
+				"folderPath": "@dataset().folderPath",
+				"fileSystem": "@dataset().container"
+			}
+		}
+	}
+}

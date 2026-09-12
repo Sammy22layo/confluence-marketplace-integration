@@ -17,7 +17,7 @@
 				"typeProperties": {
 					"source": {
 						"type": "AzureSqlSource",
-						"sqlReaderQuery": "SELECT c.api_call_id, c.source_id, s.source_name, c.call_key,\n       c.base_url, c.relative_url,\n       s.landing_container, c.landing_folder, c.landing_file\nFROM   ctl.ApiCall c\nJOIN   ctl.IngestionSource s ON s.source_id = c.source_id\nWHERE  c.is_active = 1 AND s.is_active = 1\nORDER  BY c.source_id, c.api_call_id;",
+						"sqlReaderQuery": "SELECT c.api_call_id, c.source_id, s.source_name, c.call_key,\n       c.base_url, c.relative_url,\n       s.landing_container, c.landing_folder, c.landing_file\nFROM   ctl.ApiCall c\nJOIN   ctl.IngestionSource s ON s.source_id = c.source_id\nWHERE  c.is_active = 1 AND s.is_active = 1 \nORDER  BY c.source_id, c.api_call_id;",
 						"queryTimeout": "02:00:00",
 						"partitionOption": "None"
 					},
@@ -117,44 +117,38 @@
 							"userProperties": [],
 							"typeProperties": {
 								"source": {
-									"type": "RestSource",
-									"httpRequestTimeout": "00:01:40",
-									"requestInterval": "00.00:00:00.010",
-									"requestMethod": "GET",
-									"paginationRules": {
-										"supportRFC5988": "true"
+									"type": "BinarySource",
+									"storeSettings": {
+										"type": "HttpReadSettings",
+										"requestMethod": "GET",
+										"additionalHeaders": "Accept-Encoding: identity",
+										"requestTimeout": ""
+									},
+									"formatSettings": {
+										"type": "BinaryReadSettings"
 									}
 								},
 								"sink": {
-									"type": "JsonSink",
+									"type": "BinarySink",
 									"storeSettings": {
 										"type": "AzureBlobFSWriteSettings"
-									},
-									"formatSettings": {
-										"type": "JsonWriteSettings"
 									}
 								},
 								"enableStaging": false
 							},
 							"inputs": [
 								{
-									"referenceName": "ds_rest_generic",
+									"referenceName": "ds_http_binary",
 									"type": "DatasetReference",
 									"parameters": {
-										"relativeUrl": {
-											"value": "@item().relative_url",
-											"type": "Expression"
-										},
-										"baseUrl": {
-											"value": "@item().base_url",
-											"type": "Expression"
-										}
+										"baseUrl": "@item().base_url",
+										"relativeUrl": "@item().relative_url"
 									}
 								}
 							],
 							"outputs": [
 								{
-									"referenceName": "ds_adls_json",
+									"referenceName": "ds_adls_binary",
 									"type": "DatasetReference",
 									"parameters": {
 										"container": "@item().landing_container",
