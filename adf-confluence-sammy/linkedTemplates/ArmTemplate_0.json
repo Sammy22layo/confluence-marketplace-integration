@@ -614,7 +614,7 @@
 						"typeProperties": {
 							"source": {
 								"type": "AzureSqlSource",
-								"sqlReaderQuery": "SELECT source_id, source_name, source_type, load_type,\n       source_folder, file_pattern, file_format,\n       column_delimiter, landing_container, landing_folder, expected_min_files\nFROM   ctl.IngestionSource\nWHERE  is_active = 1 AND source_type = 'file'\nORDER BY load_order, source_id;",
+								"sqlReaderQuery": "SELECT source_id, source_name, source_type, load_type,\n       source_folder, file_pattern, file_format,\n       column_delimiter, landing_container, landing_folder, expected_min_files\nFROM   ctl.IngestionSource s\nWHERE  is_active = 1 AND source_type = 'file' and  s.load_type = 'INCREMENTAL'\nORDER BY load_order, source_id;",
 								"queryTimeout": "02:00:00",
 								"partitionOption": "None"
 							},
@@ -670,6 +670,10 @@
 											"storeSettings": {
 												"type": "AzureBlobFSReadSettings",
 												"recursive": true,
+												"modifiedDatetimeStart": {
+													"value": "@activity('Log Start').output.firstRow.window_start",
+													"type": "Expression"
+												},
 												"wildcardFolderPath": {
 													"value": "@item().source_folder",
 													"type": "Expression"
