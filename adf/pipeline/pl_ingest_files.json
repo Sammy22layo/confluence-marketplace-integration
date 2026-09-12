@@ -73,7 +73,7 @@
 										"type": "AzureBlobFSReadSettings",
 										"recursive": true,
 										"modifiedDatetimeStart": {
-											"value": "@activity('Log Start').output.firstRow.window_start",
+											"value": "@if(equals(item().load_type, 'INCREMENTAL'), activity('Log Start').output.firstRow.window_start, null)",
 											"type": "Expression"
 										},
 										"wildcardFolderPath": {
@@ -215,7 +215,7 @@
 							"userProperties": [],
 							"typeProperties": {
 								"expression": {
-									"value": "@greaterOrEquals(activity('Copy To Landing').output.filesRead, item().expected_min_files)",
+									"value": "@or(equals(item().load_type, 'INCREMENTAL'), greaterOrEquals(activity('Copy To Landing').output.filesRead, item().expected_min_files))",
 									"type": "Expression"
 								},
 								"ifFalseActivities": [

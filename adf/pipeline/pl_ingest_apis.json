@@ -84,7 +84,10 @@
 										},
 										"source_name": {
 											"type": "String",
-											"value": "@item().source_name"
+											"value": {
+												"value": "@item().source_name",
+												"type": "Expression"
+											}
 										}
 									},
 									"queryTimeout": "02:00:00",
@@ -201,11 +204,71 @@
 										"type": "Int64"
 									},
 									"run_id": {
-										"value": "@activity('Log Start').output.firstRow.run_id",
+										"value": {
+											"value": "@activity('Log Start').output.firstRow.run_id",
+											"type": "Expression"
+										},
 										"type": "Guid"
 									},
 									"status": {
 										"value": "SUCCEEDED",
+										"type": "String"
+									}
+								}
+							},
+							"linkedServiceName": {
+								"referenceName": "ls_sql_control",
+								"type": "LinkedServiceReference"
+							}
+						},
+						{
+							"name": "Log Fetch Failure",
+							"type": "SqlServerStoredProcedure",
+							"dependsOn": [
+								{
+									"activity": "Fetch API",
+									"dependencyConditions": [
+										"Failed"
+									]
+								}
+							],
+							"policy": {
+								"timeout": "0.12:00:00",
+								"retry": 0,
+								"retryIntervalInSeconds": 30,
+								"secureOutput": false,
+								"secureInput": false
+							},
+							"userProperties": [],
+							"typeProperties": {
+								"storedProcedureName": "[ctl].[usp_EndRun]",
+								"storedProcedureParameters": {
+									"error_message": {
+										"value": "@activity('Fetch API').output.errors[0].Message",
+										"type": "String"
+									},
+									"files_read": {
+										"value": null,
+										"type": "Int32"
+									},
+									"rows_quarantined": {
+										"value": null,
+										"type": "Int64"
+									},
+									"rows_read": {
+										"value": null,
+										"type": "Int64"
+									},
+									"rows_written": {
+										"value": null,
+										"type": "Int64"
+									},
+									"run_id": {
+										"value": "@activity('Log Start').output.firstRow.run_id",
+										"type": "Guid"
+									},
+									"status": {
+										"value": null,
 										"type": "String"
 									}
 								}
