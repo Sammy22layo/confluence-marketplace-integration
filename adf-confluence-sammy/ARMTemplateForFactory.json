@@ -290,7 +290,10 @@
 										"storedProcedureName": "[[ctl].[usp_EndRun]",
 										"storedProcedureParameters": {
 											"error_message": {
-												"value": "@activity('Fetch API').output.errors[0].Message",
+												"value": {
+													"value": "@activity('Fetch API').output.errors[0].Message",
+													"type": "Expression"
+												},
 												"type": "String"
 											},
 											"files_read": {
@@ -310,7 +313,10 @@
 												"type": "Int64"
 											},
 											"run_id": {
-												"value": "@activity('Log Start').output.firstRow.run_id",
+												"value": {
+													"value": "@activity('Log Start').output.firstRow.run_id",
+													"type": "Expression"
+												},
 												"type": "Guid"
 											},
 											"status": {
@@ -361,7 +367,7 @@
 						"typeProperties": {
 							"source": {
 								"type": "AzureSqlSource",
-								"sqlReaderQuery": "SELECT source_id, source_name, source_type, load_type,\n       source_folder, file_pattern, file_format,\n       column_delimiter, landing_container, landing_folder, expected_min_files\nFROM   ctl.IngestionSource s\nWHERE  is_active = 1 AND source_type = 'file' and  s.load_type = 'INCREMENTAL'\nORDER BY load_order, source_id;",
+								"sqlReaderQuery": "SELECT source_id, source_name, source_type, load_type,\n       source_folder, file_pattern, file_format,\n       column_delimiter, landing_container, landing_folder, expected_min_files\nFROM   ctl.IngestionSource s\nWHERE  is_active = 1 AND source_type = 'file'\nORDER BY load_order, source_id;",
 								"queryTimeout": "02:00:00",
 								"partitionOption": "None"
 							},
